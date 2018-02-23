@@ -294,6 +294,14 @@ ecological analysis services and support and assistance with qgis.
 
 ----
 
+.. |gispo| image:: /static/site/about/images/
+   :width: 75 px
+
+|gispo| `Gispo <http://www.gispo.fi/>`_ (based in Finland)
+provides commercial support, training, online courses, and consulting services for QGIS and open spatial data.
+
+----
+
 .. |karttakeskus| image:: /static/site/about/images/karttakeskus.png
    :width: 75 px
 

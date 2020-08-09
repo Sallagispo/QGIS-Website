@@ -9,11 +9,14 @@ Get Involved / Development
     translate
     development/index
     tests
+    daily_reports/index
     Plugins website <http://plugins.qgis.org>
     mailinglists
     governance/index
     meetings/index
+    governance/sustaining_members/index
     donations
+    certification
     faq/index
     styleguide
 

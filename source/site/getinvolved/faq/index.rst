@@ -17,7 +17,7 @@ User
 How to ask a QGIS question?
 ---------------------------
 
-If you are going to ask QGIS related question via the mailing lists,
+If you are going to ask QGIS related question via the :ref:`mailing lists <QGIS-mailinglists>`,
 please provide enough information to help others easily understand what your problem is.
 Without a clear and precise question, it is very hard to answer for anybody or
 takes just too much time because the answer will be a question to you etc etc.
@@ -39,7 +39,7 @@ accurate can be the answer.
 
 .. note::
    In case of a broken function, you may give a look at `QGIS issue tracker
-   <https://issues.qgis.org/projects/qgis/issues>`_ before
+   <https://github.com/qgis/QGIS/issues>`_ before
    mailing to the list. More information at :ref:`QGIS-bugreporting`.
 
 
@@ -53,8 +53,18 @@ after locations of our developer meetings.
 How to cite QGIS?
 -----------------
 
-To cite QGIS in your piece of work, or for an assignment, this general citation might be helpful: "QGIS Development Team (YEAR). QGIS Geographic Information System. Open Source Geospatial Foundation Project. http://qgis.osgeo.org". 
+To cite QGIS in your piece of work, or for an assignment, this general citation might be helpful:
+"QGIS.org (YEAR). QGIS Geographic Information System. Open Source Geospatial Foundation Project. http://qgis.org".
 
+I created a map with QGIS, do I have to mention QGIS?
+-----------------------------------------------------
+
+There is no requirement to mention QGIS for maps produced with it.
+It is of course really welcome if would like to add a note saying that the map was produced with QGIS.
+"Made with QGIS" or "Map created using the Free and Open Source QGIS" are good examples of such a note.
+
+.. note::
+    Do not say ©QGIS as QGIS does not hold copyrights on your work.
 
 Can I open ECW files with QGIS?
 -------------------------------

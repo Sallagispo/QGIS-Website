@@ -42,11 +42,11 @@ GUI Translation
 ---------------
 
 The QGIS interface is natively programmed in English. However, at this moment
-over fourthy other languages are already available.
+over forty other languages are already available.
 
 To start QGIS with the appropriate localization, run
 ``qgis --lang <language code>`` in command line or change localization in QGIS under
-:menuselection:`Settings --> Options --> Locale` menu.
+:menuselection:`Settings --> Options --> General --> Locale` menu.
 
 If you want to find out if your language is already present in QGIS Applications
 or who is currently working on your language you have to take a look in the
@@ -105,7 +105,7 @@ Join a Project
   Some QGIS organisations are listed now, among them are:
 
   * **QGIS Desktop** for all the pieces of text available in QGIS apps
-    (QGIS Desktop, QGIS Browser and QGIS Server),
+    (QGIS Desktop and QGIS Server),
   * **QGIS Docs and Website** to translate both QGIS web site and current documentation.
 
 - Choose in which part of the project you would like to participate

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: QGIS Website\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-13 20:28\n"
-"PO-Revision-Date: 2016-03-18 07:07+0000\n"
+"PO-Revision-Date: 2017-09-19 20:04+0000\n"
 "Last-Translator: Richard Duivenvoorde <richard@duif.net>\n"
 "Language-Team: Russian (http://www.transifex.com/qgis/qgis-website/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -240,9 +240,9 @@ msgstr "`Вики-страница о встрече разработчиков 
 #: ../../source/site/getinvolved/meetings/developer/Brighton_2013.rst:66
 msgid ""
 "`General information on Sponsoring a QGIS Hackfest "
-"<http://qgis.org/en/site/getinvolved/governance/sponsorship/sponsorship.html"
+"<https://qgis.org/en/site/getinvolved/governance/sponsorship/sponsorship.html"
 "#qgis-sponsorship-program>`_"
-msgstr "`Общая информация о спонсировании встреч разработчиков QGIS <http://qgis.org/en/site/getinvolved/governance/sponsorship/sponsorship.html#qgis-sponsorship-program>`_"
+msgstr "`Общая информация о спонсировании встреч разработчиков QGIS <https://qgis.org/en/site/getinvolved/governance/sponsorship/sponsorship.html#qgis-sponsorship-program>`_"
 
 #: ../../source/site/getinvolved/meetings/developer/Brighton_2013.rst:7
 msgid ""

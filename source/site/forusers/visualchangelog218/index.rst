@@ -14,9 +14,9 @@ which is our next generation release planned for the end of the first quarter of
 
 **Thanks**
 
-We would like to thank the developers, documenters, testers and all the many folks out there who volunteer their time and effort (or fund people to do so). From the QGIS community we hope you enjoy this release! If you wish to donate time, money or otherwise get involved in making QGIS more awesome, please wander along to `qgis.org <http://qgis.org>`__ and lend a hand!
+We would like to thank the developers, documenters, testers and all the many folks out there who volunteer their time and effort (or fund people to do so). From the QGIS community we hope you enjoy this release! If you wish to donate time, money or otherwise get involved in making QGIS more awesome, please wander along to `qgis.org <https://qgis.org>`__ and lend a hand!
 
-QGIS is supported by donors and sponsors. A current list of donors who have made financial contributions large and small to the project can be seen on our `donors list <http://qgis.org/en/site/about/sponsorship.html#list-of-donors>`__. If you would like to become and official project sponsor, please visit `our sponsorship page <http://qgis.org/en/site/about/sponsorship.html#sponsorship>`__ for details. Sponsoring QGIS helps us to fund our six monthly developer meetings, maintain project infrastructure and fund bug fixing efforts. A complete list of current sponsors is provided below - our very great thank you to all of our sponsors!
+QGIS is supported by donors and sponsors. A current list of donors who have made financial contributions large and small to the project can be seen on our `donors list <https://qgis.org/en/site/about/sponsorship.html#list-of-donors>`__. If you would like to become and official project sponsor, please visit `our sponsorship page <https://qgis.org/en/site/about/sponsorship.html#sponsorship>`__ for details. Sponsoring QGIS helps us to fund our six monthly developer meetings, maintain project infrastructure and fund bug fixing efforts. A complete list of current sponsors is provided below - our very great thank you to all of our sponsors!
 
 QGIS is Free software and you are under no obligation to pay anything to use it - in fact we want to encourage people far and wide to use it regardless of what your financial or social status is - we believe empowering people with spatial decision making tools will result in a better society for all of humanity.
 
@@ -111,9 +111,9 @@ goes into the project. These sponsors are listed below with our thanks!
 
         `National Parks UK <http://www.nationalparks.gov.uk/>`_
 
-    * - |bronze| |ChameleonJohn|
+    * - |bronze| |Urbsol|
 
-        `ChameleonJohn <http://www.chameleonjohn.com/>`_
+        `Urbsol <http://www.urbsol.com.au/>`_
       - |bronze| |QGIS user group Denmark|
 
         `QGIS user group Denmark <http://www.qgis.dk/>`_
@@ -173,13 +173,6 @@ goes into the project. These sponsors are listed below with our thanks!
       - |bronze| |Trage Wegen vzw|
 
         `Trage Wegen vzw <http://www.tragewegen.be/>`_
-
-    * - |bronze| |HostingFacts.com (Online only ou)|
-
-        `HostingFacts.com (Online only ou) <https://hostingfacts.com/>`_
-      - |bronze| |Urbsol|
-
-        `Urbsol <http://www.urbsol.com.au/>`_
 
     * - |bronze| |KBB Underground Technologies GmbH|
 
@@ -534,15 +527,15 @@ Feature: New PyQGIS classes in 2.18
 New core classes
 ~~~~~~~~~~~~~~~~
 
--  `QgsAnnotation <http://qgis.org/api/classQgsAnnotation.html>`__ - an interface for annotation items which are drawn over a map
--  `QgsFeedback <http://qgis.org/api/classQgsFeedback.html>`__ - a base class for feedback objects to be used for cancellation of something running in a worker thread
--  `QgsOptionalExpression <http://qgis.org/api/classQgsOptionalExpression.html>`__ - an expression with an additional enabled flag
+-  `QgsAnnotation <https://qgis.org/api/classQgsAnnotation.html>`__ - an interface for annotation items which are drawn over a map
+-  `QgsFeedback <https://qgis.org/api/classQgsFeedback.html>`__ - a base class for feedback objects to be used for cancellation of something running in a worker thread
+-  `QgsOptionalExpression <https://qgis.org/api/classQgsOptionalExpression.html>`__ - an expression with an additional enabled flag
 
 New GUI classes, Reusable widgets
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  `QgsExpressionLineEdit <http://qgis.org/api/classQgsExpressionLineEdit.html>`__ - includes a line edit for entering expressions together with a button to open the expression creation dialog. This widget is designed for use in contexts where no layer fields are available for use in an expression and space is constrained.
--  `QgsTabWidget <http://qgis.org/api/classQgsTabWidget.html>`__ - similar to QTabWidget but with additional methods to temporarily hide/show tabs
+-  `QgsExpressionLineEdit <https://qgis.org/api/classQgsExpressionLineEdit.html>`__ - includes a line edit for entering expressions together with a button to open the expression creation dialog. This widget is designed for use in contexts where no layer fields are available for use in an expression and space is constrained.
+-  `QgsTabWidget <https://qgis.org/api/classQgsTabWidget.html>`__ - similar to QTabWidget but with additional methods to temporarily hide/show tabs
 
 Feature: New expression functions
 ---------------------------------
@@ -601,7 +594,6 @@ This feature was developed by `Nyall Dawson (North Road) <http://north-road.com>
 .. |TerreLogiche| image:: images/projects/thumbnails/9e23fb4e1f0416131843750f07e75a9f9d1e724d.jpg.150x50_q85.jpg
 .. |Gis3W| image:: images/projects/thumbnails/69f8dd7f727158ebeb6bcbdce6fef4cb313ad9f9.png.150x50_q85.png
 .. |Trage Wegen vzw| image:: images/projects/thumbnails/1607f4bc4a24d0e6aabe5e8e424b93b40b83be3a.png.150x50_q85.png
-.. |HostingFacts.com (Online only ou)| image:: images/projects/thumbnails/44e7274c2c76c57d1e2338ddb55a7fb7e764b765.png.150x50_q85.png
 .. |Urbsol| image:: images/projects/thumbnails/af9b8c3a4363482f12c7b2dff14659fd9ff6240c.png.150x50_q85.jpg
 .. |KBB Underground Technologies GmbH| image:: images/projects/thumbnails/69255208cf440914eb947bf6dce5cee1c78455ba.jpg.150x50_q85.jpg
 .. |WhereGroup GmbH & Co. KG| image:: images/projects/thumbnails/0eb2c265017956fb6b15cb9a098f8d27928152e8.jpg.150x50_q85.jpg

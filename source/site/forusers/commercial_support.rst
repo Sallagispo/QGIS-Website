@@ -28,19 +28,6 @@ and consulting on QGIS.
 
 ----
 
-.. |boundless| image:: /static/site/about/images/boundless.png
-   :width: 250 px
-
-|boundless| `Boundless Spatial <http://boundlessgeo.com/>`_ (based in
-Washington, D.C., USA and operating worldwide) provides commercially supported,
-open source, geospatial software. OpenGeo Suite and QGIS enable a feature-rich,
-enterprise GIS without the high licensing costs associated with proprietary
-software. The experts at Boundless reduce the cost and time of deploying and
-managing spatial software with packaging, support, maintenance, professional
-services, and expert training.
-
-----
-
 .. |camptocamp| image:: /static/site/about/images/camptocamp.png
    :width: 150 px
 
@@ -54,13 +41,15 @@ technologies.
 
 ----
 
-.. |dms| image:: /static/site/about/images/dms.gif
-   :width: 150 px
+.. |chartistech| image:: /static/site/about/images/chartistechnology.png
+   :height: 100 px
 
-|dms| `Digital Mapping Solutions <http://www.mapsolutions.com.au/>`_ (based in
-Australia) has been working with Government and Commercial organisations for over
-15 years and have the products, services and skills to help you take full
-advantage of your GIS investment.
+|chartistech| `Chartis Technology <http://chartistechnology.com/products/qgis>`_
+(based in Australia) Chartis Technology are an Australian based geospatial solutions provider. 
+Our aim is to develop, utilise and implement complex spatial technology to better our customers
+and the community's ability to deal with spatial problems. We distribute IntraMaps, FME (Safe Software) 
+and work with a variety of Open Source Software. We are committed to support the QGIS community by 
+offering development, support and training.
 
 ----
 
@@ -138,8 +127,8 @@ actively contributing to the QGIS project since 2007.
 |north_road| `North Road <http://north-road.com/>`_ (based in
 Australia) specialises in custom development solutions for QGIS features
 and fixes, and also offers training and commercial support in the open source
-geospatial stack. North Road has a established history in quality QGIS
-development, and has been responsible for thousands of feature and
+geospatial stack. North Road has an established history in quality QGIS
+development, and has been responsible for thousands of features and
 fixes within the QGIS codebase since 2013.
 
 ----
@@ -164,6 +153,17 @@ development and consulting, namely on QGIS and PostGIS.
 
 ----
 
+.. |qcooperative| image:: /static/site/about/images/qcooperative.png
+   :width: 200 px
+
+|qcooperative| `QCooperative <https://www.qcooperative.net/>`_ (based and
+operating worldwide) provides services on several Open Source GIS software
+(QGIS, QGIS Server, PostGIS) including development, training, spatial
+analysis, quality assurance, and commercial helpdesk support.
+
+
+----
+
 .. |sourcepole| image:: /static/site/about/images/sourcepole.gif
    :width: 200 px
 
@@ -172,6 +172,14 @@ Switzerland and operating worldwide) provides FOSSGIS training, commercial
 support and maintenance contracts as well as cloud based geo hosting for QGIS.
 With three leading core committers Sourcepole is able to offer sophisticated
 developments for QGIS.
+
+----
+
+.. |terglobo| image:: /static/site/about/images/terglobo.png
+   :width: 75 px
+
+|terglobo| `Terglobo <https://www.terglobo.nl/>`_
+(based in 's-Hertogenbosch, The Netherlands) provides commercial services and training for QGIS.
 
 ----
 
@@ -213,11 +221,36 @@ OpenLayers
 
 ----
 
+.. |KaplanOpenSource| image:: /static/site/about/images/kaplanopensource.png
+   :width: 200 px
+
+|KaplanOpenSource| `Kaplan Open Source <https://kaplanopensource.co.il/>`_ (based in Israel) is an Open Source consulting company that provides Open Source GIS development, training and support for enterprises (private, municipal and governmental) for QGIS (and plugins), PostgreSQL/PostGIS and GeoServer in addition to expertise in Python/Django. We also handle Open Source Program Office for companies and building their Open Source strategy / architecture.
+
+----
+
+.. |LandGoed| image:: /static/site/about/images/landgoed.png
+   :width: 200 px
+
+|LandGoed| `LandGoed <http://landgoed.it/>`_ (based in the Netherlands) provides commercial support, hosting services and training for all opensource-GIS, including QGIS. With over ten years experience in training and developing, LandGoed is the go-to supplier for opensource-GIS in the Netherlands.
+
+----
+
+
+
 .. |nextgis| image:: /static/site/about/images/nextgis.gif
    :width: 200 px
 
 |nextgis| `NextGIS <http://nextgis.org/>`_ (based in Moscow, Russia) provides
 commercial support, custom programming and training for QGIS, PostGIS and GRASS.
+
+----
+
+.. |qtibia| image:: /static/site/about/images/qtibia.png
+   :width: 180 px
+
+|qtibia| `QTIBIA Engineering <https://qtibia.ro//>`_ (based in Romania, operating worldwide)
+provides services, support and training on QGIS, Postgis and other FOSS with extra focus on
+the water/wastewater sector.
 
 ----
 
@@ -251,15 +284,6 @@ provides installation, training, and implementation support for QGIS.
 
 ----
 
-.. |clear_mapping_co| image:: /static/site/about/images/clear_mapping_co.jpg 
-   :width: 75 px
-
-|clear_mapping_co| `Clear Mapping Co <http://www.clearmapping.co.uk/>`_ (based in Penryn, Cornwall, UK) is an award-winning international cartographic design consultancy. We create beautiful maps to improve efficiency in the workplace with an inclusive and sustainable design focus.
-Our bespoke GIS training courses in QGIS and other GIS software offer the opportunity to improve efficiency handling spatial data and creating clear maps.
-
-
-----
-
 .. |bev| image:: /static/site/about/images/bev.gif
    :width: 75 px
 
@@ -269,10 +293,33 @@ GRASS GIS and other FOSS GIS applications.
 
 ----
 
+.. |champslibres| image:: /static/site/about/images/champslibres.png
+   :width: 75 px
+
+|champslibres| `Champs Libres Coopérative <https://www.champs-libres.coop/>`_ is a Belgian company working in the field of geomatics and open-source software development. We regularly organise QGIS training at our office or at our customers' premises. We also offer support to the utilisation of QGIS and/or for the development of QGIS plugins.
+
+----
+
+.. |clear_mapping_co| image:: /static/site/about/images/clear_mapping_co.jpg 
+   :width: 75 px
+
+|clear_mapping_co| `Clear Mapping Co <http://www.clearmapping.co.uk/>`_ (based in Penryn, Cornwall, UK) is an award-winning international cartographic design consultancy. We create beautiful maps to improve efficiency in the workplace with an inclusive and sustainable design focus.
+Our bespoke GIS training courses in QGIS and other GIS software offer the opportunity to improve efficiency handling spatial data and creating clear maps.
+
+----
+
 .. |esdm| image:: /static/site/about/images/esdm.png
    :width: 85 px
 
 |esdm| `exeGesIS SDM Ltd <https://www.esdm.co.uk/>`_ are based in South Wales in the UK. We offer support and training courses at various levels, either public or private, along with bespoke workshops and mentoring. We can assist with the transition from alternative GIS solutions to QGIS, as well as the development of plug-ins to meet your business requirements.
+
+----
+
+.. |fossacademy| image:: /static/site/about/images/fossacademy.png
+   :width: 100 px
+
+|fossacademy| `FOSS Academy <http://www.foss-academy.com/>`_
+(Bonn, Germany) FOSS Academy is a training institute and offers various courses, from beginner lessons to advanced python programming courses for QGIS as well as free online webinars regarding QGIS related topics. The institute is operated by WhereGroup.
 
 ----
 
@@ -286,11 +333,45 @@ commercial support.
 
 ----
 
+.. |gispoicon| image:: /static/site/about/images/GispoOy.png
+   :width: 75 px
+
+|gispoicon| `Gispo Ltd <https://www.gispo.fi/en/home/>`_ (based in Finland). We drive our customers to
+success in delivering pragmatic solutions for strategic decisions by using open source geospatial software.
+We offer QGIS, GeoServer, PostGIS, GDAL/OGR and MapProxy support and training for our customers.
+We strongly believe that openness wins.
+
+----
+
+.. |gtsicon| image:: /static/site/about/images/geospatial-training-solutions.png
+   :width: 75 px
+
+|gtsicon| `Geospatial Training Solutions (Dr Nick Bearman) <https://www.geospatialtrainingsolutions.co.uk/>`_ is based in Cornwall, UK and provides bespoke GIS training courses for researchers, professionals and students. I use QGIS in much of my consultancy work, and teach a wide variety of subject experts how to understand and work with spatial data. I can show your research group or organisation how you can get more from your spatial data and how to create better maps for your publications or use spatial data to improve your bottom line. 
+
+----
+
 .. |gis3w| image:: /static/site/about/images/gis3w.png
    :width: 75 px
 
 |gis3w| `gis3w <http://www.gis3w.it/>`_ (based in italy) provide geographic and
 ecological analysis services and support and assistance with qgis.
+
+----
+
+.. |claasleiner| image:: /static/site/about/images/claasleiner.png
+   :width: 75 px
+
+|claasleiner| `GKG Kassel, Germany (Dr.-Ing. Claas Leiner) <http://www.gkg-kassel.de/>`_
+provides training, services and support around the free geographic information systems QGIS,
+GRASS, SAGA and PostGIS as well as spatial data management, analysis and cartography.
+
+----
+
+.. |imt| image:: /static/site/about/images/imt.png
+   :width: 75 px
+
+|imt| `The Institute For Mapping Technology <http://learninggis.com/>`_ (based
+in Austin, TX) provides support and training for QGIS and PostGIS.
 
 ----
 
@@ -302,19 +383,18 @@ provides commercial support and training for QGIS and open spatial data.
 
 ----
 
-.. |soltig| image:: /static/site/about/images/soltig.png
+.. |liviostump| image:: /static/site/about/images/liviostump.png
    :width: 75 px
 
-|soltig| `Soluciones en Tecnologías de Información Geográfica (SOLTIG)  <http://www.soltig.net/>`_
-(based in Costa Rica) provides training, support, consulting and programming for QGIS and other FOSS applications.
+|liviostump| `Livio Stump <http://www.liviostump.ch>`_ (based in Lucerne, Switzerland)
+provides commercial GIS consulting, support and training in QGIS.
 
 ----
 
-.. |imt| image:: /static/site/about/images/imt.png
+.. |mierune| image:: /static/site/about/images/MIERUNE.png
    :width: 75 px
 
-|imt| `The Institute For Mapping Technology <http://learninggis.com/>`_ (based
-in Austin, TX) provides support and training for QGIS and PostGIS.
+|mierune| `Mierune Inc. <http://www.mierune.co.jp/>`_ (based in Japan) provides commercial consulting, training, support and customization of QGIS and FOSS4G software. We also organize hands-on workshops with these tools. Please contact us if you have questions regarding system development, visualization or analysis involving positioning data.
 
 ----
 
@@ -339,20 +419,21 @@ support, cartography, and data analysis.
 
 ----
 
-.. |liviostump| image:: /static/site/about/images/liviostump.png
+.. |opengeolabs| image:: /static/site/about/images/opengeolabs.png
    :width: 75 px
 
-|liviostump| `Livio Stump <http://www.liviostump.ch>`_ (based in Lucerne, Switzerland)
-provides commercial GIS consulting, support and training in QGIS.
+|opengeolabs| `OpenGeoLabs s.r.o <http://opengeolabs.cz/>`_ (based in Prague,
+The Czech Republic) provides training courses (using `GISMentors
+<http://gismentors.cz>`_ trademark), technical support and custom development
+for open source software for geospatial.
 
 ----
 
-.. |claasleiner| image:: /static/site/about/images/claasleiner.png
+.. |soltig| image:: /static/site/about/images/soltig.png
    :width: 75 px
 
-|claasleiner| `GKG Kassel, Germany (Dr.-Ing. Claas Leiner) <http://www.gkg-kassel.de/>`_
-provides training, services and support around the free geographic information systems QGIS,
-GRASS, SAGA and PostGIS as well as spatial data management, analysis and cartography.
+|soltig| `Soluciones en Tecnologías de Información Geográfica (SOLTIG)  <http://www.soltig.net/>`_
+(based in Costa Rica) provides training, support, consulting and programming for QGIS and other FOSS applications.
 
 ----
 
@@ -365,6 +446,13 @@ GRASS GIS and FOSS GIS based SDI solutions.
 
 ----
 
+.. |sygif| image:: /static/site/about/images/sygif.jpg
+   :width: 75 px
+
+|sygif| `Le Groupe SYGIF Inc. <http://www.sygif.qc.ca/>`_ (based in Rimouski (Quebec), Canada) specializes in the development of information technologies (GIS) aimed at integrated land management. The company develops and supports complementary tools for QGIS and MapServer and also holds a recognition of the ESRI company as a developer and reseller of their products.
+
+----
+
 .. |taxusit| image:: /static/site/about/images/taxusit.png
    :width: 75 px
 
@@ -373,13 +461,19 @@ GRASS GIS and FOSS GIS based SDI solutions.
 
 ----
 
+.. |terraplan| image:: /static/site/about/images/terraplan.png
+   :width: 75 px
+
+|terraplan| `Terraplan <http://www.terraplan.com/>`_
+(Schallstadt/Freiburg, Germany) provides training and GIS consulting for QGIS. The focus is on consulting for municipalities ranging from the introduction of QGIS until the full replacement of other commercial GIS solutions.
+
+----
+
 .. |terrestris| image:: /static/site/about/images/terrestris.png
    :width: 75 px
 
 |terrestris| `Terrestris <http://www.terrestris.de/dienstleistungen/schulungen/>`_
 (Bonn, Germany) provides commercial services and training for QGIS.
-
-
 
 ----
 
@@ -394,13 +488,12 @@ open source technologies). As a QGIS site, our team of geospatial experts use
 QGIS on a daily basis and provide QGIS Support to customers.  We also run
 regular QGIS and PostGIS Training courses.
 
-
 ----
 
 .. |whg| image:: /static/site/about/images/whg.jpg
    :width: 100 px
 
 |whg| `WhereGroup <http://www.wheregroup.com/>`_
-(Bonn, Germany) provides commercial services and training for QGIS.
+(Bonn, Germany) WhereGroup provides the full spectrum of services around QGIS including custom programming, commercial support and trainings.
 
 

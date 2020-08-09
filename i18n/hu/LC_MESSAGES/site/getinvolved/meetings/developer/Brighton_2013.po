@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: QGIS Website\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-13 20:28\n"
-"PO-Revision-Date: 2016-03-20 20:05+0000\n"
+"PO-Revision-Date: 2017-09-20 06:27+0000\n"
 "Last-Translator: Csaba Sandor <sandor.csaba@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/qgis/qgis-website/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -239,9 +239,9 @@ msgstr "`A 2013 brightoni QGIS hackfest wiki oldala <http://hub.qgis.org/wiki/17
 #: ../../source/site/getinvolved/meetings/developer/Brighton_2013.rst:66
 msgid ""
 "`General information on Sponsoring a QGIS Hackfest "
-"<http://qgis.org/en/site/getinvolved/governance/sponsorship/sponsorship.html"
+"<https://qgis.org/en/site/getinvolved/governance/sponsorship/sponsorship.html"
 "#qgis-sponsorship-program>`_"
-msgstr "`Tovább információ a QGIS Hackfest támogatásáról <http://qgis.org/en/site/getinvolved/governance/sponsorship/sponsorship.html#qgis-sponsorship-program>`_"
+msgstr "`Tovább információ a QGIS Hackfest támogatásáról <https://qgis.org/en/site/getinvolved/governance/sponsorship/sponsorship.html#qgis-sponsorship-program>`_"
 
 #: ../../source/site/getinvolved/meetings/developer/Brighton_2013.rst:7
 msgid ""

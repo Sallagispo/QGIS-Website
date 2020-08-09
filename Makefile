@@ -18,11 +18,6 @@ PYTHON	      = python3
 # needed for python2 -> python3 migration?
 export LC_ALL=C.UTF-8
 
-# User-friendly check for sphinx-build
-ifeq ($(shell which $(SPHINXBUILD) >/dev/null 2>&1; echo $$?), 1)
-$(error The '$(SPHINXBUILD)' command was not found. Make sure you have Sphinx installed, then set the SPHINXBUILD environment variable to point to the full path of the '$(SPHINXBUILD)' executable. Alternatively you can add the directory with the executable to your PATH. If you don't have Sphinx installed, grab it from http://sphinx-doc.org/)
-endif
-
 # Internal variables.
 PAPEROPT_a4     = -D latex_paper_size=a4
 PAPEROPT_letter = -D latex_paper_size=letter
@@ -44,6 +39,7 @@ help:
 	@echo "  pretranslate to gather all strings from sources, put in .pot files"
 	@echo "                  AND merge them with available .po files"
 	@echo "  transifex_push (only for transifex Maintainers!): renew source files and push to transifex"
+	@echo "  venvupdate   to setup or update a virtualenv with sphinx in sphinx/"
 	@echo "  "
 	@echo "OPTION: use LANG=xx to do it only for one language, eg: make html LANG=de"
 	@echo "  "
@@ -112,7 +108,7 @@ pulldocsources:
 	# may 21 2014: no more incorporating of docs IN the website
 	#scripts/pulldocsources.sh $(LANG)
 
-html: localizeresources output/html/version.txt source/site/getinvolved/development/schedule.inc source/schedule.py
+html: localizeresources output/html/version.txt output/html/version-ltr.txt source/site/getinvolved/development/schedule.inc source/schedule.py
 	$(SPHINXINTL) --config $(SOURCEDIR)/conf.py build --language=$(LANG)
 
 	# ONLY in the english version run in nit-picky mode, so source errors/warnings will fail in Travis
@@ -126,21 +122,20 @@ html: localizeresources output/html/version.txt source/site/getinvolved/developm
 	@echo
 	@echo "Build finished. The HTML pages for '$(LANG)' are in $(BUILDDIR)."
 
-output/html/version.txt: source/conf.py source/schedule.py
+output/html/version.txt output/html/version-ltr.txt: source/conf.py source/schedule.py
 	mkdir -p $(BUILDDIR)
 	$(PYTHON) scripts/mkversion.py
 
 fullhtml: pulldocsources html
 
 full: springclean
-	@-if [ $(LANG) != "en" ]; then \
+	@-if [ $(LANG) = "en" ]; then \
+		echo; \
+	else \
 		echo; \
 		echo Pulling $$LANG from transifex; \
-		# --minimum-perc=1 so only files which have at least 1% translation are pulled \
-		# -f to force, --skip to not stop with errors \
-		# -l lang \
 		tx pull --minimum-perc=1 --skip -f -l $$LANG; \
-        fi
+	fi
 	make html
 
 world: full
@@ -189,11 +184,11 @@ gettext:
 # the english source resources
 # 1) make springclean (removing all building cruft)
 # 2) make pretranslate (getting all strings from sources and create new pot files)
-# 3) tx push -fs --no-interactive (push the source (-f) files forcing (-f) overwriting the ones their without asking (--no-interactive)
+# 3) scripts/create_transifex_resources.sh (will update the .tx/config file with new resources)
+# 4) tx push -fs --no-interactive (push the source (-f) files forcing (-f) overwriting the ones their without asking (--no-interactive)
 transifex_push:
 	make springclean
 	make pretranslate
-	tx push -f -s --no-interactive
 
 ################################################################################
 #
@@ -319,12 +314,18 @@ pseudoxml:
 	@echo
 	@echo "Build finished. The pseudo-XML files are in $(BUILDDIR)/pseudoxml."
 
-source/site/getinvolved/development/schedule.inc source/schedule.py:
+source/site/getinvolved/development/schedule.inc source/schedule.py source/schedule.ics:
 	$(PYTHON) scripts/update-schedule.py
 
-clearschedule:
+clearschedule: venvupdate
 	$(RM) source/site/getinvolved/development/schedule.inc source/schedule.py
 
 schedule: clearschedule source/schedule.py
 	git pull --autostash --rebase
 	git commit -a -m "Update for $(shell sed -ne "s/^release = '\\(.*\\)'/\1/p" source/schedule.py)/$(shell sed -ne "s/^ltrrelease = '\\(.*\\)'/\\1/p" source/schedule.py) point releases"
+
+venvupdate:
+ifneq ($(VIRTUAL_ENV),)
+	[ -d sphinx ] || $(PYTHON) -m virtualenv sphinx; . sphinx/bin/activate; pip install -U -r REQUIREMENTS.txt
+endif
+

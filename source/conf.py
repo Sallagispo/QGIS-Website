@@ -40,7 +40,14 @@ except ImportError:
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.ifconfig']
+extensions = [
+    'sphinx.ext.ifconfig',
+#    'sphinxcontrib.images',
+    ]
+
+images_config = {
+    'override_image_directive':False
+}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['../themes/qgis-theme']
@@ -314,6 +321,7 @@ def setup(app):
     app.add_config_value('binary', None, 'env')
     app.add_config_value('ltrbinary', None, 'env')
     app.add_config_value('infeaturefreeze', None, 'env')
+    app.add_config_value('stripeform_url', None, 'env')
 
 
 context = {
@@ -331,7 +339,8 @@ context = {
     'nextpointreleasedate': nextpointreleasedate,
     'binary': binary,
     'ltrbinary': ltrbinary,
-    'infeaturefreeze': infeaturefreeze
+    'infeaturefreeze': infeaturefreeze,
+    'stripeformurl': '/stripe/form'
 }
 
 rst_epilog += "\n".join(map(lambda x: ".. |%s| replace:: %s" % (x, context[x]), context.keys()))

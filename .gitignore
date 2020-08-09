@@ -17,7 +17,9 @@ source/docs/*/*
 ext
 live
 virtualenv
+sphinx
 .idea
 source/static/
 venv
-i18n
+#i18n
+.transifexrc

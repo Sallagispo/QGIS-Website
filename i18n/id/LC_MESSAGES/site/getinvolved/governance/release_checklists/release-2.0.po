@@ -1,13 +1,14 @@
 # 
 # Translators:
 # Imron Fauzi <imronfauzi@gmail.com>, 2014
+# Muhammad Aswin <frozendroid99@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: QGIS Website\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-13 20:28\n"
-"PO-Revision-Date: 2016-06-21 12:26+0000\n"
-"Last-Translator: Richard Duivenvoorde <richard@duif.net>\n"
+"PO-Revision-Date: 2017-09-19 20:27+0000\n"
+"Last-Translator: Muhammad Aswin <frozendroid99@gmail.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/qgis/qgis-website/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -669,9 +670,9 @@ msgstr "Pembaruan Versi Berkas Teks"
 #: ../../source/site/getinvolved/governance/release_checklists/release-2.0.rst:399
 msgid ""
 "The file accessed from the :menuselection:`Help --> Check QGIS Version` menu"
-" is located at http://qgis.org/version.txt. This should be updated to "
+" is located at https://qgis.org/version.txt. This should be updated to "
 "reflect the current release."
-msgstr "Berkas diakses dari menu :menuselection:`Bantuan --> Periksa Versi QGIS`  terletak di http://qgis.org/version.txt. Ini harus diperbarui untuk mencerminkan rilis saat ini."
+msgstr "Berkas diakses dari menu :menuselection:`Bantuan --> Periksa Versi QGIS`  terletak di https://qgis.org/version.txt. Ini harus diperbarui untuk mencerminkan rilis saat ini."
 
 #: ../../source/site/getinvolved/governance/release_checklists/release-2.0.rst:404
 msgid "Create an announcement template"
@@ -851,11 +852,11 @@ msgstr "Sumber @ qgis.org/downloads/"
 
 #: ../../source/site/getinvolved/governance/release_checklists/release-2.0.rst:9
 msgid "Key Dates"
-msgstr ""
+msgstr "Kunci Tanggal"
 
 #: ../../source/site/getinvolved/governance/release_checklists/release-2.0.rst:382
 msgid "Note you can get stats for the previous release like with \"awstats\"::"
-msgstr ""
+msgstr "Catatan anda bisa mendapatkan statistik dari rilis sebelumnya seperti menggunakan \"awstats\"::"
 
 #~ msgid "Key Dates:"
 #~ msgstr ""

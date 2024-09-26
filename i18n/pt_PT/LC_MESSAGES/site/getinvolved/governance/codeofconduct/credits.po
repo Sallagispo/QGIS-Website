@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, QGIS Contributors
+# This file is distributed under the same license as the QGIS package.
+# 
+# Translators:
+# João Gaspar <joao.f.r.gaspar@gmail.com>, 2015
+# Manuela Silva <mmsrs@sky.com>, 2017
+# Rui <xymarior@yandex.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Website\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-26 19:38+0000\n"
+"PO-Revision-Date: 2015-06-05 13:45+0000\n"
+"Last-Translator: Rui <xymarior@yandex.com>, 2018\n"
+"Language-Team: Portuguese (Portugal) (http://www.transifex.com/qgis/qgis-website/language/pt_PT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/site/getinvolved/governance/codeofconduct/credits.rst:4
+msgid "Credits for Contributors"
+msgstr "Créditos para Colaboradores"
+
+#: ../../source/site/getinvolved/governance/codeofconduct/credits.rst:6
+msgid ""
+"Individuals, institutions and firms who contributed code to QGIS can let "
+"people know about their contribution by:"
+msgstr "Indivíduos, instituições, e empresas que contribuíram com código para QGIS e que as pessoas conheçam a sua contribuição por:"
+
+#: ../../source/site/getinvolved/governance/codeofconduct/credits.rst:9
+msgid ""
+"adding a short note on the commit itself (something like \"Funded by ...); "
+"please keep wording to an absolute minimum"
+msgstr "adicionando uma nota breve no próprio commit (something like \"Financiado por ...); por favor escrever uma coisa mínima"
+
+#: ../../source/site/getinvolved/governance/codeofconduct/credits.rst:11
+msgid ""
+"adding a note to the changelog for the first version where the code has been"
+" incorporated, of the type::"
+msgstr "adicionar uma nota ao registo de alterações para a primeira versão onde o código foi incorporado, do tipo::"
+
+#: ../../source/site/getinvolved/governance/codeofconduct/credits.rst:17
+msgid "If you have questions, feel free to contact us: psc@qgis.org"
+msgstr "Se tem questões, esteja à vontade para nos contactar: psc@qgis.org"
+
+#: ../../<rst_epilog>:2
+msgid "checkbox"
+msgstr ""
+
+#: ../../<rst_epilog>:3
+msgid "checkbox_unchecked"
+msgstr ""

@@ -9,24 +9,21 @@ SPHINXINTL    = sphinx-intl
 PAPER         =
 SOURCEDIR     = source
 RESOURCEDIR   = resources
-BUILDDIR      = output/html/$(LANG)
+BUILDDIR      = output/html
+LBUILDDIR     = $(BUILDDIR)/$(LANG)
 # using the -A flag, we create a python variable named 'language', which
 # we then can use in html templates to create language dependent switches
 SPHINXOPTS    = -D language=$(LANG) -A language=$(LANG) $(SOURCEDIR)
-PYTHON	      = python3
+PYTHON        = python3
+LANGUAGES     := en $(patsubst en,,$(subst i18n/,,$(wildcard i18n/*)))
 
 # needed for python2 -> python3 migration?
 export LC_ALL=C.UTF-8
 
-# User-friendly check for sphinx-build
-ifeq ($(shell which $(SPHINXBUILD) >/dev/null 2>&1; echo $$?), 1)
-$(error The '$(SPHINXBUILD)' command was not found. Make sure you have Sphinx installed, then set the SPHINXBUILD environment variable to point to the full path of the '$(SPHINXBUILD)' executable. Alternatively you can add the directory with the executable to your PATH. If you don't have Sphinx installed, grab it from http://sphinx-doc.org/)
-endif
-
 # Internal variables.
 PAPEROPT_a4     = -D latex_paper_size=a4
 PAPEROPT_letter = -D latex_paper_size=letter
-ALLSPHINXOPTS   = -d $(BUILDDIR)/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS)
+ALLSPHINXOPTS   = -d $(LBUILDDIR)/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS)
 # the i18n builder cannot share the environment and doctrees with the others
 I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) i18n/pot
 
@@ -36,7 +33,6 @@ help:
 	@echo "  "
 	@echo "Please use \`make <target> LANG=xx' where xx=language code and <target> is one of:"
 	@echo "  html         to build the website as html for enlish only"
-	@echo "  fullhtml     to pull QGIS-Documentation from github and build into the website"
 	@echo "  world        to create the website for ALL available languages"
 	@echo "  clean        to clean up all intermediate files"
 	@echo "  springclean  to also remove build output besides normal clean"
@@ -44,6 +40,7 @@ help:
 	@echo "  pretranslate to gather all strings from sources, put in .pot files"
 	@echo "                  AND merge them with available .po files"
 	@echo "  transifex_push (only for transifex Maintainers!): renew source files and push to transifex"
+	@echo "  venvupdate   to setup or update a virtualenv with sphinx in sphinx/"
 	@echo "  "
 	@echo "OPTION: use LANG=xx to do it only for one language, eg: make html LANG=de"
 	@echo "  "
@@ -72,11 +69,20 @@ help:
 clean:
 	rm -rf $(SOURCEDIR)/static
 
+define langhtml
+html-$(1): html-en
+	make LANG=$(1) p-html >$(1).log; r=$$$$?; echo R:$$$$r >>$(1).log; grep -Hn "" $(1).log; exit $$$$r
+	flock jdupes.lock jdupes -Lr $(BUILDDIR)
+endef
+$(foreach l,$(LANGUAGES),$(eval $(call langhtml,$(l))))
+
+html-all: localizeresources $(foreach l,$(LANGUAGES),html-$(l))
+
 springclean: clean
 	# something in i18n/pot dir creates havoc when using gettext: remove it
 	rm -rf i18n/pot
 	rm -rf i18n/*/LC_MESSAGES/docs/*/
-	rm -rf $(BUILDDIR)/*
+	rm -rf $(LBUILDDIR)/*
 	rm -f $(SOURCEDIR)/docs_conf.py*
 	rm -rf $(SOURCEDIR)/docs/*/
 	# all .mo files
@@ -87,7 +93,7 @@ springclean: clean
 # IF we have a localized build (LANG != en) then
 # overwrite with potentially available LANG resources  by
 # copy LANG resources from resources/LANG to source/static directory
-# TODO: check if LANG != en, for now: unnessecary copy for english
+# TODO: check if LANG != en, for now: unnecessary copy for english
 localizeresources: clean
 	@echo
 	@echo "Removing all static content from $(SOURCEDIR)/static."
@@ -108,54 +114,53 @@ localizeresources: clean
 		cp -r $(RESOURCEDIR)/$(LANG)/docs/* $(SOURCEDIR)/static; \
 	fi
 
-pulldocsources:
-	# may 21 2014: no more incorporating of docs IN the website
-	#scripts/pulldocsources.sh $(LANG)
+html: localizeresources p-html
 
-html: localizeresources output/html/version.txt source/site/getinvolved/development/schedule.inc source/schedule.py
+p-html: output/html/version.txt output/html/version-ltr.txt output/html/version.json source/site/getinvolved/development/schedule.inc source/schedule.py $(BUILDDIR)/schedule.ics
 	$(SPHINXINTL) --config $(SOURCEDIR)/conf.py build --language=$(LANG)
 
-	# ONLY in the english version run in nit-picky mode, so source errors/warnings will fail in Travis
+	# ONLY in the english version run in nit-picky mode, so source errors/warnings will fail in CI
 	#  -n   Run in nit-picky mode. Currently, this generates warnings for all missing references.
 	#  -W   Turn warnings into errors. This means that the build stops at the first warning and sphinx-build exits with exit status 1.
 	@if [ $(LANG) != "en" ]; then \
-		$(SPHINXBUILD) -j$(JOBS) -b html $(ALLSPHINXOPTS) $(BUILDDIR); \
+		$(SPHINXBUILD)       -j$(JOBS) -b html $(ALLSPHINXOPTS) $(LBUILDDIR); \
 	else \
-		$(SPHINXBUILD) -n -W -j$(JOBS) -b html $(ALLSPHINXOPTS) $(BUILDDIR); \
+		$(SPHINXBUILD) -n -W -j$(JOBS) -b html $(ALLSPHINXOPTS) $(LBUILDDIR); \
 	fi
 	@echo
-	@echo "Build finished. The HTML pages for '$(LANG)' are in $(BUILDDIR)."
+	@echo "Build finished. The HTML pages for '$(LANG)' are in $(LBUILDDIR)."
 
-output/html/version.txt: source/conf.py source/schedule.py
-	mkdir -p $(BUILDDIR)
+output/html/version.txt output/html/version-ltr.txt output/html/version.json: source/conf.py source/schedule.py
+	mkdir -p $(LBUILDDIR)
 	$(PYTHON) scripts/mkversion.py
 
-fullhtml: pulldocsources html
+$(BUILDDIR)/schedule.ics: source/schedule.ics
+	mkdir -p $(BUILDDIR)
+	cp -u $< $@
 
 full: springclean
-	@-if [ $(LANG) != "en" ]; then \
+	@-if [ $(LANG) = "en" ]; then \
+		echo; \
+	else \
 		echo; \
 		echo Pulling $$LANG from transifex; \
-		# --minimum-perc=1 so only files which have at least 1% translation are pulled \
-		# -f to force, --skip to not stop with errors \
-		# -l lang \
-		tx pull --minimum-perc=1 --skip -f -l $$LANG; \
-        fi
+		tx --root-config .transifexrc pull --minimum-perc=1 --skip -f -l $$LANG; \
+	fi
 	make html
 
 world: full
 
-all: pulldocsources
+all:
 	@echo
 	@echo Building html for the following languages: $(LANGUAGES)
 	@echo
 	@echo Starting with pulling all translations from transifex
 	# --minimum-perc=1 so only files which have at least 1% translation are pulled
 	# -f to force, --skip to not stop with errors
-	tx pull --minimum-perc=1 --skip -f
+	tx --root-config .transifexrc pull --minimum-perc=1 --skip -f
 	# after build quickly rename old live dir, mv output to live dir and then remove old dir
 	@for LANG in $(LANGUAGES) ; do \
-		make LANG=$$LANG fullhtml; \
+		make LANG=$$LANG html; \
 		mkdir -p live/html/$$LANG; \
 		mv live/html/$$LANG live/html/$$LANG.old; \
 		mv output/html/$$LANG live/html/; \
@@ -178,22 +183,22 @@ gettext:
 	rm -rf i18n/pot
 	# be sure to remove possible available docs sources:
 	rm -rf $(SOURCEDIR)/docs/*/
-	# remove donors.inc (no translation necessery)
-	rm source/site/about/donors.inc
+	# remove donors.inc (no translation necessary)
+	rm -f source/site/about/donors.inc
 	$(SPHINXBUILD) -j$(JOBS) -b gettext $(I18NSPHINXOPTS)
 	git checkout source/site/about/donors.inc
 	@echo
-	@echo "Build finished. The message catalogs are in $(BUILDDIR)/locale."
+	@echo "Build finished. The message catalogs are in $(LBUILDDIR)/locale."
 
 # ONLY to be done by a transifex Maintainer for the project, as it overwrites
 # the english source resources
 # 1) make springclean (removing all building cruft)
 # 2) make pretranslate (getting all strings from sources and create new pot files)
-# 3) tx push -fs --no-interactive (push the source (-f) files forcing (-f) overwriting the ones their without asking (--no-interactive)
+# 3) scripts/create_transifex_resources.sh (will update the .tx/config file with new resources)
+# 4) tx --root-config .transifexrc push -fs --no-interactive (push the source (-f) files forcing (-f) overwriting the ones their without asking (--no-interactive)
 transifex_push:
 	make springclean
 	make pretranslate
-	tx push -f -s --no-interactive
 
 ################################################################################
 #
@@ -203,128 +208,140 @@ transifex_push:
 ################################################################################
 
 dirhtml:
-	$(SPHINXBUILD) -b dirhtml $(ALLSPHINXOPTS) $(BUILDDIR)/dirhtml
+	$(SPHINXBUILD) -b dirhtml $(ALLSPHINXOPTS) $(LBUILDDIR)/dirhtml
 	@echo
-	@echo "Build finished. The HTML pages are in $(BUILDDIR)/dirhtml."
+	@echo "Build finished. The HTML pages are in $(LBUILDDIR)/dirhtml."
 
 singlehtml:
-	$(SPHINXBUILD) -b singlehtml $(ALLSPHINXOPTS) $(BUILDDIR)/singlehtml
+	$(SPHINXBUILD) -b singlehtml $(ALLSPHINXOPTS) $(LBUILDDIR)/singlehtml
 	@echo
-	@echo "Build finished. The HTML page is in $(BUILDDIR)/singlehtml."
+	@echo "Build finished. The HTML page is in $(LBUILDDIR)/singlehtml."
 
 pickle:
-	$(SPHINXBUILD) -b pickle $(ALLSPHINXOPTS) $(BUILDDIR)/pickle
+	$(SPHINXBUILD) -b pickle $(ALLSPHINXOPTS) $(LBUILDDIR)/pickle
 	@echo
 	@echo "Build finished; now you can process the pickle files."
 
 json:
-	$(SPHINXBUILD) -b json $(ALLSPHINXOPTS) $(BUILDDIR)/json
+	$(SPHINXBUILD) -b json $(ALLSPHINXOPTS) $(LBUILDDIR)/json
 	@echo
 	@echo "Build finished; now you can process the JSON files."
 
 htmlhelp:
-	$(SPHINXBUILD) -b htmlhelp $(ALLSPHINXOPTS) $(BUILDDIR)/htmlhelp
+	$(SPHINXBUILD) -b htmlhelp $(ALLSPHINXOPTS) $(LBUILDDIR)/htmlhelp
 	@echo
 	@echo "Build finished; now you can run HTML Help Workshop with the" \
-	      ".hhp project file in $(BUILDDIR)/htmlhelp."
+	      ".hhp project file in $(LBUILDDIR)/htmlhelp."
 
 qthelp:
-	$(SPHINXBUILD) -b qthelp $(ALLSPHINXOPTS) $(BUILDDIR)/qthelp
+	$(SPHINXBUILD) -b qthelp $(ALLSPHINXOPTS) $(LBUILDDIR)/qthelp
 	@echo
 	@echo "Build finished; now you can run "qcollectiongenerator" with the" \
-	      ".qhcp project file in $(BUILDDIR)/qthelp, like this:"
-	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/QGISWebsite.qhcp"
+	      ".qhcp project file in $(LBUILDDIR)/qthelp, like this:"
+	@echo "# qcollectiongenerator $(LBUILDDIR)/qthelp/QGISWebsite.qhcp"
 	@echo "To view the help file:"
-	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/QGISWebsite.qhc"
+	@echo "# assistant -collectionFile $(LBUILDDIR)/qthelp/QGISWebsite.qhc"
 
 devhelp:
-	$(SPHINXBUILD) -b devhelp $(ALLSPHINXOPTS) $(BUILDDIR)/devhelp
+	$(SPHINXBUILD) -b devhelp $(ALLSPHINXOPTS) $(LBUILDDIR)/devhelp
 	@echo
 	@echo "Build finished."
 	@echo "To view the help file:"
 	@echo "# mkdir -p $$HOME/.local/share/devhelp/QGISWebsite"
-	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/QGISWebsite"
+	@echo "# ln -s $(LBUILDDIR)/devhelp $$HOME/.local/share/devhelp/QGISWebsite"
 	@echo "# devhelp"
 
 epub:
-	$(SPHINXBUILD) -b epub $(ALLSPHINXOPTS) $(BUILDDIR)/epub
+	$(SPHINXBUILD) -b epub $(ALLSPHINXOPTS) $(LBUILDDIR)/epub
 	@echo
-	@echo "Build finished. The epub file is in $(BUILDDIR)/epub."
+	@echo "Build finished. The epub file is in $(LBUILDDIR)/epub."
 
 latex:
-	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex
+	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(LBUILDDIR)/latex
 	@echo
-	@echo "Build finished; the LaTeX files are in $(BUILDDIR)/latex."
+	@echo "Build finished; the LaTeX files are in $(LBUILDDIR)/latex."
 	@echo "Run \`make' in that directory to run these through (pdf)latex" \
 	      "(use \`make latexpdf' here to do that automatically)."
 
 latexpdf:
-	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex
+	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(LBUILDDIR)/latex
 	@echo "Running LaTeX files through pdflatex..."
-	$(MAKE) -C $(BUILDDIR)/latex all-pdf
-	@echo "pdflatex finished; the PDF files are in $(BUILDDIR)/latex."
+	$(MAKE) -C $(LBUILDDIR)/latex all-pdf
+	@echo "pdflatex finished; the PDF files are in $(LBUILDDIR)/latex."
 
 latexpdfja:
-	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex
+	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(LBUILDDIR)/latex
 	@echo "Running LaTeX files through platex and dvipdfmx..."
-	$(MAKE) -C $(BUILDDIR)/latex all-pdf-ja
-	@echo "pdflatex finished; the PDF files are in $(BUILDDIR)/latex."
+	$(MAKE) -C $(LBUILDDIR)/latex all-pdf-ja
+	@echo "pdflatex finished; the PDF files are in $(LBUILDDIR)/latex."
 
 text:
-	$(SPHINXBUILD) -b text $(ALLSPHINXOPTS) $(BUILDDIR)/text
+	$(SPHINXBUILD) -b text $(ALLSPHINXOPTS) $(LBUILDDIR)/text
 	@echo
-	@echo "Build finished. The text files are in $(BUILDDIR)/text."
+	@echo "Build finished. The text files are in $(LBUILDDIR)/text."
 
 man:
-	$(SPHINXBUILD) -b man $(ALLSPHINXOPTS) $(BUILDDIR)/man
+	$(SPHINXBUILD) -b man $(ALLSPHINXOPTS) $(LBUILDDIR)/man
 	@echo
-	@echo "Build finished. The manual pages are in $(BUILDDIR)/man."
+	@echo "Build finished. The manual pages are in $(LBUILDDIR)/man."
 
 texinfo:
-	$(SPHINXBUILD) -b texinfo $(ALLSPHINXOPTS) $(BUILDDIR)/texinfo
+	$(SPHINXBUILD) -b texinfo $(ALLSPHINXOPTS) $(LBUILDDIR)/texinfo
 	@echo
-	@echo "Build finished. The Texinfo files are in $(BUILDDIR)/texinfo."
+	@echo "Build finished. The Texinfo files are in $(LBUILDDIR)/texinfo."
 	@echo "Run \`make' in that directory to run these through makeinfo" \
 	      "(use \`make info' here to do that automatically)."
 
 info:
-	$(SPHINXBUILD) -b texinfo $(ALLSPHINXOPTS) $(BUILDDIR)/texinfo
+	$(SPHINXBUILD) -b texinfo $(ALLSPHINXOPTS) $(LBUILDDIR)/texinfo
 	@echo "Running Texinfo files through makeinfo..."
-	make -C $(BUILDDIR)/texinfo info
-	@echo "makeinfo finished; the Info files are in $(BUILDDIR)/texinfo."
+	make -C $(LBUILDDIR)/texinfo info
+	@echo "makeinfo finished; the Info files are in $(LBUILDDIR)/texinfo."
 
 changes:
-	$(SPHINXBUILD) -b changes $(ALLSPHINXOPTS) $(BUILDDIR)/changes
+	$(SPHINXBUILD) -b changes $(ALLSPHINXOPTS) $(LBUILDDIR)/changes
 	@echo
-	@echo "The overview file is in $(BUILDDIR)/changes."
+	@echo "The overview file is in $(LBUILDDIR)/changes."
 
 linkcheck:
-	$(SPHINXBUILD) -b linkcheck $(ALLSPHINXOPTS) $(BUILDDIR)/linkcheck
+	$(SPHINXBUILD) -b linkcheck $(ALLSPHINXOPTS) $(LBUILDDIR)/linkcheck
 	@echo
 	@echo "Link check complete; look for any errors in the above output " \
-	      "or in $(BUILDDIR)/linkcheck/output.txt."
+	      "or in $(LBUILDDIR)/linkcheck/output.txt."
 
 doctest:
-	$(SPHINXBUILD) -b doctest $(ALLSPHINXOPTS) $(BUILDDIR)/doctest
+	$(SPHINXBUILD) -b doctest $(ALLSPHINXOPTS) $(LBUILDDIR)/doctest
 	@echo "Testing of doctests in the sources finished, look at the " \
-	      "results in $(BUILDDIR)/doctest/output.txt."
+	      "results in $(LBUILDDIR)/doctest/output.txt."
 
 xml:
-	$(SPHINXBUILD) -b xml $(ALLSPHINXOPTS) $(BUILDDIR)/xml
+	$(SPHINXBUILD) -b xml $(ALLSPHINXOPTS) $(LBUILDDIR)/xml
 	@echo
-	@echo "Build finished. The XML files are in $(BUILDDIR)/xml."
+	@echo "Build finished. The XML files are in $(LBUILDDIR)/xml."
 
 pseudoxml:
-	$(SPHINXBUILD) -b pseudoxml $(ALLSPHINXOPTS) $(BUILDDIR)/pseudoxml
+	$(SPHINXBUILD) -b pseudoxml $(ALLSPHINXOPTS) $(LBUILDDIR)/pseudoxml
 	@echo
-	@echo "Build finished. The pseudo-XML files are in $(BUILDDIR)/pseudoxml."
+	@echo "Build finished. The pseudo-XML files are in $(LBUILDDIR)/pseudoxml."
 
-source/site/getinvolved/development/schedule.inc source/schedule.py:
+source/site/getinvolved/development/schedule.inc source/schedule.py source/schedule.ics:
 	$(PYTHON) scripts/update-schedule.py
 
-clearschedule:
+clearschedule: venvupdate
 	$(RM) source/site/getinvolved/development/schedule.inc source/schedule.py
 
 schedule: clearschedule source/schedule.py
 	git pull --autostash --rebase
 	git commit -a -m "Update for $(shell sed -ne "s/^release = '\\(.*\\)'/\1/p" source/schedule.py)/$(shell sed -ne "s/^ltrrelease = '\\(.*\\)'/\\1/p" source/schedule.py) point releases"
+
+style: themes/qgis-theme/static/qgis-style.css
+
+themes/qgis-theme/static/qgis-style.css: themes/qgis-theme/static/qgis-style.less
+	lessc $< $@
+	yui-compressor -o $@ $@
+
+venvupdate:
+ifneq ($(VIRTUAL_ENV),)
+	[ -d sphinx ] || $(PYTHON) -m virtualenv sphinx; . sphinx/bin/activate; pip install -U -r REQUIREMENTS.txt
+endif
+

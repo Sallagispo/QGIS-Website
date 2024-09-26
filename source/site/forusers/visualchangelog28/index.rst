@@ -4,6 +4,8 @@
 Changelog for QGIS 2.8
 =======================
 
+Release date: 2015-02-20
+
 This is the change log for the next release of QGIS - version 2.8 ' Wien'. Wien is German for 'Vienna' - host city to our developer meet up in November 2009 and again in March 2014.
 
 **Long Term Release**
@@ -28,7 +30,7 @@ to do so).
 
 From the QGIS community we hope you enjoy this release! If you wish to
 donate time, money or otherwise get involved in making QGIS more
-awesome, please wander along to `qgis.org <http://qgis.org>`_ and lend a
+awesome, please wander along to `qgis.org <https://qgis.org>`_ and lend a
 hand!
 
 Finally we would like to thank our official sponsors for the invaluable
@@ -55,17 +57,17 @@ financial support they provide to this project:
 
 A current list of donors who have made financial contributions large and
 small to the project can be seen on our `donors
-list <http://qgis.org/en/site/about/sponsorship.html#list-of-donors>`_.
+list <https://qgis.org/en/site/about/sponsorship.html#list-of-donors>`_.
 If you would like to become an official project sponsor, please visit
 `our sponsorship
-page <http://qgis.org/en/site/about/sponsorship.html#sponsorship>`_ for
+page <https://qgis.org/en/site/about/sponsorship.html#sponsorship>`_ for
 details. Sponsoring QGIS helps us to fund our six monthly developer
 meetings, maintain project infrastructure and fund bug fixing efforts.
 
 If you enjoy using QGIS, please consider making a donation to support
 the project - either
-`financial <http://qgis.org/en/site/getinvolved/donations.html>`_ or of
-`your time and skills <http://qgis.org/en/site/getinvolved/index.html>`_! Lastly we
+`financial <https://qgis.org/en/site/getinvolved/donations.html>`_ or of
+`your time and skills <https://qgis.org/en/site/getinvolved/index.html>`_! Lastly we
 would like to also take a moment to encourage you to fund a `special
 campaign <http://blog.vitu.ch/10102014-1046/crowdfunding-initiative-automated-testing>`_
 by one of our QGIS developers to get a working test suite for QGIS so

@@ -1,18 +1,22 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, QGIS Contributors
+# This file is distributed under the same license as the QGIS package.
 # 
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: QGIS Website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-13 20:28\n"
-"PO-Revision-Date: 2015-08-19 07:00+0000\n"
-"Last-Translator: Richard Duivenvoorde <richard@duif.net>\n"
+"POT-Creation-Date: 2023-02-26 19:38+0000\n"
+"PO-Revision-Date: 2013-09-17 13:26+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/qgis/qgis-website/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
 "Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
 #: ../../source/site/about/case_studies/portugal_torres.rst:3
 msgid "QGIS and GRASS applied to paleontological survey in Western Portugal"
@@ -77,6 +81,15 @@ msgstr "QGIS стала основою всього проекту. Дані з�
 msgid "Vector point data editing and visualization"
 msgstr "Редагування та візуалізація точкових даних"
 
+#: ../../source/site/about/case_studies/portugal_torres.rst:33
+msgid ""
+"The choice for QGIS was also encouraged by the multi platform support. The "
+"institution has three distinct facilities, and each of those facilities has "
+"different systems --– we have Mac, Windows PC and Linux PC, therefore it's "
+"of extreme importance that we have the freedom to install the software on "
+"any machine we want so we don't get stuck to a particular computer."
+msgstr "Вибір QGIS також був обумовлений багатоплатформовістю. Організація має три офіси, в яких використовуються різні операційні системи --- ми використовуємо Mac, Windows та Linux, і тому нам необхідно мати можливість встановлювати програмне забезпечення на будь-який комп'ютер і не бути прив'язаними до якогось конкретного робочого місця."
+
 #: ../../source/site/about/case_studies/portugal_torres.rst:40
 msgid "Paleontological Risk Map"
 msgstr "Карта палеонтологічних ризиків"
@@ -85,22 +98,19 @@ msgstr "Карта палеонтологічних ризиків"
 msgid "Conclusion"
 msgstr "Підсумки"
 
-#: ../../source/site/about/case_studies/portugal_torres.rst:55
-msgid "Author"
-msgstr "Автор"
-
-#: ../../source/site/about/case_studies/portugal_torres.rst:62
-msgid "André Mano"
-msgstr "André Mano"
-
-#: ../../source/site/about/case_studies/portugal_torres.rst:64
+#: ../../source/site/about/case_studies/portugal_torres.rst:45
 msgid ""
-"This article was contributed in November 2010 by André Mano. He is "
-"responsible for the Geopraphic Department of Associação Leonel Trindade – "
-"Sociedade de História Natural. His area of interest is focused on "
-"geotechnology applications to the fields of paleontology, archeology and "
-"cultural heritage."
-msgstr "André Mano надіслав цю статтю у листопаді 2010 року. Він відповідає за географічний підрозділ Associação Leonel Trindade – Sociedade de História Natural. Його інтереси зосереджені на проблемах використання просторових технологій у палеонтології, археології та культурній спадщині."
+"The overall experience with QGIS can only be rated has being very good and "
+"recommendable. From our point of view, the main advantage of QGIS is that "
+"it's not just a GIS software –-- it's a productivity suite for spatial data."
+" It allowed us to take advantage of other powerful tools within a single "
+"work environment. From QGIS you can work with GRASS, with PostGIS, with GPS "
+"data, with webservices and with tens of useful plug-ins developed by users "
+"worldwide. The user friendly interface is also a big advantage, especially "
+"if you have to train first time users has we've done. The easyness of the "
+"interface makes production of maps an everyday task and brought people "
+"closer to spatial approaches [3]."
+msgstr "В цілому досвід використання QGIS позитивний. З нашої точки зору, основною перевагою QGIS є те, що це не просто ГІС --- це продуктивний пакет для роботи з просторовими даними. Вона дозволила нам використовувати й інші потужні інструменти в рамках єдиного робочого середовища. Прямо з QGIS ви можете працювати з GRASS, PostGIS, даними GPS, веб-сервісами та десятками корисних плаґінів. Зручний інтерфейс також є перевагою, особливо якщо вам, як і нам, необхідно провести навчання користувачів. Простота та зручність інтерфейсу робить створення карт елементарною задачею та наближає просторові технології до людей [3]."
 
 #: ../../source/site/about/case_studies/portugal_torres.rst:48
 msgid "References"
@@ -125,46 +135,27 @@ msgid ""
 "Sistemas de Informação Geográfica. ISEGI – UNL, Lisboa, 2010"
 msgstr "[3] Mano, André. (2010) – Projecto SIGAP, Trabalho de Projecto apresentado como requisito parcial para a obtenção do grau de Mestre em Ciência e Sistemas de Informação Geográfica. ISEGI – UNL, Lisboa, 2010"
 
-#: ../../source/site/about/case_studies/portugal_torres.rst:33
+#: ../../source/site/about/case_studies/portugal_torres.rst:55
+msgid "Author"
+msgstr "Автор"
+
+#: ../../source/site/about/case_studies/portugal_torres.rst:62
+msgid "André Mano"
+msgstr "André Mano"
+
+#: ../../source/site/about/case_studies/portugal_torres.rst:64
 msgid ""
-"The choice for QGIS was also encouraged by the multi platform support. The "
-"institution has three distinct facilities, and each of those facilities has "
-"different systems --– we have Mac, Windows PC and Linux PC, therefore it's "
-"of extreme importance that we have the freedom to install the software on "
-"any machine we want so we don't get stuck to a particular computer."
-msgstr "Вибір QGIS також був обумовлений багатоплатформовістю. Організація має три офіси, в яких використовуються різні операційні системи --- ми використовуємо Mac, Windows та Linux, і тому нам необхідно мати можливість встановлювати програмне забезпечення на будь-який комп'ютер і не бути прив'язаними до якогось конкретного робочого місця."
+"This article was contributed in November 2010 by André Mano. He is "
+"responsible for the Geopraphic Department of Associação Leonel Trindade – "
+"Sociedade de História Natural. His area of interest is focused on "
+"geotechnology applications to the fields of paleontology, archeology and "
+"cultural heritage."
+msgstr "André Mano надіслав цю статтю у листопаді 2010 року. Він відповідає за географічний підрозділ Associação Leonel Trindade – Sociedade de História Natural. Його інтереси зосереджені на проблемах використання просторових технологій у палеонтології, археології та культурній спадщині."
 
-#: ../../source/site/about/case_studies/portugal_torres.rst:45
-msgid ""
-"The overall experience with QGIS can only be rated has being very good and "
-"recommendable. From our point of view, the main advantage of QGIS is that "
-"it's not just a GIS software –-- it's a productivity suite for spatial data."
-" It allowed us to take advantage of other powerful tools within a single "
-"work environment. From QGIS you can work with GRASS, with PostGIS, with GPS "
-"data, with webservices and with tens of useful plug-ins developed by users "
-"worldwide. The user friendly interface is also a big advantage, especially "
-"if you have to train first time users has we've done. The easyness of the "
-"interface makes production of maps an everyday task and brought people "
-"closer to spatial approaches [3]."
-msgstr "В цілому досвід використання QGIS позитивний. З нашої точки зору, основною перевагою QGIS є те, що це не просто ГІС --- це продуктивний пакет для роботи з просторовими даними. Вона дозволила нам використовувати й інші потужні інструменти в рамках єдиного робочого середовища. Прямо з QGIS ви можете працювати з GRASS, PostGIS, даними GPS, веб-сервісами та десятками корисних плаґінів. Зручний інтерфейс також є перевагою, особливо якщо вам, як і нам, необхідно провести навчання користувачів. Простота та зручність інтерфейсу робить створення карт елементарною задачею та наближає просторові технології до людей [3]."
+#: ../../<rst_epilog>:2
+msgid "checkbox"
+msgstr ""
 
-#~ msgid ""
-#~ "The choice for QGIS was also encouraged by the multi platform support. The "
-#~ "institution has three distinct facilities, and each of those facilities has "
-#~ "different systems – We have Mac, Windows PC and Linux PC, therefore it's of "
-#~ "extreme importance that we have the freedom to install the software on any "
-#~ "machine we want so we don't get stuck to a particular computer."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The overall experience with QGIS can only be rated has being very good and "
-#~ "recommendable. From our point of view, the main advantage of QGIS is that "
-#~ "it's not just a GIS software – it's a productivity suite for spatial data. "
-#~ "It allowed us to take advantage of other powerful tools within a single work"
-#~ " environment. From QGIS you can work with GRASS, with PostGIS, with GPS "
-#~ "data, with webservices and with tens of useful plug-ins developed by users "
-#~ "worldwide. The user friendly interface is also a big advantage, especially "
-#~ "if you have to train first time users has we've done. The easyness of the "
-#~ "interface makes production of maps an everyday task and brought people "
-#~ "closer to spatial approaches [3]."
-#~ msgstr ""
+#: ../../<rst_epilog>:3
+msgid "checkbox_unchecked"
+msgstr ""

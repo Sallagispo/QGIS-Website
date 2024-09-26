@@ -1,24 +1,25 @@
 from datetime import date
 
 # latest release
-version = '2.18'
-release = '2.18.16'
-codename = u'Las Palmas'
+version = '3.38'
+release = '3.38.0'
+codename = u'Grenoble'
 binary = '1'
-releasedate = date(2018, 1, 19)
-releasenote = '(new LTR)'
+releasedate = date(2024, 6, 21)
+releasenote = u'RC'
+shortver = u'338'
 
 # long term release repository
-ltrversion = '2.14'
-ltrrelease = '2.14.22'
-ltrcodename = u'Essen'
+ltrversion = '3.34'
+ltrrelease = '3.34.8'
+ltrcodename = u'Prizren'
 ltrbinary = '1'
-ltrnote = '(previous LTR)'
+ltrnote = u'LTR'
 
-devversion = '2.99'
-nextversion = '3.0'
-nextfreezedate = '2017-10-27 12:00:00 UTC'
-nextreleasedate = '2018-02-23 12:00:00 UTC'
-nextpointreleasedate = '2018-02-23 12:00:00 UTC'
+devversion = '3.39'
+nextversion = '3.40'
+nextfreezedate = '2024-09-13 12:00:00 UTC'
+nextreleasedate = '2024-10-25 12:00:00 UTC'
+nextpointreleasedate = '2024-07-19 12:00:00 UTC'
 
-infeaturefreeze = True
+infeaturefreeze = False

@@ -15,26 +15,17 @@ For Windows, Mac, Linux, BSD and Android.
 
    A screenshot of QGIS Desktop
 
-
-QGIS Browser
-------------
-
-Browse and preview your data and metadata.
-
-Drag and drop your data from one datastore into the other one.
-
-.. figure:: /static/site/about/images/qgisbrowserscreenshot.png
-   :alt: QGIS Browser
-
-   A screenshot of QGIS Browser
-
-
 QGIS Server
 -----------
 
-Publish your QGIS projects and layers as OGC compatible WMS and WFS
+Publish your QGIS projects and layers as OGC compatible WMS, WMTS, WFS and WCS
 services. Control which layers, attributes, layouts and coordinate
 systems are exported.
+QGIS server is considered as a reference implementation for WMS 1.3.
+
+.. figure:: /static/site/getinvolved/daily_reports/qgis_server_wms_ogc_badge.png
+   :alt: QGIS Server OGC certification badge
+   :align: center
 
 .. figure:: /static/site/about/images/qgisserverscreenshot.png
    :alt: QGIS Server
@@ -48,22 +39,37 @@ Publish your QGIS projects on the web with ease. Benefit from the
 powerful symbology, labeling and blending features to impress with your
 maps.
 
+`QGIS Web Client 2 <https://github.com/qgis/qwc2>`_
+
 .. figure:: /static/site/about/images/qgiswebclientscreenshot.png
    :alt: QGIS Web Client
 
-   A screenshot of QGIS Web Client
+   A screenshot of QGIS Web Client 2
 
 
-QGIS on Android (beta!)
------------------------
+QGIS on mobiles and tablets
+---------------------------
 
-Work is being done to use QGIS on Android devices. Current builds are very
-experimental, and not for the faint of heart.
+The QGIS experience does not stop on the desktop.
+Various third-party touch optimized apps allow you to take QGIS into the field
 
-.. figure:: /static/site/about/images/qgisandroidscreenshot.jpg
-   :alt: QGIS Android
+`QField <https://qfield.org>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. figure:: /static/site/about/images/qfield.jpg
+   :alt: QField
 
-   A screenshot of QGIS on Android
+   A screenshot of QField (available for Android, iOS, Windows, macOS, Linux)
 
+`Mergin Maps mobile app <https://merginmaps.com>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. figure:: /static/site/about/images/merginmaps.jpg
+   :alt: Mergin Maps mobile app
 
+   A screenshot of Mergin Maps mobile app (available for Android, iOS, Windows)
 
+`IntraMaps Roam <https://roam-docs.readthedocs.io>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. figure:: /static/site/about/images/roam.jpg
+   :alt: Roam
+
+   A screenshot of IntraMaps Roam (available for Windows)

@@ -10,6 +10,8 @@
 Welcome to the QGIS project!
 ============================
 
-.. note::
+.. note
 
-    Content is not used, it is overridden by themes/qgis-theme/index.html. TOC is used.
+    Content is not used, it is overridden by text in themes/qgis-theme/index.html.
+    The html texts are translated in the 'sphinx' resource: https://www.transifex.com/qgis/qgis-website/sphinx/
+    Only TOC is used.

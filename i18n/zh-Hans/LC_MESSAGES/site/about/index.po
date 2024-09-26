@@ -1,20 +1,30 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, QGIS Contributors
+# This file is distributed under the same license as the QGIS package.
 # 
 # Translators:
 # Richard Xie <xiluoduyu@163.com>, 2014
 # Sheriff Xie, 2013
+# 徐保才 <1302638819@qq.com>, 2021
+# 徐保才 <1302638819@qq.com>, 2022
 msgid ""
 msgstr ""
 "Project-Id-Version: QGIS Website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-13 20:28\n"
-"PO-Revision-Date: 2015-08-19 07:00+0000\n"
-"Last-Translator: Richard Duivenvoorde <richard@duif.net>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/qgis/qgis-website/language/zh_CN/)\n"
+"POT-Creation-Date: 2023-02-26 19:38+0000\n"
+"PO-Revision-Date: 2013-09-17 13:26+0000\n"
+"Last-Translator: 徐保才 <1302638819@qq.com>, 2022\n"
+"Language-Team: Chinese Simplified (http://www.transifex.com/qgis/qgis-website/language/zh-Hans/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: zh-Hans\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../source/site/about/index.rst:6
+msgid "Blogs"
+msgstr "博客"
 
 #: ../../source/site/about/index.rst:4
 msgid "Discover QGIS"
@@ -22,5 +32,16 @@ msgstr "探索 QGIS"
 
 #: ../../source/site/about/index.rst:17
 msgid ""
-"Content is not used, it is overridden by themes/qgis-theme/about_index.html."
-msgstr "内容未使用，已被 themes/qgis-theme/about_index.html 所重写。"
+"Content is not used, it is overridden by text in themes/qgis-"
+"theme/about_index.html. The html texts are translated in the 'spinx' "
+"resource: https://www.transifex.com/qgis/qgis-website/sphinx/ Only TOC is "
+"used."
+msgstr "未使用的内容，将被 themes/qgis-theme/about_index.html 中的文本覆写。HTML文本在 'spinx' 资源中的翻译: https://www.transifex.com/qgis/qgis-website/sphinx/ 仅TOC使用。"
+
+#: ../../<rst_epilog>:2
+msgid "checkbox"
+msgstr "checkbox"
+
+#: ../../<rst_epilog>:3
+msgid "checkbox_unchecked"
+msgstr "checkbox_unchecked"

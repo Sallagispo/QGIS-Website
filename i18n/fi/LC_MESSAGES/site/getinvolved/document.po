@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, QGIS Contributors
+# This file is distributed under the same license as the QGIS package.
+# 
+# Translators:
+# Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2014-2015
+# Pekka Sarkola <pekka.sarkola@gispo.fi>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Website\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-26 19:38+0000\n"
+"PO-Revision-Date: 2014-10-19 11:14+0000\n"
+"Last-Translator: Pekka Sarkola <pekka.sarkola@gispo.fi>, 2018\n"
+"Language-Team: Finnish (http://www.transifex.com/qgis/qgis-website/language/fi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/site/getinvolved/document.rst:4
+msgid "Write Documentation"
+msgstr "Käyttöohjeen laadinta"
+
+#: ../../source/site/getinvolved/document.rst:6
+msgid ""
+"The update of the QGIS documentation is managed by the :ref:`Community Team "
+"Lead <community-resources>`. Have a look at the :ref:`QGIS Governance "
+"<whoiswho>` to find out who is in charge of guiding you."
+msgstr ""
+
+#: ../../source/site/getinvolved/document.rst:10
+msgid ""
+"The complete list of documents managed by the QGIS documentation team can be"
+" found at https://www.qgis.org/en/docs/index.html. A list of documenters can"
+" be found at https://github.com/qgis/QGIS-Documentation/graphs/contributors."
+msgstr ""
+
+#: ../../source/site/getinvolved/document.rst:17
+msgid "Documentation Mailing list"
+msgstr "Dokumentoinnin sähköpostilista"
+
+#: ../../source/site/getinvolved/document.rst:19
+msgid ""
+"If you plan to contribute to QGIS documentation, see :ref:`becoming-"
+"documenter`. For other related questions, please contact the "
+":ref:`Documentation Team Leader <community-resources>` or subscribe with the"
+" `qgis-community-team <http://lists.osgeo.org/mailman/listinfo/qgis-"
+"community-team>`_ mailing list."
+msgstr ""
+
+#: ../../source/site/getinvolved/document.rst:24
+msgid ""
+"After subscribing to the mailing list you are able to send a mail directly "
+"to qgis-community-team@lists.osgeo.org asking for help."
+msgstr "Kun olet liittynyt sähköpostilistalle voit lähettää viestejä suoraan osoitteeseen  ja pyytää apua."
+
+#: ../../source/site/getinvolved/document.rst:27
+msgid ""
+"We strongly encourage anyone dealing with documentation and its translations"
+" to join this list and promise that it is usually a very low traffic mailing"
+" list."
+msgstr "Suosittelemme kenelle tahansa joka työskentelee dokumentoinnin ja sen kääntämisen kanssa liittymään tähän listaan ja lupaamme, että sillä on yleensä hyvin vähän liikennettä."
+
+#: ../../source/site/getinvolved/document.rst:30
+msgid ""
+"The other available mailing lists can be found at :ref:`QGIS-mailinglists`."
+msgstr "Muut käytettävissä olevat sähköpostilistat löydät osoitteesta :ref:`QGIS-mailinglists`."
+
+#: ../../source/site/getinvolved/document.rst:35
+msgid "Becoming a documenter"
+msgstr "Kuinka tulla dokumentoijaksi"
+
+#: ../../source/site/getinvolved/document.rst:37
+msgid ""
+"The QGIS project is always looking for people who are willing to invest some"
+" more time updating QGIS documentation and translating it into a foreign "
+"language - even perhaps to coordinate the update and translation effort."
+msgstr "QGIS hanke on alati etsimässä henkilöitä jotka ovat halukkaita investoimaan aikaansa QGIS dokumentaation päivittämiseen ja kääntämiseen vieraille kielille - ehkäpä jopa koordinoimaan päivitys- ja käännösponnisteluja."
+
+#: ../../source/site/getinvolved/document.rst:41
+msgid ""
+"We are trying to improve our project management process and spread the load "
+"more evenly between people who each have a specific area of responsibility, "
+"so any contribution you have to make will be greatly appreciated."
+msgstr "Yritämme parantaa hankkeemme hallintaprosessia ja levittää kuormitusta tasaisemmin henkilöille joilla kullakin on erityinen vastuualue, näin ollen pienikin tuki ja apu jonka tekisit on suuressa arvossa."
+
+#: ../../source/site/getinvolved/document.rst:45
+msgid ""
+"The complete list of documents managed by the QGIS Documentation Team can be"
+" found at https://www.qgis.org/en/docs/index.html. All the documentation "
+"sources are hosted in `QGIS-Documentation repository "
+"<https://github.com/qgis/QGIS-Documentation>`_. If you want to update some "
+"features in QGIS or document new ones, you need to:"
+msgstr ""
+
+#: ../../source/site/getinvolved/document.rst:51
+msgid "have a `GitHub account <https://github.com/join>`_"
+msgstr ""
+
+#: ../../source/site/getinvolved/document.rst:52
+msgid ""
+"`fork the repository <https://help.github.com/articles/working-with-"
+"forks/>`_"
+msgstr ""
+
+#: ../../source/site/getinvolved/document.rst:53
+msgid "do your changes"
+msgstr ""
+
+#: ../../source/site/getinvolved/document.rst:54
+msgid "and submit a pull request."
+msgstr ""
+
+#: ../../source/site/getinvolved/document.rst:56
+msgid ""
+"Instructions for contributing in documentation and managing a git repository"
+" are available at `Documentation Guidelines "
+"<http://docs.qgis.org/testing/en/docs/documentation_guidelines/index.html>`_"
+msgstr ""
+
+#: ../../source/site/getinvolved/document.rst:60
+msgid "**Direct access to source file**"
+msgstr ""
+
+#: ../../source/site/getinvolved/document.rst:62
+msgid ""
+"To easily find the file to update in the repository, use the ``Fix me`` link"
+" provided at the bottom of any page of the ``Testing`` documentation. It "
+"directly opens the source file in your forked repo. Just make your changes, "
+"commit in a new branch and submit pull request to the main repository."
+msgstr ""
+
+#: ../../<rst_epilog>:2
+msgid "checkbox"
+msgstr "Valintaruutu"
+
+#: ../../<rst_epilog>:3
+msgid "checkbox_unchecked"
+msgstr ""

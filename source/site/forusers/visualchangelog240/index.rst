@@ -3,6 +3,8 @@
 Changelog for QGIS 2.4
 ======================
 
+Release date: 2014-06-27
+
 Change log for the next release of QGIS 2.4.0. The emphasis on this
 release has been very much on polish and performance - we have added
 many new features, tweaks and enhancements to make the user interface
@@ -22,7 +24,7 @@ to do so).
 
 From the QGIS community we hope you enjoy this release! If you wish to
 donate time, money or otherwise get involved in making QGIS more
-awesome, please wander along to `qgis.org <http://qgis.org>`__ and lend
+awesome, please wander along to `qgis.org <https://qgis.org>`__ and lend
 a hand!
 
 Finally we would like to thank our official sponsors for the invaluable
@@ -42,11 +44,11 @@ financial support they provide to this project:
 
 A current list of donors who have made financial contributions large and
 small to the project can be seen on our `donors
-list <http://qgis.org/en/site/about/sponsorship.html#list-of-donors>`__.
+list <https://qgis.org/en/site/about/sponsorship.html#list-of-donors>`__.
 
 If you would like to make a donation or sponsor our project, please
 visit `our sponsorship
-page <http://qgis.org/en/site/about/sponsorship.html#sponsorship>`__ for
+page <https://qgis.org/en/site/about/sponsorship.html#sponsorship>`__ for
 details. QGIS is
 Free software and you are under no obligation to do so. Sponsoring
 QGIS helps us to fund our six monthly developer meetings, maintain

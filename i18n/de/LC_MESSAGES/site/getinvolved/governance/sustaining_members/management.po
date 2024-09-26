@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, QGIS Contributors
+# This file is distributed under the same license as the QGIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# 
+# Translators:
+# Thomas Schüttenberg <thomas@qgis.de>, 2022
+# Laura Klement, 2022
+# Jürgen E. Fischer <jef@norbit.de>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS 3.28\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-26 19:38+0000\n"
+"PO-Revision-Date: 2019-07-12 14:28+0000\n"
+"Last-Translator: Jürgen E. Fischer <jef@norbit.de>, 2022\n"
+"Language-Team: German (https://www.transifex.com/qgis/teams/6144/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/site/getinvolved/governance/sustaining_members/management.rst:3
+msgid "Procedure for the management of sustaining members"
+msgstr "Verfahren für die Verwaltung von Fördermitgliedern"
+
+#: ../../source/site/getinvolved/governance/sustaining_members/management.rst:5
+msgid ""
+"first contact could be made to treasurer (finance@qgis.org) or another "
+"person within the PSC"
+msgstr ""
+"Erstkontakt kann mit dem Schatzmeister (finance@qgis.org) oder einer anderen"
+" Person des PSC aufgenommen werden"
+
+#: ../../source/site/getinvolved/governance/sustaining_members/management.rst:6
+msgid ""
+"the treasurer will clarify all details (such as contact information and "
+"address, permission to use organizations logo on our sustaining membership "
+"page) and will issue an invoice"
+msgstr ""
+"der Schatzmeister klärt alle Einzelheiten (wie Kontaktinformationen und "
+"Adresse, Erlaubnis zur Verwendung des Logos der Organisation auf unserer "
+"Seite für Fördermitglieder) und stellt eine Rechnung aus"
+
+#: ../../source/site/getinvolved/governance/sustaining_members/management.rst:7
+msgid "treasuer checks whether the payment has arrived"
+msgstr "Schatzmeister prüft, ob die Zahlung erfolgt ist"
+
+#: ../../source/site/getinvolved/governance/sustaining_members/management.rst:8
+msgid ""
+"management of sustaining members is done at our `Projecta website "
+"<https://changelog.qgis.org/en/qgis/members/list/>`_"
+msgstr ""
+"Die Verwaltung der Fördermitglieder erfolgt auf unserer `Projecta-Webseite "
+"<https://changelog.qgis.org/en/qgis/members/list/>`_"
+
+#: ../../source/site/getinvolved/governance/sustaining_members/management.rst:9
+msgid ""
+"sustaining members are sorted by level (flagship, large, medium, small) and "
+"the date they were introduced or renewed (newer ones first)"
+msgstr ""
+"Fördermitglieder werden nach Stufe (Flaggschiff, groß, mittel, klein) und "
+"dem Datum ihrer Aufnahme oder Erneuerung sortiert (neuere Mitglieder zuerst)"
+
+#: ../../source/site/getinvolved/governance/sustaining_members/management.rst:10
+msgid ""
+"past sustaining members are listed separately, only for a period of two "
+"years."
+msgstr ""
+"Die ehemaligen Fördermitglieder werden gesondert aufgeführt, allerdings nur "
+"für einen Zeitraum von zwei Jahren"
+
+#: ../../source/site/getinvolved/governance/sustaining_members/management.rst:11
+msgid ""
+"logos of flagship, large and medium sustaining members are included in the "
+"footer banner on our start page"
+msgstr ""
+"Logos von Flaggschiff-, großen und mittleren Fördermitgliedern werden im "
+"Footer-Banner auf unserer Startseite eingeblendet"
+
+#: ../../source/site/getinvolved/governance/sustaining_members/management.rst:12
+msgid "sustaining members are listed in our visual changelog"
+msgstr ""
+"Fördermitglieder sind in unseren illustrierten Änderungsprotokollen "
+"aufgeführt"
+
+#: ../../source/site/getinvolved/governance/sustaining_members/management.rst:13
+msgid "when appropriate, we will do some social media promotion."
+msgstr "Gegebenenfalls werden wir auch in den sozialen Medien Werbung machen."
+
+#: ../../<rst_epilog>:2
+msgid "checkbox"
+msgstr "Kontrollkästchen"
+
+#: ../../<rst_epilog>:3
+msgid "checkbox_unchecked"
+msgstr "checkbox_unchecked"

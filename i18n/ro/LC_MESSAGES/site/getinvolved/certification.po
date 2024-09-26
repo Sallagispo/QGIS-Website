@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, QGIS Contributors
+# This file is distributed under the same license as the QGIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# 
+# Translators:
+# Sorin Călinică <scalinica@gmail.com>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS 3.28\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-26 19:38+0000\n"
+"PO-Revision-Date: 2019-03-13 19:40+0000\n"
+"Last-Translator: Sorin Călinică <scalinica@gmail.com>, 2022\n"
+"Language-Team: Romanian (https://www.transifex.com/qgis/teams/6144/ro/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: ../../source/site/getinvolved/certification.rst:5
+msgid "Certification"
+msgstr "Certificare"
+
+#: ../../source/site/getinvolved/certification.rst:7
+msgid ""
+"The QGIS Certificate Program is designed to promote both community "
+"involvement in the QGIS project and quality education for QGIS software. As "
+"such the application process requires applicants to both detail their "
+"contributions to the QGIS project and make their training materials "
+"available for review. Contributions to the QGIS project include activities "
+"such as:"
+msgstr ""
+"Programul de Certificare QGIS are scopul de a promova atât implicarea "
+"comunității în proiectul QGIS, cât și instruirea de calitate în softul QGIS."
+" Ca atare, procesul de certificare cere solicitanților să detalieze atât "
+"contribuțiile lor la proiectul QGIS, cât și să transmită spre revizuire "
+"materialele de instruire. Contribuțiile la proiectul QGIS constau în "
+"activități precum:"
+
+#: ../../source/site/getinvolved/certification.rst:9
+msgid "Development/commits to QGIS"
+msgstr "Dezvoltări/commit-uri QGIS"
+
+#: ../../source/site/getinvolved/certification.rst:10
+msgid "Contributions to the QGIS documentation and training materials"
+msgstr "Contribuții la documentația QGIS și la materialele de instruire"
+
+#: ../../source/site/getinvolved/certification.rst:11
+msgid "Translation of QGIS materials"
+msgstr "Traducerea materialelor QGIS"
+
+#: ../../source/site/getinvolved/certification.rst:12
+msgid "Authoring plugins"
+msgstr "Dezvoltarea de plugin-uri"
+
+#: ../../source/site/getinvolved/certification.rst:13
+msgid "Filing bug reports"
+msgstr "Transmiterea rapoartelor de eroare"
+
+#: ../../source/site/getinvolved/certification.rst:14
+msgid "Financially supporting new feature development"
+msgstr "Sprijinirea financiară a dezvoltării unor noi funcțiuni"
+
+#: ../../source/site/getinvolved/certification.rst:15
+msgid "Financial contributions to and sponsorship of QGIS"
+msgstr "Contribuții financiare sau sponsorizarea QGIS"
+
+#: ../../source/site/getinvolved/certification.rst:16
+msgid "Involvement in your local QGIS User Group"
+msgstr "Implicarea în grupul local de utilizatori QGIS"
+
+#: ../../source/site/getinvolved/certification.rst:17
+msgid "Publication of open QGIS course ware"
+msgstr "Publicarea unor cursuri deschise de QGIS"
+
+#: ../../source/site/getinvolved/certification.rst:18
+msgid "Authoring QGIS books"
+msgstr "Scrierea unor cărți de QGIS"
+
+#: ../../source/site/getinvolved/certification.rst:20
+msgid ""
+"To contact the certification team, please write to certification@qgis.org."
+msgstr ""
+"Pentru a contacta echipa de certificare, vă rugăm să scrieți la "
+"certification@qgis.org."
+
+#: ../../source/site/getinvolved/certification.rst:24
+msgid "Certification Process"
+msgstr "Procesul de Certificare"
+
+#: ../../source/site/getinvolved/certification.rst:27
+msgid "Application"
+msgstr "Aplicație"
+
+#: ../../source/site/getinvolved/certification.rst:29
+msgid ""
+"You are required to provide the training material for each of your courses. "
+"This includes exercises, lectures and data. This material will be reviewed "
+"for currentness, accurate representation of the QGIS project and overall "
+"quality. If the material is not of adequate quality, this can be cause for "
+"refusal."
+msgstr ""
+"Vi se cere să furnizați materialul de formare pentru fiecare curs, inclusiv "
+"exercițiile, prelegerile și datele. Întregului material i se va evalua "
+"actualitatea, reprezentarea corectă a proiectului QGIS precum și calitatea "
+"generală. Lipsa unei calități adecvate reprezintă un motiv de refuz."
+
+#: ../../source/site/getinvolved/certification.rst:32
+msgid ""
+"Following an initial review, the application will be sent to local QGIS "
+"groups for their opinion. This portion of the review should take place in "
+"less than one month. If there is not a local QGIS user group the QGIS "
+"Project Steering Committee (PSC) will make a determination based on material"
+" provided and your reputation in the community. In this latter case you are "
+"encouraged to establish a local QGIS User Group. If you are not deemed to be"
+" a member of the QGIS community in good standing this can be cause for "
+"refusal."
+msgstr ""
+"În urma unei evaluării inițiale, solicitarea dvs. va fi trimisă grupurilor "
+"locale QGIS, în vederea avizării. Această etapă ar trebui să dureze mai "
+"puțin de o lună. Dacă nu există un grup de utilizatori QGIS local, Comitetul"
+" de Coordonare a Proiectului QGIS (PSC) va face o determinare pe baza "
+"materialelor furnizate și a reputației dvs. în comunitate. În acest ultim "
+"caz, sunteți încurajat să înființați un grup local de utilizatori QGIS. "
+"Contestarea calității dvs. de membru al comunității QGIS poate reprezenta un"
+" alt motiv de refuz."
+
+#: ../../source/site/getinvolved/certification.rst:34
+msgid ""
+"The PSC will make the final determination. If accepted as a QGIS Certified "
+"Organization your contributions to the project will be published for "
+"transparency."
+msgstr ""
+"PSC va efectua determinarea finală. Dacă veți fi acceptat ca Organizație "
+"Certificată QGIS, contribuțiile dvs. la proiect vor fi publicate, pentru "
+"transparență."
+
+#: ../../source/site/getinvolved/certification.rst:36
+msgid ""
+"If approved you are required to pay a €20 certification fee to the QGIS "
+"project for each certificate you issue. This creates a mechanism for "
+"financial support of the project. Payments for certificates are made either "
+"using online credit card transactions or on request by regular invoice and "
+"SEPA wire transfer. Payments can be handled in batches for many certificates"
+" at once."
+msgstr ""
+"În urma aprobării, aveți obligația de a plăti proiectului QGIS o taxă de 20 "
+"€ pentru pentru fiecare certificat pe care îl eliberați. În acest mod se "
+"creează un mecanism de sprijin financiar al proiectului. Plățile pentru "
+"certificate se fac fie utilizând tranzacții online cu cardul de credit, fie "
+"prin factură și transfer bancar SEPA. Plățile se pot efectua și per total, "
+"în cazul unui lot de certificate."
+
+#: ../../source/site/getinvolved/certification.rst:39
+msgid ""
+"You can apply through `this form <certification_link_>`_ (make sure to first"
+" create a `login <certification_login_>`_). You can find more details about "
+"the certification programme `here <certification_details_>`_ (we advise you "
+"to read this before registering)."
+msgstr ""
+"Puteți aplica prin intermediul `acestui formular <certification_link_>`_ "
+"(creați-vă mai întâi un `cont de autentificare <certification_login_>`_). "
+"Puteți găsi mai multe detalii despre programul de certificare `aici "
+"<certification_details_>`_ (vă sfătuim să faceți acest lucru înainte de "
+"înregistrare)."
+
+#: ../../source/site/getinvolved/certification.rst:47
+msgid "Course Certification Workflow"
+msgstr "Fluxul de Lucru pentru Certificarea Cursului"
+
+#: ../../source/site/getinvolved/certification.rst:52
+msgid "Workflow Certification"
+msgstr "Certificarea Fluxului de Lucru"
+
+#: ../../<rst_epilog>:2
+msgid "checkbox"
+msgstr "checkbox"
+
+#: ../../<rst_epilog>:3
+msgid "checkbox_unchecked"
+msgstr "checkbox_unchecked"

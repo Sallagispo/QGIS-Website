@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, QGIS Contributors
+# This file is distributed under the same license as the QGIS package.
+# 
+# Translators:
+# Francis Gasc <francisgasc@gmail.com>, 2020
+# Harrissou Sant-anna, 2022
+# MarieSilvestre, 2014,2016,2020
+# Harrissou Sant-anna, 2014-2016
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Website\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-26 19:38+0000\n"
+"PO-Revision-Date: 2014-10-19 11:14+0000\n"
+"Last-Translator: Harrissou Sant-anna, 2022\n"
+"Language-Team: French (http://www.transifex.com/qgis/qgis-website/language/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/site/getinvolved/document.rst:4
+msgid "Write Documentation"
+msgstr "Ecrire de la documentation"
+
+#: ../../source/site/getinvolved/document.rst:6
+msgid ""
+"The update of the QGIS documentation is managed by the :ref:`Community Team "
+"Lead <community-resources>`. Have a look at the :ref:`QGIS Governance "
+"<whoiswho>` to find out who is in charge of guiding you."
+msgstr "La mise à jour de la documentation de QGIS est gérée par la :ref:`Community Team Lead <community-resources>`. Vous pouvez regarder la :ref:`QGIS Governance <whoiswho>` pour trouver la personne en charge de vous guider."
+
+#: ../../source/site/getinvolved/document.rst:10
+msgid ""
+"The complete list of documents managed by the QGIS documentation team can be"
+" found at https://www.qgis.org/en/docs/index.html. A list of documenters can"
+" be found at https://github.com/qgis/QGIS-Documentation/graphs/contributors."
+msgstr "La liste complète des documents gérés par l'équipe Documentation de QGIS est accessible à https://www.qgis.org/en/docs/index.html. Une liste des rédacteurs est disponible à https://github.com/qgis/QGIS-Documentation/graphs/contributors."
+
+#: ../../source/site/getinvolved/document.rst:17
+msgid "Documentation Mailing list"
+msgstr "Liste de diffusion de la documentation"
+
+#: ../../source/site/getinvolved/document.rst:19
+msgid ""
+"If you plan to contribute to QGIS documentation, see :ref:`becoming-"
+"documenter`. For other related questions, please contact the "
+":ref:`Documentation Team Leader <community-resources>` or subscribe with the"
+" `qgis-community-team <http://lists.osgeo.org/mailman/listinfo/qgis-"
+"community-team>`_ mailing list."
+msgstr "Si vous souhaitez contribuer à la rédaction de la documentation de QGIS, allez :ref:`becoming-documenter`. Pour toute autre question relative à la documentation, contactez le :ref:`Documentation Team Leader <community-resources>` ou abonnez vous à la liste de diffusion `qgis-community-team <http://lists.osgeo.org/mailman/listinfo/qgis-community-team>`_."
+
+#: ../../source/site/getinvolved/document.rst:24
+msgid ""
+"After subscribing to the mailing list you are able to send a mail directly "
+"to qgis-community-team@lists.osgeo.org asking for help."
+msgstr "Après vous être abonné à la liste de diffusion, vous pouvez envoyer un e-mail directement à qgis-community-team@lists.osgeo.org pour demander de l'aide."
+
+#: ../../source/site/getinvolved/document.rst:27
+msgid ""
+"We strongly encourage anyone dealing with documentation and its translations"
+" to join this list and promise that it is usually a very low traffic mailing"
+" list."
+msgstr "Nous recommandons vigoureusement aux personnes impliquées dans la documentation et sa traduction de rejoindre cette liste, dont le trafic est très bas."
+
+#: ../../source/site/getinvolved/document.rst:30
+msgid ""
+"The other available mailing lists can be found at :ref:`QGIS-mailinglists`."
+msgstr "Les autres listes de diffusion disponibles peuvent être consultées sur :ref:`QGIS-mailinglists`."
+
+#: ../../source/site/getinvolved/document.rst:35
+msgid "Becoming a documenter"
+msgstr "Participer à la rédaction de la documentation"
+
+#: ../../source/site/getinvolved/document.rst:37
+msgid ""
+"The QGIS project is always looking for people who are willing to invest some"
+" more time updating QGIS documentation and translating it into a foreign "
+"language - even perhaps to coordinate the update and translation effort."
+msgstr "Le projet QGIS est constamment à la recherche de personnes prêtes à consacrer de leur temps à la mise à jour de la documentation de QGIS et sa traduction dans une autre langue - ou pourquoi pas, à coordonner l'effort de traduction et de mise à jour."
+
+#: ../../source/site/getinvolved/document.rst:41
+msgid ""
+"We are trying to improve our project management process and spread the load "
+"more evenly between people who each have a specific area of responsibility, "
+"so any contribution you have to make will be greatly appreciated."
+msgstr "Nous essayons d'améliorer notre processus de management de projet et de répartir la charge de travail plus équitablement entre les personnes en charge de différents éléments, donc toute contribution de votre part sera grandement appréciée."
+
+#: ../../source/site/getinvolved/document.rst:45
+msgid ""
+"The complete list of documents managed by the QGIS Documentation Team can be"
+" found at https://www.qgis.org/en/docs/index.html. All the documentation "
+"sources are hosted in `QGIS-Documentation repository "
+"<https://github.com/qgis/QGIS-Documentation>`_. If you want to update some "
+"features in QGIS or document new ones, you need to:"
+msgstr "La liste complète des documents gérés par l'équipe Documentation de QGIS est accessible à https://www.qgis.org/en/docs/index.html. Les fichiers sources de cette documentation se trouvent dans le `dépôt QGIS-Documentation <https://github.com/qgis/QGIS-Documentation>`_. Si vous souhaitez y améliorer la description de certaines fonctionnalités ou en décrire de nouvelles, vous devrez :"
+
+#: ../../source/site/getinvolved/document.rst:51
+msgid "have a `GitHub account <https://github.com/join>`_"
+msgstr "avoir un `compte GitHub <https://github.com/join>`_"
+
+#: ../../source/site/getinvolved/document.rst:52
+msgid ""
+"`fork the repository <https://help.github.com/articles/working-with-"
+"forks/>`_"
+msgstr "`cloner le dépôt <https://help.github.com/articles/working-with-forks/>`_"
+
+#: ../../source/site/getinvolved/document.rst:53
+msgid "do your changes"
+msgstr "faites vos modifications"
+
+#: ../../source/site/getinvolved/document.rst:54
+msgid "and submit a pull request."
+msgstr "et soumettez une pull request."
+
+#: ../../source/site/getinvolved/document.rst:56
+msgid ""
+"Instructions for contributing in documentation and managing a git repository"
+" are available at `Documentation Guidelines "
+"<http://docs.qgis.org/testing/en/docs/documentation_guidelines/index.html>`_"
+msgstr "Vous trouverez des instuctions à suivre pour participer à la rédaction de la documentation et pour bien gérer un dépôt git dans les `Recommandations pour la Documentation  <http://docs.qgis.org/testing/en/docs/documentation_guidelines/index.html>`_"
+
+#: ../../source/site/getinvolved/document.rst:60
+msgid "**Direct access to source file**"
+msgstr "**Accès direct au fichier source**"
+
+#: ../../source/site/getinvolved/document.rst:62
+msgid ""
+"To easily find the file to update in the repository, use the ``Fix me`` link"
+" provided at the bottom of any page of the ``Testing`` documentation. It "
+"directly opens the source file in your forked repo. Just make your changes, "
+"commit in a new branch and submit pull request to the main repository."
+msgstr "Pour trouver facilement un fichier à mettre à jour, utilisez le lien ``Fix me`` qui se trouve en bas de chaque page de la documentation version ``Testing``. Il pointe directement sur le fichier source de votre dépôt. Faites vos modifications, votre commit dans une nouvelle branche et soumettez une \"pull request\" au dépôt principal."
+
+#: ../../<rst_epilog>:2
+msgid "checkbox"
+msgstr "checkbox"
+
+#: ../../<rst_epilog>:3
+msgid "checkbox_unchecked"
+msgstr "case décochée"

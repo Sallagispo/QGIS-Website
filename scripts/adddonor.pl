@@ -17,13 +17,14 @@ close I;
 
 while(<>) {
 	chop;
+	s/^\s*([A-Z0-9])\. /$1\\. /;
 	$donors{lc $_} = $_;
 }
 
 open O, ">source/site/about/donors.inc";
 print O ".. list-table:: List of Donors\n\n";
 
-my $cols = 3;
+my $cols = 4;
 
 my $i=0;
 foreach ( sort { lc($a) cmp lc($b) } keys %donors ) {

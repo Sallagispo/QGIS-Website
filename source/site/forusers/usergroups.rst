@@ -10,37 +10,60 @@ Current list of QGIS user groups
 
 **Registered 2016 or earlier**
 
-* `QGIS Brasil (Brazil) - contact: Arthur Nanni <http://qgisbrasil.org/>`_
-* `QGIS Brugergruppe Danmark (Denmark) - contact: Jacob Arpe <http://qgis.dk/>`_
-* `QGIS UK (England) - contact: Simon Miles <http://qgis.uk/>`_
-* `QGIS Anwendergruppe Deutschland (Germany) - contact: Thomas Schüttenberg <http://qgis.de/>`_
+* `QGIS Brasil (Brazil) - contact: Arthur Nanni <https://qgisbrasil.org/>`_
+* `QGIS Brugergruppe Danmark (Denmark) - contact: Jacob Arpe <https://qgis.dk/>`_
+* `QGIS UK (England) - contact: Simon Miles <https://uk.osgeo.org/qgis.html>`_
+* `QGIS Anwendergruppe Deutschland (Germany) - contact: Thomas Schüttenberg <https://qgis.de/>`_
 * `Gruppo degli utenti italiani di QGIS (Italy) - contact: Matteo Ghetta <http://qgis.it/>`_
 * `QGIS User Group Japan (OSGeo.JP) - contact: Kosuke ASAHI <http://qgis.jp/>`_
-* `NIWA QGIS user group (New Zealand) - contact: Brent Wood <https://teamwork.niwa.co.nz/display/NQUG/NIWA+QGIS+Users+Group>`_
-* `Lima Perú QGIS User Group (Peru) - contact: Anibal Alarcon <http://qgis.pe/>`_
-* `Polska Grupa Użytkowników QGIS (Poland) - contact: Milena Nowotarska <http://qgis.pl/>`_
-* `QGIS Portugal - contact: João Gaspar <http://qgis.pt/>`_
-* `QGIS UK (Scotland) - contact: Ross McDonald <https://qgis.uk/>`_
-* `QGIS user group Switzerland - contact: Hans-Jörg Stark <https://qgis.ch/>`_
-* `QGIS UK (Wales/Cymru) - contact: Kevin Williams <http://qgis.uk/>`_
+* `QGIS Perú Official Users Group - contact: Anibal Alarcon <https://qgis.pe/>`_
+* `Polska Grupa Użytkowników QGIS (Poland) - contact: Milena Nowotarska <https://qgis.pl/>`_
+* `QGIS Portugal - contact: João Gaspar <https://qgis.pt/>`_
+* `QGIS UK (Scotland) - contact: Ross McDonald <https://uk.osgeo.org/qgis.html>`_
+* `QGIS user group Switzerland - contact: Isabel Kiefer <https://qgis.ch/>`_
+* `QGIS UK (Wales/Cymru) - contact: Kevin Williams <https://uk.osgeo.org/qgis.html>`_
+* `NIWA QGIS user group (New Zealand) - contact: Brent Wood --> REMOVED in 2018 <https://teamwork.niwa.co.nz/display/NQUG/NIWA+QGIS+Users+Group>`_
 
 
 **Registered 2017**
 
-* `QGIS Norge (Norway) - contact: Antonio Armas Diaz <http://qgis.no/>`_
-* `QGIS ZA (South Africa) - contact: Admire Nyakudya <http://qgis.org.za/>`_
-* `Groupe des Utilisateurs de QGIS - France (France) - contact: Harrissou Sant-anna <http://osgeo.asso.fr/content/project/qgis-user-fr/>`_
-* `QGIS Sverige (Sweden) - contact: Karl-Magnus Jönsson <http://qgis.se/>`_
-* `QGIS Georgia - contact: Zurab Archvadze <http://qgis.org>`_
-* `QGIS Kenya - contact: Benard Mitto <https://www.facebook.com/qgisKE/>`_
-* `QGIS Australia - contact: Andrew Jeffrey <http://qgis-au.org>`_
+* `QGIS Norge (Norway) - contact: Antonio Armas Diaz <https://qgis.no/>`_
+* `QGIS ZA (South Africa) - contact: Admire Nyakudya <https://qgis.org.za/>`_ (certificate expired 2019-01-24)
+* `Groupe des Utilisateurs de QGIS - France (France) - contact: Harrissou Sant-anna <https://www.osgeo.fr/>`_
+* `QGIS Sverige (Sweden) - contact: Karl-Magnus Jönsson <https://qgis.se/>`_
+* `QGIS Kenya - contact: Benard Mitto <https://qgis.or.ke>`_
+* `QGIS Australia - contact: Emma Hain <https://qgis-australia.org/>`_
 * `QGIS USA - contact: Kurt Menke <http://qgis.us>`_
-* `QGIS Mexico - contact: Hennessy Amor Becerra Ayala <https://www.facebook.com/qgismexico/>`_
+* `QGIS Mexico - contact: Hennessy Amor Becerra Ayala <https://qgis.mx>`_
+* `QGIS Georgia - contact: Zurab Archvadze --> REMOVED in 2018 <https://qgis.org>`_
 
 **Registered 2018**
 
-* `Asociația Utilizatorilor QGIS (Romania) - contact: Tudor Bărăscu <http://qgis.ro/>`_
+* `Asociația Utilizatorilor QGIS (Romania) - contact: Tudor Bărăscu <https://qgis.ro/>`_
+* `Association of QGIS users in Spain - contact: Carlos López Quintanilla <https://qgis.es/>`_
+* `Grupo de Usuarios QGIS Colombia - contact: Germán Carrillo <https://qgisusers.co>`_
 
+**Removed 2018**
+
+* `NIWA QGIS user group (New Zealand) - contact: Brent Wood <https://teamwork.niwa.co.nz/display/NQUG/NIWA+QGIS+Users+Group>`_
+* `QGIS Georgia - contact: Zurab Archvadze <https://qgis.org>`_ 
+
+**Registered 2020**
+
+* `QGIS gebruikersgroep (Netherlands) - contact: Raymond Nijssen <https://qgis.nl/>`_
+* `Asociación QGIS México - contact: Hennessy Amor Becerra Ayala <https://qgis.org.mx/>`_
+* `Komunitas Pengguna QGIS Indonesia - contact: Ismail Sunni <https://qgis-id.github.io/>`_
+* `QGIS Slovensko (Slovakia) - contact: Jana Michalkova <https://qgis.sk/>`_
+* `Grupo de usuarios QGIS Ecuador - contact: Adrián Benavides <https://qgis.ec/>`_
+
+**Registered 2021**
+
+* `QGIS Anwendergruppe Österreich (Austria) - contact: Paul Stampfl <https://qgis.at/>`_
+* `QGIS Ghana - contact: Enock Seth Nyamador <https://qgisghana.org/>`_
+
+**Registered 2022**
+
+* `QGIS Argentina - contact: Ariel Anthieni <https://qgis.ar/>`_
 
 Goals of a user group
 ---------------------
@@ -69,15 +92,13 @@ Depending on your country, a smaller legal entity, e.g. an association, could be
 
 Statutes of the Swiss QGIS user group as an example:
 
-* german (master): http://www.qgis.ch/de/verein/statuten-der-qgis-anwendergruppe-schweiz
-* english (translation): http://www.qgis.ch/en/association/statutes-of-the-swiss-qgis-user-group
-* french (translation): http://www.qgis.ch/fr/association/statuts-du-groupe-d2019utilisateurs-qgis-suisse
+* german (master): https://www.qgis.ch/assets/pdf/StatutenderQGISAnwendergruppeSchweiz.pdf
+* french (translation): https://www.qgis.ch/assets/pdf/StatutsdugroupedutilisateursQGISSuisse.pdf
 
 Membership application forms:
 
-* german: http://www.qgis.ch/de/verein/beitrittserklaerung
-* english: http://www.qgis.ch/en/association/qgis-usergroup-switzerland-membership-application-form
-* french: http://www.qgis.ch/fr/association/declaration-d2019adhesion
+* german: https://www.qgis.ch/assets/pdf/QGIS%20Usergruppe%20Beitrittserklaerung.pdf
+* french: https://www.qgis.ch/assets/pdf/QGIS%20groupe%20d%20utilisateurs%20Suisse%20declaration%20d%20adhesion.pdf
 
 You can use these statutes and membership application forms as an idea
 or reference and change them to your local situation.
@@ -87,3 +108,7 @@ Local Country domain qgis.xx
 
 It is recommended to register your local country domains, e.g. qgis.ch or qgis.uk. If the domain is already taken by someone other organization, company or person please negotiate if you can transfer the owner to the local QGIS user group. The QGIS international project has registered QGIS as a trademark, which should help you during your negotations.
 
+Website template
+----------------
+
+if you do not wish to host and design from scratch the group website, you can use the template provided at https://github.com/qgis/qgis-template.github.io

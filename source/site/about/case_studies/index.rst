@@ -16,6 +16,22 @@ Short Introduction with background of the company / institute / authority / univ
 Story about your project/application and what QGIS is used for (length about 400 words plus screenshots)
 Conclusion showing positive experiences/benefits using QGIS (length about 200 words)
 
+2023
+....
+
+.. toctree::
+   :maxdepth: 1
+
+   [2023/01] Ukrainian open initiative of creating tools for spatial planning in the QGIS environment <ukrainian_spt>
+
+2019
+....
+
+.. toctree::
+   :maxdepth: 1
+
+   [2019/02] QGIS for distance learning and teaching GIS at Universities <australia_distance_learning>
+
 2017
 ....
 

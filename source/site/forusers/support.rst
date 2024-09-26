@@ -12,17 +12,6 @@ QGIS has a bunch of mailing lists. See :ref:`QGIS-mailinglists` for the differen
 If you are going to ask questions please read this: :ref:`how-to-ask-a-QGIS-question`.
 
 
-Searchable Mailing Lists
-------------------------
-
-Nabble (http://nabble.com) keeps a history of a lot of mailinglists.
-
-If you go to
-the osgeo section of it: http://osgeo-org.1560.x6.nabble.com/ you see there is a
-QGIS section also, where you can do a search over all QGIS lists, or refine it
-to e.g. only the users list.
-
-
 StackExchange
 -------------
 
@@ -31,15 +20,31 @@ tag ``qgis`` you'll see all QGIS related questions and answers:
 http://gis.stackexchange.com/?tags=qgis
 
 
-Chat
-----
+Communication channels
+----------------------
 
-A lot of the development buzz will be spoken on IRC.
+Telegram
+........
 
-There is a #qgis channel on freenode.net.
-You can also use a web interface: http://webchat.freenode.net/?channels=#qgis
-If you missed a discussion on IRC, not a problem! We log all discussion, so you
-can easily catch up. Just go to http://qgis.org/irclogs.
+There is a lot of user and community related chat (english spoken) on the Telegram channel you can join here:
+https://t.me/joinchat/Aq2V5RPoxYYhXqUPoxRWPQ
+
+To join: install Telegram on your phone, register and join via link above.
+
+There is also a web version (https://web.telegram.org) which you can join in the browser (after you joined telegram via your phone(number)).
+
+Matrix / IRC
+.............
+
+Matrix (https://matrix.org) is a project for decentralised chat. QGIS has a room accessible by the **#qgis:osgeo.org** alias (among others) which bridges to the libera.chat **#qgis** IRC channel.
+
+To use Matrix: create an account (at matrix.org is easiest, but if you have an OSGeo account you can also `use your OSGeo id as matrix id <https://wiki.osgeo.org/wiki/Matrix#Connecting_to_the_OSGeo_Matrix_Homeserver>`_), install a client (Elements is easiest, but see https://matrix.org/docs/projects/try-matrix-now/#clients for more), OR point your browser to `https://matrix.to/#/#qgis:osgeo.org <https://matrix.to/#/#qgis:osgeo.org>`_
+
+To use IRC: install an IRC client and connect to irc://irc.libera.chat/#qgis or point your browser to https://web.libera.chat/?channels=#qgis
+
+Facebook
+........
+For Facebook users, an english-speaking global community group for QGIS users can be found at https://www.facebook.com/groups/qgiscommunityofficialvirtualgroup
 
 
 User Groups
@@ -78,13 +83,3 @@ Commercial Support
 ------------------
 
 You can also get support from companies near you, please visit this page: :ref:`QGIS-commercial_support`.
-
-
-Forums
-------
-
-QGIS does not have a forum. Please either search in StackExchange (see below),
-or via http://nabble.com in the history of our Mailinglists (see above).
-
-For non-english, note that there also exist local forums that have a dedicated
-section for QGIS you may need to search in.

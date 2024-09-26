@@ -1,0 +1,50 @@
+name: Push strings to transifex
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+# Allow one concurrent deployment
+concurrency:
+  group: "tx_push"
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install deps
+        run: |
+          pip install -r REQUIREMENTS.txt
+
+      - name: Install Transifex client
+        run: |
+          curl -OL https://github.com/transifex/cli/releases/download/v1.3.1/tx-linux-amd64.tar.gz
+          tar -xvzf tx-linux-amd64.tar.gz
+
+      - name: Generate translation sources
+        run: |
+          make pretranslate
+          ./scripts/create_transifex_resources.sh
+
+      - name: Push translations
+        env:
+          tx_token: ${{ secrets.TX_TOKEN }}
+        run: |
+          TX_TOKEN=$tx_token ./tx push -s
+
+      - name: Update .tx/config if changed
+        run: |
+          git config --global user.name 'Transifex update'
+          git config --global user.email 'tx-update@users.noreply.github.com'
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          if git add .tx/config && git commit -m "Adjust .tx/config"; then
+            git push
+          else
+            echo ".tx/config unchanged"
+          fi

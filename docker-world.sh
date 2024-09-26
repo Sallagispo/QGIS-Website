@@ -24,20 +24,26 @@ git stash drop
 git pull
 
 # only languages which have translations in transifex
-: ${langs:=en ca da de es fa fi fr gl hu id it ja km_KH ko lt nl pl pt_BR pt_PT ro tr ru uk zh_CN}
+: ${langs:=en ca da de es fa fi fr gl hu id it ja km_KH ko lt nl pl pt_BR pt_PT ro tr ru uk zh-Hans zh-Hant}
 
 # if you only want to build one language, do:
 # $ langs=de ./docker-world.sh
 
 for l in $langs
   do
-    time /bin/bash ./docker-run.sh $TARGET LANG=$l
-    #time rsync -hvrzc -e ssh --progress output/html/$l qgis.osgeo.osuosl.org:/var/www/qgisdata/QGIS-Website/live/html
-    # 1 dec 2017: sync to qgis2
-    time rsync -hvrzc --progress output/html/$l /var/www/qgisdata/QGIS-Website/live/html
+    ./docker-run.sh $TARGET LANG=$l
+    build_ok=$?
+    if [[ "$build_ok" = "0" ]]; then
+      echo "Build OK: syncing to web"
+      # 20220317: sync to www2.qgis.org
+      time rsync -hvrzc --delete --progress output/html/$l www2.qgis.org:/var/www/qgisdata/QGIS-Website/live/html
+    else
+      echo "Build FAILED: not syncing to web";
+    fi
   done
 
-time rsync -hvzc -e ssh --progress output/html/version.txt /var/www/qgisdata/QGIS-Website/live/html
+# 20220317: sync to www2.qgis.org
+time rsync -hvzc -e ssh --progress output/html/version.txt output/html/version-ltr.txt output/html/version.json source/schedule.ics www2.qgis.org:/var/www/qgisdata/QGIS-Website/live/html
 
 now=`date`
 echo "Finished: $now"

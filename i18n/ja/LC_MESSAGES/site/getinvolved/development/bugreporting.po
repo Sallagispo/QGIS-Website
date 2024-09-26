@@ -1,0 +1,342 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, QGIS Contributors
+# This file is distributed under the same license as the QGIS package.
+# 
+# Translators:
+# fairtommy <fairtommy@gmail.com>, 2018,2022
+# fairtommy <fairtommy@gmail.com>, 2017-2018
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Website\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-26 19:38+0000\n"
+"PO-Revision-Date: 2016-03-05 14:48+0000\n"
+"Last-Translator: fairtommy <fairtommy@gmail.com>, 2018,2022\n"
+"Language-Team: Japanese (http://www.transifex.com/qgis/qgis-website/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:5
+msgid "Bugs, Features and Issues"
+msgstr "バグ、機能と既知問題"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:7
+msgid ""
+"QGIS is a largely volunteer driven project, and is the work of a dedicated "
+"team of developers, documenters, translators and supporters. Despite the "
+"efforts of the team to release QGIS without bugs, there may remain some "
+"bugs. If you find a bug or want new features to be added, please report it!"
+msgstr "QGISは主にボランティアにより運営されるプロジェクトで、開発者は、文書作成、翻訳者や支持者の専門チームの仕事です。チームではバグのないQGISをリリースしようと努力しておりますが、それでもバグが残っているかもしれません。バグを見つけたり新しい機能を追加したい場合は、ぜひご報告ください！"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:13
+msgid "Where to report?"
+msgstr "どこに報告？"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:15
+msgid ""
+"Each part of the QGIS Project has a dedicated place where issues (feature "
+"requests or bugs) can be reported, managed and discussed. Depending on the "
+"area you encountered the issue, the table below indicates the right "
+"repository to report it:"
+msgstr "QGISプロジェクトの各部分について、問題（機能要求やバグ）を報告、管理、および議論できる専用の場所があります。問題に遭遇した分野に応じて、以下の表はそれを報告するための正しいリポジトリを示しています："
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:20
+msgid "Place you found the bug or request a feature for"
+msgstr "バグを見つけた場所、または次の機能を要求した場所"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:20
+msgid "Place to report the issue"
+msgstr "問題を報告する場所"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:22
+msgid "Applications (QGIS Desktop, QGIS Server)"
+msgstr "アプリケーション（QGISデスクトップ、QGISサーバー）"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:22
+#: ../../source/site/getinvolved/development/bugreporting.rst:25
+msgid "https://github.com/qgis/QGIS/issues"
+msgstr "https://github.com/qgis/QGIS/issues"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:23
+msgid "QGIS Website (https://qgis.org)"
+msgstr "QGIS ウェブサイト(https://qgis.org)"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:23
+msgid "https://github.com/qgis/QGIS-Website/issues"
+msgstr "https://github.com/qgis/QGIS-Website/issues"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:24
+msgid "QGIS Documentation (https://docs.qgis.org)"
+msgstr "QGIS文書(https://docs.qgis.org)"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:24
+msgid "https://github.com/qgis/QGIS-Documentation/issues"
+msgstr "https://github.com/qgis/QGIS-Documentation/issues"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:25
+msgid "C++ API (https://qgis.org/api)"
+msgstr "C++ API (https://qgis.org/api)"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:26
+msgid "PyQGIS API  (https://qgis.org/pyqgis)"
+msgstr "PyQGIS API  (https://qgis.org/pyqgis)"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:26
+msgid ""
+"https://github.com/qgis/QGIS/issues (for contents) and "
+"https://github.com/qgis/pyqgis/issues (for formatting)"
+msgstr "https://github.com/qgis/QGIS/issues （内容について）および https://github.com/qgis/pyqgis/issues （形式について）"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:28
+msgid "External plugins"
+msgstr "外部プラグイン"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:28
+msgid "The author repository set in the plugin description"
+msgstr "プラグインの説明で設定された著者リポジトリ"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:32
+msgid "For help and questions, please contact the :ref:`QGIS-mailinglists`."
+msgstr "ヘルプや質問については :ref:`QGISメーリングリスト` にご連絡ください。"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:35
+msgid "Reporting issues on QGIS applications"
+msgstr "QGISのアプリケーション上の問題を報告"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:37
+msgid ""
+"QGIS applications (QGIS Desktop and QGIS Server) issues are available in "
+"`Github <https://github.com/qgis/QGIS/issues>`_.  In order to submit or "
+"comment a report, you need to register and login."
+msgstr "QGISアプリケーション（QGISデスクトップおよびQGISサーバー）の問題は、 `Github <https://github.com/qgis/QGIS/issues>`_ で入手できます。レポートを送信またはコメントするには、登録してログインする必要があります。"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:43
+msgid "Before reporting an issue"
+msgstr "問題を報告する前に"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:45
+msgid ""
+"Before filing an issue, verify that you are running the currently supported "
+"versions |ltrrelease| or |release| or the development version |devversion| "
+"(see also :ref:`QGIS-release-schedule`) and review the currently open issues"
+" to make sure that you aren't creating a duplicate. If you have additional "
+"information on an issue, you can add it to the existing ticket. Third party "
+"plugins might also cause problems.  If you have installed any, you should "
+"also verify that the problem is still reproducible without them.  Please "
+"don't report multiple unrelated bugs in a single bug report."
+msgstr ""
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:55
+msgid ""
+"When you're are logged in, a ``New Issue`` button is available. Select it "
+"and follow the instructions there."
+msgstr ""
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:58
+msgid ""
+"Before sending the report, please check the formatting of your report by "
+"clicking on \"Preview\". Please avoid editing existing reports, if not for "
+"typos. Better add further comments in any other case."
+msgstr "レポートを送信する前に、「プレビュー」をクリックして、レポートの書式設定を確認してください。誤植がないかぎり既存のレポートの編集は避けてください。その他のどんな場合も、さらにコメントを追加するとより良い。"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:63
+msgid "Creating a backtrace"
+msgstr "バックトレースを作成する"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:65
+msgid ""
+"If you have a crash it might be useful to include a backtrace as the bug "
+"might be not reproducible on another machine."
+msgstr "クラッシュする場合は、そのバグを別のマシン上で再現できないかもしれないので、バックトレースを含めることが有益であるかもしれません。"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:68
+msgid ""
+"On Linux QGIS automatically tries to use ``gdb`` to connect to the crashing "
+"process to produce a backtrace. But some distributions disable the "
+"possiblity to connect debuggers to a running processes. In that case ``gdb``"
+" only produces a rather useless message like::"
+msgstr "LinuxではQGIS上で自動的にバックトレースを生成するためにクラッシュしたプロセスに接続するために ``gdb`` を使用しようとします。しかし、いくつかのディストリビューションでは、実行中のプロセスにデバッガを接続する可能性を無効化します。その場合には ``gdb`` のようなかなり役に立たないメッセージが作成されるだけです::"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:84
+msgid ""
+"In that case you should reenable that option by setting "
+"``kernel.yama.ptrace_scope`` to 0 in ``/etc/sysctl.d/10-ptrace.conf`` (or "
+"``/etc/sysctl.conf`` or some other file in ``/etc/sysctl.d/``) and run "
+"``sysctl -p`` as root. When you reproduce the crash after that, a backtrace "
+"will be printed instead."
+msgstr "その場合、 ``/etc/sysctl.d/10-ptrace.conf`` （または  ``/etc/sysctl.conf`` または ``/etc/sysctl.d/`` 中の何か他のファイル） 中の ``kernel.yama.ptrace_scope`` を０に設定し、rootとして ``sysctl -p`` を実行することで、そのオプションを再度有効にする必要があります。その後クラッシュを再現すると、バックトレースが代わりに印刷されます。"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:90
+msgid ""
+"If you cannot reproduce the crash, there should still be a core dump in the "
+"current directory, that can be analysed after the process has already "
+"terminated. It's called ``core`` (on some systems a dot and the process id "
+"is append to the filename)."
+msgstr "クラッシュを再現できない場合でも、現在のディレクトリにコア・ダンプがあるはずで、それはプロセスがすでに終了した後に分析できます。それは ``core`` と呼ばれています（ドットとプロセスIDがファイル名に追加されるシステムもある）。"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:95
+msgid ""
+"On some distributions the creation of core dumps is also disabled. In the "
+"event that you just get ``Aborted`` instead of ``Aborted (core dumped)`` "
+"when the crash occurs. Then you need to run ``ulimit -c unlimited`` before "
+"starting QGIS. You can also include that in your ``.profile``, so that it's "
+"always enabled when you login."
+msgstr "いくつかのディストリビューションではコアダンプの作成も無効にされています。その場合はクラッシュが発生したときに ``Aborted (core dumped)　中止（コアダンプが作成されました）`` でなく ``Aborted　中止`` とだけ出ます。そのときはQGISを起動する前に ``ulimit -c unlimited`` を実行する必要があります。ログインしたときにそれが常に有効になっているように、 ``.profile`` 中に入れておくこともできます。 "
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:101
+msgid ""
+"To produce a backtrace from the core file, start ``gdb "
+"/path/to/the/qgis/binary core``. The binary is usually ``/usr/bin/qgis`` or "
+"``/usr/bin/qgis.bin`` on Debian with the GRASS plugin installed. In ``gdb`` "
+"you run ``bt`` which will produce the backtrace."
+msgstr "コアファイルからバックトレースを生成するには ``gdb /path/to/the/qgis/binary core`` を開始します。バイナリは、通常GRASSプラグインのインストールされたDebianの ``/usr/bin/qgis`` または ``/usr/bin/qgis.bin`` にあります。 ``gdb`` では ``bt`` を実行しバックトレースを生成します。"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:107
+msgid "Log output on Windows"
+msgstr "Windows上でのログ出力"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:109
+msgid ""
+"The nightly build in OSGeo4W_ (package qgis-dev) is built with debugging "
+"output, that you can view with DebugView_. If the problem is not easy to "
+"reproduce the output might shed some light about where QGIS crashes."
+msgstr "OSGeo4W_でのナイトリービルド（パッケージQGIS-dev）はDebugView_で見ることができ、デバッグ出力で構築されています。問題を再現することが容易でない場合、この出力がQGISがクラッシュした場所についての何らかの手掛かりになることがあります。"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:119
+msgid "Reporting issues on QGIS web site or documentation"
+msgstr "QGISウェブサイトやマニュアルの問題点を報告"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:121
+msgid ""
+"QGIS project provides an active `web site <https://qgis.org>`_ and a rich "
+"`documentation <https://qgis.org/en/docs/index.html>`_. Despite our efforts,"
+" if you find an out of date information, a wrong or unclear statement or "
+"miss a valuable information, please feel free to report it."
+msgstr "QGISプロジェクトでは活発な `ウェブサイト <https://qgis.org>`_ と豊かな `文書 <https://qgis.org/en/docs/index.html>`_ を提供しています。私たちの努力にもかかわらず、古くなった情報や間違ったり不明瞭な文を見つけたとき、貴重な情報がないときは、お気軽にご報告ください。"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:126
+msgid ""
+"The main sources of these documents are hosted and managed in GitHub "
+"repositories so in order to report bugs or submit patches, you need a GitHub"
+" account and login."
+msgstr "これらの文書の主なソースはGitHubのリポジトリでホストされ、管理されています。ですからバグを報告したり、パッチを提出するためには、GitHubのアカウントとログインが必要です。"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:129
+msgid ""
+"To get started, first `Create a GitHub account <https://github.com/join>`_."
+msgstr "開始するには、まず、 `GitHubのアカウントを作成 <https://github.com/join>`_ 。"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:131
+msgid "Then, choose the appropriate repository:"
+msgstr "その後、適切なリポジトリを選択します。"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:133
+msgid ""
+"https://github.com/qgis/QGIS-Documentation/issues for QGIS documentation"
+msgstr "https://github.com/qgis/QGIS-Documentation/issues QGISドキュメントのための"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:134
+msgid "https://github.com/qgis/QGIS-Website/issues for the web site"
+msgstr "https://github.com/qgis/QGIS-Website/issues ウェブサイトのための"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:136
+msgid "Check if the issue you'd like to report is not already entered."
+msgstr "報告したい問題がすでに入力されていないか確認してください。"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:138
+msgid ""
+"Click **New Issue**, type a title and a clear description for your issue."
+msgstr "**新しい問題** をクリックして、問題についてタイトルおよび明確な説明を入力します。"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:140
+msgid "When you're finished, click **Submit new issue**."
+msgstr "設定が完了したら、**新しい問題を提出** をクリックしてください。"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:143
+msgid ""
+"A ``Fix me`` link is provided at the bottom of any page of the web site to "
+"help you directly improve this page and submit pull request."
+msgstr "``このページを修正`` リンクがウェブサイトのどのページの下部にも設けられており、直接このページを改善してプルリクエストを送信するために役立ちます。"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:146
+msgid "This option is also available in the footer of the documentation."
+msgstr "このオプションは、ドキュメントのフッターにも使用可能です。"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:149
+msgid "Reporting plugin issues"
+msgstr "プラグインの問題を報告する"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:151
+msgid ""
+"Most of the plugins in QGIS are published in the official `QGIS Plugins "
+"repository <https://plugins.qgis.org/plugins/>`_. Bugs or feature requests "
+"relative to them **must** be opened in their respective bug tracking system:"
+msgstr "QGISのプラグインのほとんどは、公式の `QGISプラグインリポジトリ <http://plugins.qgis.org/plugins/>`_ に掲載されています。それらに関連するバグや機能リクエストはそれぞれのバグトラッキングシステムで開か **なければなりません** ："
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:155
+msgid ""
+"For any plugin available in QGIS repository, you'll find in its metadata a "
+"link to its bug tracker. Otherwise, consult the plugin documentation to find"
+" the address of the relevant bug tracking system or a developer to contact."
+msgstr "QGISレポジトリで利用可能なプラグインに関しては、そのメタデータの中にそのバグトラッカーへのリンクがあります。それ以外の場合は、プラグインのマニュアルを参照して、関連するバグ追跡システムのアドレスまたは開発者に連絡してください。"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:159
+msgid ""
+"If no information is available, please report it to the `Developer mailing-"
+"list <https://lists.osgeo.org/mailman/listinfo/qgis-developer>`_."
+msgstr "情報がない場合は、 `開発者メーリングリスト <https://lists.osgeo.org/mailman/listinfo/qgis-developer>`_ に報告してください。"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:162
+msgid ""
+"For other plugins, we have no means to ensure such information are provided."
+msgstr "他のプラグインについては、そのような情報が提供されることを保証する手段はありません。"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:166
+msgid "Submitting a Patch to QGIS projects"
+msgstr "QGISプロジェクトにパッチを提出する"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:168
+msgid ""
+"In addition to issue report, you can help to fix issues. Fixing issues is "
+"done in GitHub through pull requests. You need to `fork the repository "
+"<https://help.github.com/articles/working-with-forks/>`_ you want to "
+"contribute to and submit pull requests at:"
+msgstr "問題の報告に加えて、問題の解決を助けることもできます。問題を修正することはプルリクエストを通じてGitHubの中で行われます。貢献したい `リポジトリをフォーク <https://help.github.com/articles/working-with-forks/>`_ する必要があります、以下でプルリクエストを提出します："
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:173
+msgid ""
+"https://github.com/qgis/QGIS for QGIS Desktop or QGIS Server applications"
+msgstr "QGIS デスクトップまたはQGIS サーバーアプリケーションについて https://github.com/qgis/QGIS"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:174
+msgid ""
+"https://github.com/qgis/QGIS-Website for the web site at https://qgis.org"
+msgstr "https://qgis.org でのウェブサイトについて https://github.com/qgis/QGIS-Website "
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:175
+msgid ""
+"https://github.com/qgis/QGIS-Documentation for the documentation available "
+"at https://docs.qgis.org"
+msgstr "https://github.com/qgis/QGIS-Documentation で入手可能なドキュメントの https://docs.qgis.org"
+
+#: ../../source/site/getinvolved/development/bugreporting.rst:178
+msgid ""
+"You can find a few guidelines that will help you to easily get your patches "
+"and pull requests into QGIS projects at `Submitting Pull Requests "
+"<https://docs.qgis.org/testing/en/docs/developers_guide/git.html#submitting-"
+"pull-requests>`_. And more widely, You may need to read the `Development "
+"Process <https://docs.qgis.org/testing/en/docs/developers_guide/git.html>`_ "
+"chapter."
+msgstr ""
+
+#: ../../<rst_epilog>:2
+msgid "checkbox"
+msgstr "checkbox"
+
+#: ../../<rst_epilog>:3
+msgid "checkbox_unchecked"
+msgstr "checkbox_unchecked"

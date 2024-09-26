@@ -1,18 +1,22 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, QGIS Contributors
+# This file is distributed under the same license as the QGIS package.
 # 
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: QGIS Website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-13 20:28\n"
-"PO-Revision-Date: 2015-08-19 06:59+0000\n"
-"Last-Translator: Richard Duivenvoorde <richard@duif.net>\n"
+"POT-Creation-Date: 2023-02-26 19:38+0000\n"
+"PO-Revision-Date: 2013-09-17 13:25+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/qgis/qgis-website/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
 "Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
 #: ../../source/site/about/case_studies/australia_queens.rst:3
 msgid "QGIS and GRASS in Local Government Bushfire Hazard Mapping"
@@ -21,6 +25,21 @@ msgstr "QGIS та GRASS у картографуванні лісових пож�
 #: ../../source/site/about/case_studies/australia_queens.rst:6
 msgid "Introduction"
 msgstr "Вступ"
+
+#: ../../source/site/about/case_studies/australia_queens.rst:8
+msgid ""
+"The Southern Downs Regional Council (SDRC) is a small-to-medium sized local "
+"government in south east Queensland, Australia. The council region, mainly "
+"the southern part, suffers from major bushfires. Bushfire is a real and "
+"present concern for the residents and landowners in the Southern Downs "
+"Region, and has resulted in the loss of life and property."
+msgstr "Регіональна рада Південного Даунс (Southern Downs Regional Council, SDRC) є невеликим органом місцевого самоврядування на південному сході Квінсленда, Австралія. Територія регіону, в основному південна її частина, страждає від великих лісових пожеж. Лісові пожежі це реальна та постійна загроза для жителів та землевласників Південного Даунсу, яка призводить до загибелі людей та втрати майна."
+
+#: ../../source/site/about/case_studies/australia_queens.rst:10
+msgid ""
+"This project will allow the council and the people of the region to be more "
+"aware of the risk and to allow for better decision making in the future."
+msgstr "Цей проект дозволить раді та жителям регіону отримувати інформацію про ризики та приймати правильні рішення в майбутньому."
 
 #: ../../source/site/about/case_studies/australia_queens.rst:18
 msgid "The Project"
@@ -68,44 +87,6 @@ msgstr "Кінцеві карти"
 msgid "The use of QGIS and GRASS"
 msgstr "Використання QGIS та GRASS"
 
-#: ../../source/site/about/case_studies/australia_queens.rst:49
-msgid "Conclusion"
-msgstr "Підсумки"
-
-#: ../../source/site/about/case_studies/australia_queens.rst:56
-msgid "References"
-msgstr "Посилання"
-
-#: ../../source/site/about/case_studies/australia_queens.rst:57
-msgid "[1] http://www.emergency.qld.gov.au/publications/spp/"
-msgstr "[1] http://www.emergency.qld.gov.au/publications/spp/"
-
-#: ../../source/site/about/case_studies/australia_queens.rst:61
-msgid "Author"
-msgstr "Автор"
-
-#: ../../source/site/about/case_studies/australia_queens.rst:70
-msgid ""
-"This article was contributed in January 2011 by Nathan Woodrow. Nathan is a "
-"GIS officer at the Southern Downs Regional Council and is studying an "
-"associates degree in Spatial Science at University of Souther Queensland"
-msgstr "Nathan Woodrow надіслав цю статтю у січні 2011 р. Він є ГІС-спеціалістом регіональної ради Південного Даунса та отримує ступінь з просторових наук в університеті Південного Квінсленду."
-
-#: ../../source/site/about/case_studies/australia_queens.rst:8
-msgid ""
-"The Southern Downs Regional Council (SDRC) is a small-to-medium sized local "
-"government in south east Queensland, Australia. The council region, mainly "
-"the southern part, suffers from major bushfires. Bushfire is a real and "
-"present concern for the residents and landowners in the Southern Downs "
-"Region, and has resulted in the loss of life and property."
-msgstr "Регіональна рада Південного Даунс (Southern Downs Regional Council, SDRC) є невеликим органом місцевого самоврядування на південному сході Квінсленда, Австралія. Територія регіону, в основному південна її частина, страждає від великих лісових пожеж. Лісові пожежі це реальна та постійна загроза для жителів та землевласників Південного Даунсу, яка призводить до загибелі людей та втрати майна."
-
-#: ../../source/site/about/case_studies/australia_queens.rst:10
-msgid ""
-"This project will allow the council and the people of the region to be more "
-"aware of the risk and to allow for better decision making in the future."
-msgstr "Цей проект дозволить раді та жителям регіону отримувати інформацію про ризики та приймати правильні рішення в майбутньому."
-
 #: ../../source/site/about/case_studies/australia_queens.rst:40
 msgid ""
 "QGIS, using the GRASS plugin, was selected as it provided the tools needed "
@@ -143,6 +124,10 @@ msgid ""
 "time in the future."
 msgstr "Оскільки всі алгоритми GRASS можуть виконуватися з командного рядка команди, необхідні для створення карти ризиків були записані з метою документування на випадок, якщо з'явиться необхідність створити нові карти в майбутньому."
 
+#: ../../source/site/about/case_studies/australia_queens.rst:49
+msgid "Conclusion"
+msgstr "Підсумки"
+
 #: ../../source/site/about/case_studies/australia_queens.rst:51
 msgid ""
 "Overall QGIS, together with the GRASS plugin, provided a great experience "
@@ -158,60 +143,38 @@ msgid ""
 "of Australia state planning awards in 2010 [2]"
 msgstr "Проект отримав заохочувальну нагороду Квінследського інституту планування Австралії у 2010 році [2]."
 
+#: ../../source/site/about/case_studies/australia_queens.rst:56
+msgid "References"
+msgstr "Посилання"
+
+#: ../../source/site/about/case_studies/australia_queens.rst:57
+msgid "[1] http://www.emergency.qld.gov.au/publications/spp/"
+msgstr "[1] http://www.emergency.qld.gov.au/publications/spp/"
+
 #: ../../source/site/about/case_studies/australia_queens.rst:58
 msgid ""
 "[2] http://digital.crowtherblayne.com.au/default.aspx?xml=crowther_pia.xml"
 msgstr "[2] http://digital.crowtherblayne.com.au/default.aspx?xml=crowther_pia.xml"
 
+#: ../../source/site/about/case_studies/australia_queens.rst:61
+msgid "Author"
+msgstr "Автор"
+
 #: ../../source/site/about/case_studies/australia_queens.rst:68
 msgid "Nathan Woodrow"
 msgstr "Nathan Woodrow"
 
-#~ msgid ""
-#~ "The Southern Downs Regional Council (SDRC) is a small-to-medium sized local "
-#~ "government in south east Queensland, Australia. The council region, mainly "
-#~ "the southern part, suffers from major bushfires. Bushfire is a real and "
-#~ "present concern for the residents and landowners in the Southern Downs "
-#~ "Region, and has resulted in the loss of life and property. This project will"
-#~ " allow the council and the people of the region to be more aware of the risk"
-#~ " and to allow for better decision making in the future."
-#~ msgstr ""
+#: ../../source/site/about/case_studies/australia_queens.rst:70
+msgid ""
+"This article was contributed in January 2011 by Nathan Woodrow. Nathan is a "
+"GIS officer at the Southern Downs Regional Council and is studying an "
+"associates degree in Spatial Science at University of Souther Queensland"
+msgstr "Nathan Woodrow надіслав цю статтю у січні 2011 р. Він є ГІС-спеціалістом регіональної ради Південного Даунса та отримує ступінь з просторових наук в університеті Південного Квінсленду."
 
-#~ msgid ""
-#~ "QGIS, using the GRASS plugin, was selected as it provided the tools needed "
-#~ "to complete the job and the interaction between QGIS and GRASS made it easy "
-#~ "to process the raster maps and present them in a meaningful way to users. "
-#~ "SDRC uses MapInfo for its main GIS system, however MapInfo’s addons were not"
-#~ " as powerful as GRASS GIS for raster processing. The QGIS GRASS plugin was "
-#~ "used to import 5 meter contours of the whole region into GRASS which were "
-#~ "then converted into a contour raster map using r.surf.contour. A slope and "
-#~ "aspect map were then generated using r.slope.aspect from the raster contour "
-#~ "map. Categories were assigned to different slope and aspect ranges and given"
-#~ " a hazard risk sore. Vegetation areas were also given different risk scores."
-#~ " All the resulting raster maps were then combined using mapcalc and given a "
-#~ "final risk hazard score. The risk scores are then divided into three main "
-#~ "categories: high; medium; and low."
-#~ msgstr ""
+#: ../../<rst_epilog>:2
+msgid "checkbox"
+msgstr ""
 
-#~ msgid ""
-#~ "The final part of the process was field verification via the rural fire "
-#~ "service. After the review process, QGIS was used to print the final maps for"
-#~ " presentation. As all GRASS commands can be run from the command line, all "
-#~ "the commands that were needed to generate the bushfire hazard maps were "
-#~ "recorded, for documentation purposes and for if the maps needed to be "
-#~ "regenerated some time in the future."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Overall QGIS, together with the GRASS plugin, provided a great experience "
-#~ "and a great final outcome for the council doing their own bushfire hazard "
-#~ "mapping. The GRASS plugin provides a very easy to use interface to GRASS "
-#~ "through QGIS. As QGIS is able to open the GRASS raster format natively, "
-#~ "integration is very seamless and maps can be made with ease. The project won"
-#~ " an encouragement award at the Queensland Planning Institute of Australia "
-#~ "state planning awards in 2010 [2]"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "[2]http://digital.crowtherblayne.com.au/default.aspx?xml=crowther_pia.xml"
-#~ msgstr ""
+#: ../../<rst_epilog>:3
+msgid "checkbox_unchecked"
+msgstr ""

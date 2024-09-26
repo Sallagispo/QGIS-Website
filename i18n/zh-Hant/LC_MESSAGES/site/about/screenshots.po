@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, QGIS Contributors
+# This file is distributed under the same license as the QGIS package.
+# 
+# Translators:
+# Supaplex <bejokeup@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Website\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-26 19:38+0000\n"
+"PO-Revision-Date: 2013-09-17 13:25+0000\n"
+"Last-Translator: Supaplex <bejokeup@gmail.com>, 2016\n"
+"Language-Team: Chinese Traditional (http://www.transifex.com/qgis/qgis-website/language/zh-Hant/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: zh-Hant\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../source/site/about/screenshots.rst:9
+msgid "Map Examples"
+msgstr "地圖例子"
+
+#: ../../source/site/about/screenshots.rst:11
+msgid ""
+"Here you can find a selection of maps created with QGIS. These maps come "
+"from the `QGIS maps - Flickr Group "
+"<http://www.flickr.com/groups/qgis/pool/>`_."
+msgstr "這邊你可以找一些用 QGIS 製作的地圖，這些地圖來自 `QGIS maps - Flickr Group <http://www.flickr.com/groups/qgis/pool/>`_."
+
+#: ../../source/site/about/screenshots.rst:14
+msgid ""
+"Map makers show off their creativity and the map making capabilities of "
+"QGIS:"
+msgstr "地圖製作者展現他們的創意，用 QGIS 的各項功能來製作地圖："
+
+#: ../../source/site/about/screenshots.rst:16
+msgid "Click on an image to see author and more information about the maps."
+msgstr "點選圖片看設計者和更多關於這張地圖的資訊。"
+
+#: ../../source/site/about/screenshots.rst:19
+msgid ":raw-html:`<p id=\"qgisflickrmapsatom\">&nbsp;</p>`"
+msgstr ":raw-html:`<p id=\"qgisflickrmapsatom\">&nbsp;</p>`"
+
+#: ../../source/site/about/screenshots.rst:22
+msgid ":raw-html:`<p style=\"clear:both\">&nbsp;</p>`"
+msgstr ":raw-html:`<p style=\"clear:both\">&nbsp;</p>`"
+
+#: ../../source/site/about/screenshots.rst:25
+msgid "Screenshots"
+msgstr "截圖"
+
+#: ../../source/site/about/screenshots.rst:27
+msgid ""
+"Below are some screenshots from QGIS itself and a selection of Maps which "
+"are created with QGIS."
+msgstr "下面是一些 QGIS 本身的螢幕截圖，以及部分使用 QGIS 創作的地圖。"
+
+#: ../../source/site/about/screenshots.rst:30
+msgid ""
+"These screenshots come from the `QGIS screenshots - Flickr Group "
+"<http://www.flickr.com/groups/qgis-screenshots/>`_. Click on an image to "
+"view more information."
+msgstr "這些截圖來自 `QGIS screenshots - Flickr Group <http://www.flickr.com/groups/qgis-screenshots/>`_.  點選一張圖片來看更多資訊。"
+
+#: ../../source/site/about/screenshots.rst:34
+msgid ":raw-html:`<p id=\"qgisflickrscreenshotsatom\">&nbsp;</p>`"
+msgstr ":raw-html:`<p id=\"qgisflickrscreenshotsatom\">&nbsp;</p>`"
+
+#: ../../<rst_epilog>:2
+msgid "checkbox"
+msgstr "核取方塊"
+
+#: ../../<rst_epilog>:3
+msgid "checkbox_unchecked"
+msgstr "檢核框未檢核"

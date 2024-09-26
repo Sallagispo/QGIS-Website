@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, QGIS Contributors
+# This file is distributed under the same license as the QGIS package.
+# 
+# Translators:
+# Minpa Lee <mapplus@gmail.com>, 2020
+# Sebul, 2020,2022
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Website\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-26 19:38+0000\n"
+"PO-Revision-Date: 2014-10-19 11:14+0000\n"
+"Last-Translator: Sebul, 2020,2022\n"
+"Language-Team: Korean (http://www.transifex.com/qgis/qgis-website/language/ko/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../source/site/getinvolved/document.rst:4
+msgid "Write Documentation"
+msgstr "문서 작성하기"
+
+#: ../../source/site/getinvolved/document.rst:6
+msgid ""
+"The update of the QGIS documentation is managed by the :ref:`Community Team "
+"Lead <community-resources>`. Have a look at the :ref:`QGIS Governance "
+"<whoiswho>` to find out who is in charge of guiding you."
+msgstr "QGIS 문서는 :ref:`Community Team Lead <community-resources>` 이 업데이트 합니다. :ref:`QGIS Governance <whoiswho>` 를 보고 누가 당신을 안내하는지 알아보세요."
+
+#: ../../source/site/getinvolved/document.rst:10
+msgid ""
+"The complete list of documents managed by the QGIS documentation team can be"
+" found at https://www.qgis.org/en/docs/index.html. A list of documenters can"
+" be found at https://github.com/qgis/QGIS-Documentation/graphs/contributors."
+msgstr "QGIS 문서 팀에서 관리하는 문서 전체목록은 https://www.qgis.org/en/docs/index.html 에 있습니다. 문서 작성자 목록은 https://github.com/qgis/QGIS-Documentation/graphs/contributors 에 있습니다."
+
+#: ../../source/site/getinvolved/document.rst:17
+msgid "Documentation Mailing list"
+msgstr "문서 메일링 리스트"
+
+#: ../../source/site/getinvolved/document.rst:19
+msgid ""
+"If you plan to contribute to QGIS documentation, see :ref:`becoming-"
+"documenter`. For other related questions, please contact the "
+":ref:`Documentation Team Leader <community-resources>` or subscribe with the"
+" `qgis-community-team <http://lists.osgeo.org/mailman/listinfo/qgis-"
+"community-team>`_ mailing list."
+msgstr "QGIS 문서에 기여하려면,  :ref:`becoming-documenter` 보세요. 다른 관련 질문은,  :ref:`Documentation Team Leader <community-resources>` 에 연락하거나 `qgis-community-team <http://lists.osgeo.org/mailman/listinfo/qgis-community-team>`_ 메일링 리스트 구독하세요."
+
+#: ../../source/site/getinvolved/document.rst:24
+msgid ""
+"After subscribing to the mailing list you are able to send a mail directly "
+"to qgis-community-team@lists.osgeo.org asking for help."
+msgstr "메일링 리스트에 가입한 다음에는 메일을 qgis-community-team@lists.osgeo.org 에 보낼 수 있습니다."
+
+#: ../../source/site/getinvolved/document.rst:27
+msgid ""
+"We strongly encourage anyone dealing with documentation and its translations"
+" to join this list and promise that it is usually a very low traffic mailing"
+" list."
+msgstr "우리는 문서와 그 번역을 다루는 누구나 이 목록에 참여할 것을 강력히 권장하며 그것이 보통 매우 낮은 트래픽 메일링 리스트임을 약속합니다."
+
+#: ../../source/site/getinvolved/document.rst:30
+msgid ""
+"The other available mailing lists can be found at :ref:`QGIS-mailinglists`."
+msgstr "다른 가능한 메일링리스트 :ref:`QGIS-mailinglists`."
+
+#: ../../source/site/getinvolved/document.rst:35
+msgid "Becoming a documenter"
+msgstr "문서작성자 되기"
+
+#: ../../source/site/getinvolved/document.rst:37
+msgid ""
+"The QGIS project is always looking for people who are willing to invest some"
+" more time updating QGIS documentation and translating it into a foreign "
+"language - even perhaps to coordinate the update and translation effort."
+msgstr "QGIS 프로젝트는 QGIS 문서를 업데이트하고 외국어로 번역하는 데 더 많은 시간을 기꺼이 투자할 사람들을 항상 찾고 있으며, 심지어 업데이트 및 번역 작업을 조정하기 위해 노력하고 있습니다."
+
+#: ../../source/site/getinvolved/document.rst:41
+msgid ""
+"We are trying to improve our project management process and spread the load "
+"more evenly between people who each have a specific area of responsibility, "
+"so any contribution you have to make will be greatly appreciated."
+msgstr "우리는 프로젝트 관리 과정을 개선하고 여러 부담을 특정 영역을 책임지는 사람들에게 균등하게 배분하려 노력 중입니다. 따라서 당신의 어떠한 노력도 높게 인정 받을 것입니다."
+
+#: ../../source/site/getinvolved/document.rst:45
+msgid ""
+"The complete list of documents managed by the QGIS Documentation Team can be"
+" found at https://www.qgis.org/en/docs/index.html. All the documentation "
+"sources are hosted in `QGIS-Documentation repository "
+"<https://github.com/qgis/QGIS-Documentation>`_. If you want to update some "
+"features in QGIS or document new ones, you need to:"
+msgstr "QGIS 문서 팀이 관리하는 문서 목록 전체는 https://www.qgis.org/en/docs/index.html. 모든 문서 소스 호스팅 `QGIS-Documentation 저장소 <https://github.com/qgis/QGIS-Documentation>`_.  QGIS의 특징을 업데이트 하거나 새로운 기능을 문서화하려면 :"
+
+#: ../../source/site/getinvolved/document.rst:51
+msgid "have a `GitHub account <https://github.com/join>`_"
+msgstr "가지고 있을 것은 `GitHub 계정 <https://github.com/join>`_"
+
+#: ../../source/site/getinvolved/document.rst:52
+msgid ""
+"`fork the repository <https://help.github.com/articles/working-with-"
+"forks/>`_"
+msgstr "`fork the repository <https://help.github.com/articles/working-with-forks/>`_"
+
+#: ../../source/site/getinvolved/document.rst:53
+msgid "do your changes"
+msgstr "변경하고"
+
+#: ../../source/site/getinvolved/document.rst:54
+msgid "and submit a pull request."
+msgstr "pull request 하세요."
+
+#: ../../source/site/getinvolved/document.rst:56
+msgid ""
+"Instructions for contributing in documentation and managing a git repository"
+" are available at `Documentation Guidelines "
+"<http://docs.qgis.org/testing/en/docs/documentation_guidelines/index.html>`_"
+msgstr "문서 작성 및 깃 저장소 관리에 대한 지침 있는 곳은 `Documentation Guidelines <http://docs.qgis.org/testing/en/docs/documentation_guidelines/index.html>`_"
+
+#: ../../source/site/getinvolved/document.rst:60
+msgid "**Direct access to source file**"
+msgstr "**소스 파일에 직접 접근**"
+
+#: ../../source/site/getinvolved/document.rst:62
+msgid ""
+"To easily find the file to update in the repository, use the ``Fix me`` link"
+" provided at the bottom of any page of the ``Testing`` documentation. It "
+"directly opens the source file in your forked repo. Just make your changes, "
+"commit in a new branch and submit pull request to the main repository."
+msgstr "저장소에서 업데이트할 파일을 쉽게 찾으려면 ``Testing``문서 페이지 아래에 제공된 ``Fix me`` 링크를 사용하십시오. 그것은 당신의 분기된 저장소에 있는 소스 파일을 직접 열어줍니다. 변경하고 새 지점에서 커밋한 후 풀 요청을 주 저장소에 제출하면 됩니다."
+
+#: ../../<rst_epilog>:2
+msgid "checkbox"
+msgstr "checkbox"
+
+#: ../../<rst_epilog>:3
+msgid "checkbox_unchecked"
+msgstr "checkbox_unchecked"

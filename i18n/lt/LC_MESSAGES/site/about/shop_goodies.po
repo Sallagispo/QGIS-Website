@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, QGIS Contributors
+# This file is distributed under the same license as the QGIS package.
+# 
+# Translators:
+# Tomas Straupis, 2017-2018,2020
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Website\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-26 19:38+0000\n"
+"PO-Revision-Date: 2015-06-05 13:44+0000\n"
+"Last-Translator: Tomas Straupis, 2017-2018,2020\n"
+"Language-Team: Lithuanian (http://www.transifex.com/qgis/qgis-website/language/lt/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: lt\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
+
+#: ../../source/site/about/shop_goodies.rst:4
+msgid "Goodies"
+msgstr "Gėrybės"
+
+#: ../../source/site/about/shop_goodies.rst:6
+msgid ""
+"If you are a fan of QGIS, you might want to visit our store so you can buy "
+"some momentos to show off your favourite desktop GIS. We have a number of "
+"great t-shirts, mugs, hoodies, caps and so on so pay a visit to one of our "
+"stores below!"
+msgstr "Jei esate QGIS gerbėjas, jums gali patikti užeiti į mūsų parduotuvę, kur galėsite nusipirkti įvairios atributikos, kurios pagalba galėsite parodyti, kokia yra jūsų mėgstamiausia darbastalio GIS. Turime keletą puikų marškinėlių, puodukų, kepuraičių ir panašių dalykų. Taigi apsilankykite vienoje iš žemiau išvardintų mūsų parduotuvių!"
+
+msgid "QGIS mugs"
+msgstr ""
+
+#: ../../source/site/about/shop_goodies.rst:16
+msgid ""
+"Buying QGIS apparel not only lets you show off the fact that you use QGIS, "
+"for every t-shirt sold a commission is given to the QGIS project."
+msgstr ""
+
+msgid "QGIS tshirt"
+msgstr ""
+
+#: ../../source/site/about/shop_goodies.rst:25
+msgid "Shops"
+msgstr "Parduotuvės"
+
+#: ../../source/site/about/shop_goodies.rst:27
+msgid ""
+"We co-operate with Spreadshirt. They produce locally and ship the products "
+"to all countries in the world."
+msgstr "Mes bendradarbiaujame su Spreadshirt. Jie kuria vietoje ir siunčia produktus į visas pasaulio šalis."
+
+#: ../../source/site/about/shop_goodies.rst:30
+msgid "https://shop.spreadshirt.net/qgis/"
+msgstr ""
+
+msgid "QGIS Hoodie"
+msgstr ""
+
+#: ../../source/site/about/shop_goodies.rst:37
+msgid ""
+"Some more creative and funny (but unofficial) designs can be found in the "
+"Red Bubble store."
+msgstr "Daugiau kūrybingų ir juokingų (bet neoficialių) dizainų rasite Red Bubble parduotuvėje."
+
+#: ../../source/site/about/shop_goodies.rst:39
+msgid "https://www.redbubble.com/shop/qgis"
+msgstr "https://www.redbubble.com/shop/qgis"
+
+#: ../../<rst_epilog>:2
+msgid "checkbox"
+msgstr "checkbox"
+
+#: ../../<rst_epilog>:3
+msgid "checkbox_unchecked"
+msgstr "checkbox_unchecked"

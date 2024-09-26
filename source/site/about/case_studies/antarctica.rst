@@ -35,7 +35,7 @@ opportunities for our researchers in their daily work.
 
 .. figure:: ./images/quantarctica2.jpg
    :alt: Quantarctica is also useful when navigating on the Antarctic ice shelves thanks to the GPS tracking capabilities within QGIS.
-   :scale: 100%
+   :width: 100%
    :align: left
 
    Quantarctica is also useful when navigating on the Antarctic ice shelves
@@ -56,8 +56,8 @@ useful for the Antarctic community –-- as a complete Antarctic GIS package.
 Links
 =====
 
-* Quantarctica website: http://quantarctica.org/
-* Norwegian Polar Institute: http://www.npolar.no/en/
+* Quantarctica website: https://www.npolar.no/quantarctica/
+* Norwegian Polar Institute: https://www.npolar.no/en/
 
 Authors
 =======

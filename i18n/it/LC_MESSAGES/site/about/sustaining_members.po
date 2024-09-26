@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, QGIS Contributors
+# This file is distributed under the same license as the QGIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# 
+# Translators:
+# matteo ghetta <matteo.ghetta@gmail.com>, 2020
+# Pippo Peppo <abc@gmx.ch>, 2020
+# Simone Falceri, 2020
+# Stefano Campus <skampus@gmail.com>, 2022
+# Giuseppe Mattiozzi <mattiozzig@gmail.com>, 2022
+# Andrea Giudiceandrea <andreaerdna@libero.it>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS 3.28\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-26 19:38+0000\n"
+"PO-Revision-Date: 2019-07-12 14:43+0000\n"
+"Last-Translator: Andrea Giudiceandrea <andreaerdna@libero.it>, 2022\n"
+"Language-Team: Italian (https://www.transifex.com/qgis/teams/6144/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: it\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/site/about/sustaining_members.rst:4
+msgid "Sustaining members and Donors"
+msgstr "Membri sostenitori e Donatori"
+
+#: ../../source/site/about/sustaining_members.rst:6
+msgid ""
+"We thank our sustaining members and donors who support the QGIS project, "
+"often regularly, and enable us to pay for our infrastructure and important "
+"development work, as well as finance developer meetings and promotion of "
+"QGIS in workshops and conferences."
+msgstr ""
+"Ringraziamo tutti i nostri membri sostenitori e i donatori che supportano, "
+"spesso regolarmente, il progetto QGIS, rendendo cosi possibile il pagamento "
+"delle infrastrutture, il lavoro di sviluppo, gli incontri fra gli "
+"sviluppatori e la promozione di QGIS durante i workshop e le conferenze."
+
+#: ../../source/site/about/sustaining_members.rst:10
+msgid ""
+"For information on becoming a sustaining member, please visit "
+":ref:`QGIS_sustaining_memberships`."
+msgstr ""
+"Per informazioni su come diventare un membro sostenitore dai uno sguardo "
+"alla pagina :ref:`QGIS_sustaining_memberships`."
+
+#: ../../source/site/about/sustaining_members.rst:12
+msgid "small"
+msgstr "small"
+
+#: ../../source/site/about/sustaining_members.rst:15
+msgid "medium"
+msgstr ""
+
+#: ../../source/site/about/sustaining_members.rst:18
+msgid "large"
+msgstr "large"
+
+#: ../../source/site/about/sustaining_members.rst:24
+msgid "List of current sustaining members"
+msgstr "Elenco dei membri sostenitori attuali"
+
+#: ../../source/site/about/sustaining_members.rst:26
+msgid ""
+"Annually we receive support from various organisations who appreciate the "
+"work we do and would like to facilitate the sustained development effort "
+"that goes into the project."
+msgstr ""
+"Annualmente riceviamo anche supporto da diverse organizzazioni che "
+"apprezzano il nostro lavoro e che vogliono agevolare il lavoro di sviluppo "
+"che coinvolge l'intero progetto."
+
+#: ../../source/site/about/sustaining_members.rst:30
+msgid ""
+":raw-html:`<div id=\"qgissustainingmembersatom\"> <!-- to be filled via "
+"javascript loading of atom feed --> </div>`"
+msgstr ""
+":raw-html:`<div id=\"qgissustainingmembersatom\"> <!-- to be filled via "
+"javascript loading of atom feed --> </div>`"
+
+#: ../../source/site/about/sustaining_members.rst:34
+msgid "List of past sustaining members"
+msgstr "Elenco dei membri sostenitori precedenti"
+
+#: ../../source/site/about/sustaining_members.rst:36
+msgid ""
+":raw-html:`<div id=\"qgispastsustainingmembersatom\"> <!-- to be filled via "
+"javascript loading of atom feed --> </div>`"
+msgstr ""
+":raw-html:`<div id=\"qgispastsustainingmembersatom\"> <!-- to be filled via "
+"javascript loading of atom feed --> </div>`"
+
+#: ../../source/site/about/sustaining_members.rst:41
+msgid "List of donors"
+msgstr "Lista dei donatori"
+
+#: ../../source/site/about/sustaining_members.rst:43
+msgid ""
+"Donations can be of any amount, via our bank account, Stripe or Paypal "
+"(information available at `Donations <https://donate.qgis.org>`__ page). "
+"Even a small donation can make a difference and help to reach important "
+"project goals!"
+msgstr ""
+"Le donazioni possono essere di qualsiasi importo, tramite il nostro conto "
+"bancario, Stripe o Paypal (informazioni disponibili alla pagina `Donazioni "
+"<https://donate.qgis.org>`__). Anche una piccola donazione può fare la "
+"differenza e aiutare a raggiungere importanti obiettivi di progetto!"
+
+#: ../../source/site/about/sustaining_members.rst:47
+msgid ""
+"If you wish to send us a larger donation, you are strongly encouraged to use"
+" the bank account or stripe (if you want to do credit card payments) rather "
+"than PayPal (they have higher payment fees and an unnecessary currency "
+"conversion is involved). Please contact finance@qgis.org if you want to pay "
+"larger amounts with credit cards through Stripe. We can send you a payment "
+"link and/or invoice."
+msgstr ""
+"Se desideri inviarci una donazione maggiore, sei fortemente incoraggiato a "
+"utilizzare il conto bancario o lo stripe (se desideri effettuare pagamenti "
+"con carta di credito) piuttosto che PayPal (hanno commissioni di pagamento "
+"più elevate e una conversione di valuta non necessaria). Contatta "
+"finance@qgis.org se desideri pagare importi maggiori con carte di credito "
+"tramite Stripe. Possiamo inviarti un link per il pagamento e/o una fattura."
+
+#: ../../source/site/about/sustaining_members.rst:53
+msgid ""
+"Donations to QGIS are tax-deductible in several countries. Please refer to "
+"your local tax office for details."
+msgstr ""
+"Le donazioni per QGIS sono detraibili dalle tasse in diversi Paesi. Fai "
+"riferimento all'ufficio delle imposte locale per maggiori informazioni."
+
+#: ../../<rst_epilog>:2
+msgid "checkbox"
+msgstr "checkbox"
+
+#: ../../<rst_epilog>:3
+msgid "checkbox_unchecked"
+msgstr ""

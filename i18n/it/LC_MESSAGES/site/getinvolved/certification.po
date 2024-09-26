@@ -1,0 +1,191 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, QGIS Contributors
+# This file is distributed under the same license as the QGIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# 
+# Translators:
+# Ivano Giuliano <ivano.giuliano@gmail.com>, 2019
+# Roberto Marzocchi <roberto.marzocchi@gter.it>, 2020
+# Simone Falceri, 2021
+# Andrea Giudiceandrea <andreaerdna@libero.it>, 2022
+# Giuseppe Mattiozzi <mattiozzig@gmail.com>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS 3.28\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-26 19:38+0000\n"
+"PO-Revision-Date: 2019-03-13 19:40+0000\n"
+"Last-Translator: Giuseppe Mattiozzi <mattiozzig@gmail.com>, 2022\n"
+"Language-Team: Italian (https://www.transifex.com/qgis/teams/6144/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: it\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/site/getinvolved/certification.rst:5
+msgid "Certification"
+msgstr "Certificazione"
+
+#: ../../source/site/getinvolved/certification.rst:7
+msgid ""
+"The QGIS Certificate Program is designed to promote both community "
+"involvement in the QGIS project and quality education for QGIS software. As "
+"such the application process requires applicants to both detail their "
+"contributions to the QGIS project and make their training materials "
+"available for review. Contributions to the QGIS project include activities "
+"such as:"
+msgstr ""
+"Il programma di certificazione QGIS è strutturato per promuovere il "
+"coinvolgimento della comunità nel progetto QGIS ma anche l'istruzione "
+"qualificata per il software QGIS. Pertanto, per il processo di candidatura "
+"si richiede di specificare in modo dettagliato i contributi dati al progetto"
+" QGIS, rendendo inoltre disponibili materiali di formazione per la loro "
+"revisione. I contributi al progetto QGIS includono attività come:"
+
+#: ../../source/site/getinvolved/certification.rst:9
+msgid "Development/commits to QGIS"
+msgstr "Sviluppo/disponibilita' al progetto QGIS"
+
+#: ../../source/site/getinvolved/certification.rst:10
+msgid "Contributions to the QGIS documentation and training materials"
+msgstr ""
+"Contributi alla predisposizione della documentazione e materiali di "
+"formazione per QGIS"
+
+#: ../../source/site/getinvolved/certification.rst:11
+msgid "Translation of QGIS materials"
+msgstr "Traduzione dei materiali riguardanti QGIS"
+
+#: ../../source/site/getinvolved/certification.rst:12
+msgid "Authoring plugins"
+msgstr "Realizzazione di plugins"
+
+#: ../../source/site/getinvolved/certification.rst:13
+msgid "Filing bug reports"
+msgstr "Segnalazione di bug"
+
+#: ../../source/site/getinvolved/certification.rst:14
+msgid "Financially supporting new feature development"
+msgstr "Sostenere il finanziariamente per lo sviluppo di nuove funzionalità"
+
+#: ../../source/site/getinvolved/certification.rst:15
+msgid "Financial contributions to and sponsorship of QGIS"
+msgstr "Contributi finanziari e sponsorizzazioni di QGIS"
+
+#: ../../source/site/getinvolved/certification.rst:16
+msgid "Involvement in your local QGIS User Group"
+msgstr "Coinvolgimento nel tuo gruppo locale di utenti QGIS"
+
+#: ../../source/site/getinvolved/certification.rst:17
+msgid "Publication of open QGIS course ware"
+msgstr "Pubblicazione di articoli e corsi di formazione gratuiti per QGIS"
+
+#: ../../source/site/getinvolved/certification.rst:18
+msgid "Authoring QGIS books"
+msgstr "Realizzazione di testi dedicati a QGIS"
+
+#: ../../source/site/getinvolved/certification.rst:20
+msgid ""
+"To contact the certification team, please write to certification@qgis.org."
+msgstr ""
+"Per contattare il team di certificazione, scrivere a certification@qgis.org."
+
+#: ../../source/site/getinvolved/certification.rst:24
+msgid "Certification Process"
+msgstr "Processo di certificazione"
+
+#: ../../source/site/getinvolved/certification.rst:27
+msgid "Application"
+msgstr "Richiesta"
+
+#: ../../source/site/getinvolved/certification.rst:29
+msgid ""
+"You are required to provide the training material for each of your courses. "
+"This includes exercises, lectures and data. This material will be reviewed "
+"for currentness, accurate representation of the QGIS project and overall "
+"quality. If the material is not of adequate quality, this can be cause for "
+"refusal."
+msgstr ""
+"Ti viene richiesto di fornire il materiale di formazione per ognuno dei tuoi"
+" corsi. Incluso esercizi, lezioni e dati. Tale materiale verrà esaminato con"
+" cura, al fine di poterne verificare l'uso attuale, la qualita' generale "
+"rappresentativa del progetto QGIS . Nel caso in cui il materiale verra' "
+"ritenuto inadeguato, non sara' preso in considerazione."
+
+#: ../../source/site/getinvolved/certification.rst:32
+msgid ""
+"Following an initial review, the application will be sent to local QGIS "
+"groups for their opinion. This portion of the review should take place in "
+"less than one month. If there is not a local QGIS user group the QGIS "
+"Project Steering Committee (PSC) will make a determination based on material"
+" provided and your reputation in the community. In this latter case you are "
+"encouraged to establish a local QGIS User Group. If you are not deemed to be"
+" a member of the QGIS community in good standing this can be cause for "
+"refusal."
+msgstr ""
+"A seguito di una iniziale revisione, l'istanza sarà inviata ai gruppi QGIS "
+"locali per il parere di competenza. La fase di revisione dovrebbe "
+"completarsi in meno di un mese. Nel caso in cui non dovesse essere presente "
+"un gruppo locale di utenti QGIS, il Comitato direttivo del progetto (PSC), "
+"decidera' in base al materiale fornito nonche' alla reputazione acquisita "
+"all'interno di tutta la comunità. Si consiglia pertanto di creare un gruppo "
+"di utenti QGIS locale nel caso non vi fosse. Può essere motivo di esclusione"
+" il non essere reputato un membro in piena regola della comunità QGIS."
+
+#: ../../source/site/getinvolved/certification.rst:34
+msgid ""
+"The PSC will make the final determination. If accepted as a QGIS Certified "
+"Organization your contributions to the project will be published for "
+"transparency."
+msgstr ""
+"Il PSC rappresenta il comitato direttivo decisionale del progetto. Se "
+"accettate come Organizzazione Certificata QGIS, i contributi al progetto "
+"saranno pubblicati ai fini della trasparenza."
+
+#: ../../source/site/getinvolved/certification.rst:36
+msgid ""
+"If approved you are required to pay a €20 certification fee to the QGIS "
+"project for each certificate you issue. This creates a mechanism for "
+"financial support of the project. Payments for certificates are made either "
+"using online credit card transactions or on request by regular invoice and "
+"SEPA wire transfer. Payments can be handled in batches for many certificates"
+" at once."
+msgstr ""
+"Se approvato, sei tenuto a pagare una tassa di certificazione di € 20 al "
+"progetto QGIS per ogni certificato che emetti. Questo crea un meccanismo per"
+" il sostegno finanziario del progetto. I pagamenti dei certificati vengono "
+"effettuati sia tramite transazioni online con carta di credito, sia su "
+"richiesta tramite regolare fattura e bonifico SEPA. I pagamenti possono "
+"essere gestiti in batch per più certificati contemporaneamente."
+
+#: ../../source/site/getinvolved/certification.rst:39
+msgid ""
+"You can apply through `this form <certification_link_>`_ (make sure to first"
+" create a `login <certification_login_>`_). You can find more details about "
+"the certification programme `here <certification_details_>`_ (we advise you "
+"to read this before registering)."
+msgstr ""
+"E' possibile compilare il seguente `form 1`_ (avendo cura di essersi prima  "
+"`registrato2`_). Maggiori dettagli sul programma di certificazione sono "
+"disponibili al seguente `link 3`_ (si raccomanda di prenderne visione prima "
+"di registrarsi)."
+
+#: ../../source/site/getinvolved/certification.rst:47
+msgid "Course Certification Workflow"
+msgstr "Flusso di lavoro della certificazione del corso"
+
+#: ../../source/site/getinvolved/certification.rst:52
+msgid "Workflow Certification"
+msgstr "Certificazione del flusso di lavoro"
+
+#: ../../<rst_epilog>:2
+msgid "checkbox"
+msgstr "checkbox"
+
+#: ../../<rst_epilog>:3
+msgid "checkbox_unchecked"
+msgstr ""

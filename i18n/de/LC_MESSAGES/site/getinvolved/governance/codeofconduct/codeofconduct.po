@@ -1,0 +1,176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, QGIS Contributors
+# This file is distributed under the same license as the QGIS package.
+# 
+# Translators:
+# Thomas Schüttenberg <thomas@qgis.de>, 2022
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Website\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-26 19:38+0000\n"
+"PO-Revision-Date: 2014-10-19 11:14+0000\n"
+"Last-Translator: Thomas Schüttenberg <thomas@qgis.de>, 2022\n"
+"Language-Team: German (http://www.transifex.com/qgis/qgis-website/language/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/site/getinvolved/governance/codeofconduct/codeofconduct.rst:4
+msgid "Code of Conduct"
+msgstr "Verhaltenskodex"
+
+#: ../../source/site/getinvolved/governance/codeofconduct/codeofconduct.rst:6
+msgid ""
+"Like the technical community as a whole, the QGIS team and community is made"
+" up of a mixture of professionals and volunteers from all over the world, "
+"working on every aspect of the mission - including mentorship, teaching, and"
+" connecting people."
+msgstr "Wie die technische Gemeinschaft insgesamt besteht auch das QGIS-Team und die Community aus einer Mischung von Fachleuten und Freiwilligen aus der ganzen Welt, die an jedem Aspekt der Mission arbeiten - einschließlich Mentorenschaft, Lehre und der Verbindung von Menschen."
+
+#: ../../source/site/getinvolved/governance/codeofconduct/codeofconduct.rst:8
+msgid ""
+"Diversity is one of our huge strengths, but it can also lead to "
+"communication issues and unhappiness. To that end, we have a few ground "
+"rules that we ask people to adhere to when they’re participating within this"
+" community and project. These rules apply equally to founders, mentors and "
+"those seeking help and guidance."
+msgstr "Die Vielfalt ist eine unserer großen Stärken, aber sie kann auch zu Kommunikationsproblemen und Unzufriedenheit führen. Aus diesem Grund haben wir einige Grundregeln aufgestellt, an die sich jeder halten sollte, der sich an dieser Gemeinschaft und diesem Projekt beteiligt. Diese Regeln gelten gleichermaßen für Gründer, Mentoren und diejenigen, die Hilfe und Anleitung suchen."
+
+#: ../../source/site/getinvolved/governance/codeofconduct/codeofconduct.rst:10
+msgid ""
+"This isn’t an exhaustive list of things that you can’t do. Rather, take it "
+"in the spirit in which it’s intended - a guide to make it easier to enrich "
+"all of us and the technical communities in which we participate."
+msgstr "Dies ist keine abschließende Liste von Dingen, die Sie nicht tun dürfen. Nehmen Sie sie vielmehr in dem Sinne, in dem sie gedacht ist - als Leitfaden, der es uns allen und den technischen Gemeinschaften, an denen wir teilnehmen, leichter macht, uns zu bereichern."
+
+#: ../../source/site/getinvolved/governance/codeofconduct/codeofconduct.rst:12
+msgid ""
+"This code of conduct applies to all spaces managed by the QGIS project. This"
+" includes IRC, the mailing lists, the issue tracker, DSF events, and any "
+"other forums created by the project team which the community uses for "
+"communication."
+msgstr "Dieser Verhaltenskodex gilt für alle Bereiche, die vom QGIS-Projekt verwaltet werden. Dazu gehören IRC, die Mailinglisten, der Issue Tracker, DSF-Events und alle anderen vom Projektteam eingerichteten Foren, die von der Gemeinschaft zur Kommunikation genutzt werden."
+
+#: ../../source/site/getinvolved/governance/codeofconduct/codeofconduct.rst:14
+msgid ""
+"If you believe someone is violating the code of conduct, we ask that you "
+"report it by emailing psc@qgis.org."
+msgstr "Wenn Sie glauben, dass jemand gegen den Verhaltenskodex verstößt, bitten wir Sie, dies zu melden, indem Sie eine E-Mail schreiben an psc@qgis.org."
+
+#: ../../source/site/getinvolved/governance/codeofconduct/codeofconduct.rst:16
+msgid "**Be welcoming, friendly, and patient**"
+msgstr "**Seien Sie einladend, freundlich und geduldig**"
+
+#: ../../source/site/getinvolved/governance/codeofconduct/codeofconduct.rst:19
+msgid "**Be considerate**"
+msgstr "**Seien Sie rücksichtsvoll**"
+
+#: ../../source/site/getinvolved/governance/codeofconduct/codeofconduct.rst:19
+msgid ""
+"Your work will be used by other people, and you in turn will depend on the "
+"work of others. Any decision you take will affect users and colleagues, and "
+"you should take those consequences into account when making decisions. "
+"Remember that we're a world-wide community, so you might not be "
+"communicating in someone else's primary language."
+msgstr "Ihre Arbeit wird von anderen Menschen genutzt, und Sie selbst sind wiederum von der Arbeit anderer abhängig. Jede Entscheidung, die Sie treffen, wirkt sich auf Nutzer und Kollegen aus, und Sie sollten diese Konsequenzen bei Ihren Entscheidungen berücksichtigen. Denken Sie daran, dass wir eine weltweite Gemeinschaft sind, so dass Sie vielleicht nicht in der Muttersprache eines anderen kommunizieren."
+
+#: ../../source/site/getinvolved/governance/codeofconduct/codeofconduct.rst:22
+msgid "**Be respectful**"
+msgstr "**Seien Sie respektvoll**"
+
+#: ../../source/site/getinvolved/governance/codeofconduct/codeofconduct.rst:22
+msgid ""
+"Not all of us will agree all the time, but disagreement is no excuse for "
+"poor behavior and poor manners. We might all experience some frustration now"
+" and then, but we cannot allow that frustration to turn into a personal "
+"attack. It’s important to remember that a community where people feel "
+"uncomfortable or threatened is not a productive one. Members of the QGIS "
+"community should be respectful when dealing with other members as well as "
+"with people outside the QGIS community."
+msgstr "Nicht alle von uns werden immer einer Meinung sein, aber Meinungsverschiedenheiten sind keine Entschuldigung für schlechtes Benehmen und schlechte Manieren. Wir alle mögen hin und wieder frustriert sein, aber wir dürfen nicht zulassen, dass diese Frustration in einen persönlichen Angriff umschlägt. Es ist wichtig, daran zu denken, dass eine Gemeinschaft, in der sich Menschen unwohl oder bedroht fühlen, nicht produktiv ist. Die Mitglieder der QGIS-Gemeinschaft sollten sich im Umgang mit anderen Mitgliedern und auch mit Personen außerhalb der QGIS-Gemeinschaft respektvoll verhalten."
+
+#: ../../source/site/getinvolved/governance/codeofconduct/codeofconduct.rst:34
+msgid "**Be careful in the words that you choose**"
+msgstr "**Seien Sie vorsichtig bei der Wahl Ihrer Worte**"
+
+#: ../../source/site/getinvolved/governance/codeofconduct/codeofconduct.rst:25
+msgid ""
+"We are a community of professionals, and we conduct ourselves "
+"professionally. Be kind to others. Do not insult or put down other "
+"participants. Harassment and other exclusionary behavior aren't acceptable. "
+"This includes, but is not limited to:"
+msgstr "Wir sind eine Gemeinschaft von Fachleuten, und wir verhalten uns professionell. Seien Sie freundlich zu anderen. Beleidigen oder erniedrigen Sie andere Teilnehmer nicht. Belästigungen und anderes ausgrenzendes Verhalten sind nicht akzeptabel. Dies beinhaltet, ist aber nicht beschränkt auf:"
+
+#: ../../source/site/getinvolved/governance/codeofconduct/codeofconduct.rst:27
+msgid "Violent threats or language directed against another person."
+msgstr "Gewalttätige Drohungen oder gegen eine andere Person gerichtete Sprache."
+
+#: ../../source/site/getinvolved/governance/codeofconduct/codeofconduct.rst:28
+msgid "Sexist, racist, or otherwise discriminatory jokes and language."
+msgstr "Sexistische, rassistische oder anderweitig diskriminierende Witze und Ausdrücke."
+
+#: ../../source/site/getinvolved/governance/codeofconduct/codeofconduct.rst:29
+msgid "Posting sexually explicit or violent material."
+msgstr "Das Veröffentlichen von sexuell eindeutigem oder gewalttätigem Material."
+
+#: ../../source/site/getinvolved/governance/codeofconduct/codeofconduct.rst:30
+msgid ""
+"Posting (or threatening to post) other people's personally identifying "
+"information (\"doxing\")."
+msgstr "Veröffentlichung (oder Androhung der Veröffentlichung) von persönlichen Informationen anderer Personen (\"Doxing\")."
+
+#: ../../source/site/getinvolved/governance/codeofconduct/codeofconduct.rst:31
+msgid "Personal insults, especially those using racist or sexist terms."
+msgstr "Persönliche Beleidigungen, insbesondere solche, die rassistische oder sexistische Begriffe verwenden."
+
+#: ../../source/site/getinvolved/governance/codeofconduct/codeofconduct.rst:32
+msgid "Unwelcome sexual attention."
+msgstr "Unerwünschte sexuelle Aufmerksamkeit."
+
+#: ../../source/site/getinvolved/governance/codeofconduct/codeofconduct.rst:33
+msgid "Advocating for, or encouraging, any of the above behavior."
+msgstr "Befürwortung oder Ermutigung einer der oben genannten Verhaltensweisen."
+
+#: ../../source/site/getinvolved/governance/codeofconduct/codeofconduct.rst:34
+msgid ""
+"Repeated harassment of others. In general, if someone asks you to stop, then"
+" stop."
+msgstr "Wiederholte Belästigung von anderen. Generell gilt: Wenn Sie jemand bittet, aufzuhören, dann hören Sie auf."
+
+#: ../../source/site/getinvolved/governance/codeofconduct/codeofconduct.rst:37
+msgid "**When we disagree, try to understand why**"
+msgstr "**Wenn wir uns nicht einig sind, versuchen Sie zu verstehen, warum**"
+
+#: ../../source/site/getinvolved/governance/codeofconduct/codeofconduct.rst:37
+msgid ""
+"Disagreements, both social and technical, happen all the time and QGIS is no"
+" exception. It is important that we resolve disagreements and differing "
+"views constructively. Remember that we’re different. The strength of QGIS "
+"comes from its varied community, people from a wide range of backgrounds. "
+"Different people have different perspectives on issues. Being unable to "
+"understand why someone holds a viewpoint doesn’t mean that they’re wrong. "
+"Don’t forget that it is human to err and blaming each other doesn’t get us "
+"anywhere, rather offer to help resolving issues and to help learn from "
+"mistakes."
+msgstr "Meinungsverschiedenheiten, sowohl in sozialer als auch in technischer Hinsicht, gibt es immer wieder, und QGIS ist da keine Ausnahme. Es ist wichtig, dass wir Meinungsverschiedenheiten und abweichende Ansichten konstruktiv lösen. Denken Sie daran, dass wir unterschiedlich sind. Die Stärke von QGIS liegt in seiner vielfältigen Gemeinschaft, in Menschen mit den unterschiedlichsten Hintergründen. Unterschiedliche Menschen haben unterschiedliche Sichtweisen auf Themen. Wenn Sie nicht verstehen können, warum jemand einen bestimmten Standpunkt vertritt, heißt das nicht, dass er falsch liegt. Vergessen Sie nicht, dass es menschlich ist, sich zu irren, und dass es uns nicht weiterbringt, uns gegenseitig zu beschuldigen; bieten Sie lieber an, bei der Lösung von Problemen zu helfen und aus Fehlern zu lernen."
+
+#: ../../source/site/getinvolved/governance/codeofconduct/codeofconduct.rst:39
+msgid ""
+"Original text courtesy of the Speak Up! project, and Django Code of conduct"
+msgstr "Originaltext mit freundlicher Genehmigung des Speak Up!-Projekts und des Django Code of Conduct"
+
+#: ../../source/site/getinvolved/governance/codeofconduct/codeofconduct.rst:41
+msgid "If you have questions, feel free to contact us: psc@qgis.org"
+msgstr "Bei Fragen können Sie uns gerne kontaktieren: psc@qgis.org"
+
+#: ../../<rst_epilog>:2
+msgid "checkbox"
+msgstr "Kontrollkästchen"
+
+#: ../../<rst_epilog>:3
+msgid "checkbox_unchecked"
+msgstr "checkbox_unchecked"

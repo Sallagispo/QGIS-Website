@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, QGIS Contributors
+# This file is distributed under the same license as the QGIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# 
+# Translators:
+# Jeroen Hovens <jeroen@groenebij.nl>, 2022
+# DiGro, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS 3.28\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-26 19:38+0000\n"
+"PO-Revision-Date: 2019-03-13 19:40+0000\n"
+"Last-Translator: DiGro, 2022\n"
+"Language-Team: Dutch (https://www.transifex.com/qgis/teams/6144/nl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../source/site/getinvolved/certification.rst:5
+msgid "Certification"
+msgstr "Certificering"
+
+#: ../../source/site/getinvolved/certification.rst:7
+msgid ""
+"The QGIS Certificate Program is designed to promote both community "
+"involvement in the QGIS project and quality education for QGIS software. As "
+"such the application process requires applicants to both detail their "
+"contributions to the QGIS project and make their training materials "
+"available for review. Contributions to the QGIS project include activities "
+"such as:"
+msgstr ""
+"Het QGIS Certificate Program is ontworpen om zowel de betrokkenheid van de "
+"gemeenschap in het project QGIS te promoten als ook de kwaliteit van "
+"onderwijzen voor software van QGIS. Als zodanig vereist het aanvraagproces "
+"dat aanvragers zowel hun bijdragen aan het project QGIS benoemen als ook hun"
+" trainingsmateriaal beschikbaar maken voor review. Bijdragen aan het project"
+" QGIS omvatten onder meer activiteiten als:"
+
+#: ../../source/site/getinvolved/certification.rst:9
+msgid "Development/commits to QGIS"
+msgstr "Ontwikkeling/indienen voor QGIS"
+
+#: ../../source/site/getinvolved/certification.rst:10
+msgid "Contributions to the QGIS documentation and training materials"
+msgstr "Bijdragen aan documentatie en trainingsmateriaal van QGIS"
+
+#: ../../source/site/getinvolved/certification.rst:11
+msgid "Translation of QGIS materials"
+msgstr "Vertalen van het materiaal van QGIS"
+
+#: ../../source/site/getinvolved/certification.rst:12
+msgid "Authoring plugins"
+msgstr "Plug-ins beheren "
+
+#: ../../source/site/getinvolved/certification.rst:13
+msgid "Filing bug reports"
+msgstr "Probleemrapporten indienen"
+
+#: ../../source/site/getinvolved/certification.rst:14
+msgid "Financially supporting new feature development"
+msgstr "Financieel ondersteunen van de ontwikeling van nieuwe mogelijkheden"
+
+#: ../../source/site/getinvolved/certification.rst:15
+msgid "Financial contributions to and sponsorship of QGIS"
+msgstr "Financiële bijdragen aan en/of sponsoren van QGIS"
+
+#: ../../source/site/getinvolved/certification.rst:16
+msgid "Involvement in your local QGIS User Group"
+msgstr "Betrokkenheid bij uw lokale gebruikersgroep van QGIS"
+
+#: ../../source/site/getinvolved/certification.rst:17
+msgid "Publication of open QGIS course ware"
+msgstr "Publicaties van open cursusmateriaal voor QGIS"
+
+#: ../../source/site/getinvolved/certification.rst:18
+msgid "Authoring QGIS books"
+msgstr "Schrijven van boeken over QGIS"
+
+#: ../../source/site/getinvolved/certification.rst:20
+msgid ""
+"To contact the certification team, please write to certification@qgis.org."
+msgstr ""
+"Schrijf naar certification@qgis.org om contact op te nemen met het "
+"certificatiie-team."
+
+#: ../../source/site/getinvolved/certification.rst:24
+msgid "Certification Process"
+msgstr "Proces van certificeren"
+
+#: ../../source/site/getinvolved/certification.rst:27
+msgid "Application"
+msgstr "Programma"
+
+#: ../../source/site/getinvolved/certification.rst:29
+msgid ""
+"You are required to provide the training material for each of your courses. "
+"This includes exercises, lectures and data. This material will be reviewed "
+"for currentness, accurate representation of the QGIS project and overall "
+"quality. If the material is not of adequate quality, this can be cause for "
+"refusal."
+msgstr ""
+"U bent verplicht om het trainingsmateriaal voor al uw cursussen te "
+"overleggen. Dit omvat tevens oefeningen, lessen en gegevens. Dit materiaal "
+"zal worden nagekeken op recentheid, nauwkeurige vertegenwoordiging van het "
+"project QGIS en algemene kwaliteit. Als het materiaal niet van voldoende "
+"kwaliteit is, kan dat een reden voor afwijzing zijn."
+
+#: ../../source/site/getinvolved/certification.rst:32
+msgid ""
+"Following an initial review, the application will be sent to local QGIS "
+"groups for their opinion. This portion of the review should take place in "
+"less than one month. If there is not a local QGIS user group the QGIS "
+"Project Steering Committee (PSC) will make a determination based on material"
+" provided and your reputation in the community. In this latter case you are "
+"encouraged to establish a local QGIS User Group. If you are not deemed to be"
+" a member of the QGIS community in good standing this can be cause for "
+"refusal."
+msgstr ""
+"Volgend op de eerste indruk zal de aanvraag worden doorgezonden naar lokale "
+"groepen van QGIS, voor hun mening. Dit gedeelte van het nakijken zou in "
+"minder dan een maand plaats moeten vinden. Indien er geen lokale "
+"gebruikersgroep voor QGIS is zal het QGIS Project Steering Committee (PSC) "
+"een beslissing nemen, gebaseerd op het aangeleverde materiaal en uw "
+"reputatie in de gemeenschap. In dit laatste geval wordt u aangemoedigd een "
+"lokale gebruikersgroep van QGIS op te richten. Indien blijkt dat u geen "
+"goede deelnemer bent binnen de gemeenschap van QGIS community, kan dat reden"
+" zijn voor afwijzing."
+
+#: ../../source/site/getinvolved/certification.rst:34
+msgid ""
+"The PSC will make the final determination. If accepted as a QGIS Certified "
+"Organization your contributions to the project will be published for "
+"transparency."
+msgstr ""
+"Het PSC zal de uiteindelijke beslissing nemen. Indien geaccepteerd als een "
+"QGIS Certified Organization zullen uw bijdragen aan het project om redenen "
+"van transparantie, worden gepubliceerd."
+
+#: ../../source/site/getinvolved/certification.rst:36
+msgid ""
+"If approved you are required to pay a €20 certification fee to the QGIS "
+"project for each certificate you issue. This creates a mechanism for "
+"financial support of the project. Payments for certificates are made either "
+"using online credit card transactions or on request by regular invoice and "
+"SEPA wire transfer. Payments can be handled in batches for many certificates"
+" at once."
+msgstr ""
+"Indien goedgekeurd bent u verplicht een donatie van €20 voor elk certificaat"
+" dat u uitgeeft te voldoen aan het project QGIS. Dit zorgt voor een "
+"mechanisme voor financiële ondersteuning van het project. Betalingen voor "
+"certificaten worden verricht ofwel via online creditcardtransacties of op "
+"verzoek op normale factuur en een SEPA-overboeking. Betalingen mogen in bulk"
+" worden afgehandeld voor veel certificaten in één keer."
+
+#: ../../source/site/getinvolved/certification.rst:39
+msgid ""
+"You can apply through `this form <certification_link_>`_ (make sure to first"
+" create a `login <certification_login_>`_). You can find more details about "
+"the certification programme `here <certification_details_>`_ (we advise you "
+"to read this before registering)."
+msgstr ""
+"U kunt zich aanmelden met `dit formulier <certification_link_>`_ (zorg er "
+"voor eerst een `login <certification_login_>` te maken_). U vindt `hier "
+"<certification_details_>` _meer details over het programma voor "
+"certificering (we adviseren u dit te lezen voordat u zich registreert)."
+
+#: ../../source/site/getinvolved/certification.rst:47
+msgid "Course Certification Workflow"
+msgstr "Cursus Werkstroom certificeren"
+
+#: ../../source/site/getinvolved/certification.rst:52
+msgid "Workflow Certification"
+msgstr "Certificeren van werkstroom"
+
+#: ../../<rst_epilog>:2
+msgid "checkbox"
+msgstr "checkbox"
+
+#: ../../<rst_epilog>:3
+msgid "checkbox_unchecked"
+msgstr "checkbox_unchecked"

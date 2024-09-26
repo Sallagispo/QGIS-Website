@@ -12,7 +12,7 @@ interface and about eighty languages are available in transifex ready to be
 translated. Nearly the same apply for the web site and documentation.
 
 The translation process is managed by the :ref:`Translation Team <gui-translation>`
-and all the activities are done under the `Transifex <https://www.transifex.com/>`_
+and all the activities are done under the `Transifex <https://explore.transifex.com/qgis/>`_
 platform.
 
 
@@ -25,7 +25,7 @@ If you plan to contribute to an existing language or you want to translate
 QGIS into a not yet existing language, see :ref:`becoming-translator`.
 For any other related questions, please contact the
 :ref:`Translation Team Leader <gui-translation>` or subscribe to the `QGIS
-Translation mailing list <http://lists.osgeo.org/mailman/listinfo/qgis-tr>`_.
+Translation mailing list <https://lists.osgeo.org/mailman/listinfo/qgis-tr>`_.
 
 After subscribing to the mailing list you are able to send a mail directly to
 qgis-tr@lists.osgeo.org asking for help.
@@ -41,15 +41,13 @@ The other available mailing lists can be found at :ref:`QGIS-mailinglists`.
 GUI Translation
 ---------------
 
-The QGIS interface is natively programmed in English. However, at this moment
-over fourthy other languages are already available.
-
-To start QGIS with the appropriate localization, run
-``qgis --lang <language code>`` in command line or change localization in QGIS under
-:menuselection:`Settings --> Options --> Locale` menu.
+The QGIS interface is natively programmed in English.
+However, we do translate it into `tens of languages <https://explore.transifex.com/qgis/QGIS/>`_ and,
+at this moment over forty languages are already available in QGIS Desktop
+(the ones that reached 35% of translation for that specific release).
 
 If you want to find out if your language is already present in QGIS Applications
-or who is currently working on your language you have to take a look in the
+or who is currently working on your language you can take a look in the
 :menuselection:`Help --> About --> Translators` Box in the QGIS Desktop Application.
 
 You will also find the progress of the translation there (but remember in
@@ -62,6 +60,10 @@ ten thousand pieces of text and a complete translation will take days if not
 weeks to be finished. Besides that, the rapid development of the application
 continuously causes new and edited texts to be translated. A huge effort and
 your help will be appreciated!
+
+.. note:: To start QGIS with the appropriate localization, run
+  ``qgis --lang <language code>`` in command line or change localization in QGIS under
+  :menuselection:`Settings --> Options --> General --> Locale` menu.
 
 .. _becoming-translator:
 
@@ -97,37 +99,39 @@ started.
 Join a Project
 ..............
 
-- Go to http://www.transifex.com and create a new account
-- Verify your account by the link in the email you will receive
-- Login
-- Choose your role as “Translator” and answer some other questions about yourself
-- At your dashboard page click “Join an existing organisation” and search for “qgis”.
-  Some QGIS organisations are listed now, among them are:
+#. Go to https://explore.transifex.com/qgis/
+#. You can explore available projects we translate, identify their target languages
+   with various statistics:
 
-  * **QGIS Desktop** for all the pieces of text available in QGIS apps
-    (QGIS Desktop, QGIS Browser and QGIS Server),
-  * **QGIS Docs and Website** to translate both QGIS web site and current documentation.
+   * **QGIS Desktop** for all the pieces of text available in QGIS apps
+     (QGIS Desktop and QGIS Server),
+   * **QGIS Documentation** for the `official documentation <https://docs.qgis.org/latest/>`_,
+   * **QGIS Website** to translate the `current website <https://qgis.org>`_.
+#. Click on the project you would like to help translate
+#. Click on :guilabel:`JOIN THIS PROJECT` on the right side.
+   You will be prompted to sign up.
+#. Create your account or connect using a third-party platform account.
+   Verify your account by the link in the email you will receive.
+#. Login
+#. You then get a popup to select which language you want to help translate to.
+   Please, note that we try to make the process as simple as possible and only target languages,
+   regardless of the country parameter (e.g. ``French (fr)`` and **NOT** ``French (France) (fr_FR)``).
+   Only if there are notable differences in the languages (e.g. portuguese in Portugal vs Brazil)
+   we may allow different versions.
 
-- Choose in which part of the project you would like to participate
-- You can be part of all projects and help everywhere too
-- If the language of your choice is listed, click it and request to join the team.
-- If your language is not listed yet, click “Request language” and choose your
-  language. Keep in mind that translating the entire Desktop Application will take
-  days of work, if not weeks!
+   Search your target language:
 
-Now you will need to wait for the language coordinator or the project maintainers
-to process your request. You will be notified by email when your request has been
-accepted. If your request has no answer for about a week, please consider writing
-to your language coordinator in Transifex or the :ref:`QGIS Translators mailing list
-<mailinglist-translation>`.
+   - If it is marked as ``already added`` then select it and press :guilabel:`Join Project`.
+   - If it is not marked as already added, select it and press :guilabel:`Request language`.
+     Keep in mind that translating an entire project will take days of work, if not weeks!
 
+#. Now you will need to wait for the language coordinator or the project maintainers
+   to process your request. You will be notified by email when your request has been
+   accepted. If your request has no answer for about a week, please consider writing
+   to your language coordinator in Transifex or the :ref:`QGIS Translators mailing list
+   <mailinglist-translation>`.
+#. You can also join any of the other QGIS projects and help everywhere too.
 
-.. note::
-  With requesting a new language please bear in mind that we try to make
-  it as simple as possible. Just ask for the language you want to translate
-  (regardless in which country you reside). Only if there are notable differences
-  in the languages (for example portuguese in Portugal vs Brazil) we will create
-  its own version.
 
 Translate
 ...........
@@ -138,7 +142,7 @@ translate and click on Translate. Easy, right?
 
 In order to help you make good translation, some instructions are provided in
 the `QGIS Translation Guidelines
-<http://docs.qgis.org/testing/en/docs/documentation_guidelines/do_translations.html>`_.
+<https://docs.qgis.org/testing/en/docs/documentation_guidelines/do_translations.html>`_.
 We strongly recommend you to read them.
 
 .. tip:: **Quick access to translatable files in Transifex**

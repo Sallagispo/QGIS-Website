@@ -7,7 +7,7 @@
   <option value="de" title="{{ _('German') }}">Deutsch</option>
   <option value="es" title="{{ _('Spanish') }}">Español</option>
   <option value="fa" title="{{ _('Persian') }}">فارسی</option>
-  <option value="fi" title="{{ _('Finnish') }}">Suomalainen</option>
+  <option value="fi" title="{{ _('Finnish') }}">Suomi</option>
   <option value="fr" title="{{ _('French') }}">Français</option>
   <option value="gl" title="{{ _('Galician') }}">Galego</option>
   <option value="id" title="{{ _('Indonesian') }}">Bahasa Indonesia</option>
@@ -16,16 +16,17 @@
   <option value="ja" title="{{ _('Japanese') }}">日本語</option>
   <option value="km_KH" title="{{ _('Khmer') }}">ភាសាខ្មែរ    </option>
   <option value="ko" title="{{ _('Korean') }}">한국어</option>
-  <option value="lt" title="{{ _('Lithuanian') }}">Lietuvos</option>
+  <option value="lt" title="{{ _('Lithuanian') }}">Lietuvių</option>
   <option value="nl" title="{{ _('Dutch') }}">Nederlands</option>
   <option value="pl" title="{{ _('Polish') }}">Polski</option>
   <option value="pt_BR" title="{{ _('Portuguesei (Brazil)') }}">Português (Brasil)</option>
   <option value="pt_PT" title="{{ _('Portuguese') }}">Português</option>
   <option value="ro" title="{{ _('Romanian') }}">Română</option>
-  <option value="tr" title="{{ _('Turkish') }}">Turkish</option>
+  <option value="tr" title="{{ _('Turkish') }}">Türkçe</option>
   <option value="ru" title="{{ _('Russian') }}">Русский</option>
   <option value="uk" title="{{ _('Ukrainian') }}">Українська</option>
-  <option value="zh_CN" title="{{ _('Chinese (China)') }}">中文</option>
+  <option value="zh-Hans" title="{{ _('Chinese (Simplified)') }}">简体中文</option>
+  <option value="zh-Hant" title="{{ _('Chinese (Traditional)') }}">繁體中文</option>
 </select>
 
 <script>
@@ -39,17 +40,17 @@
       currentPage = pages.join('/') + '/';
     }
     $(document).ready(function(){
-        var search = new RegExp('\/[a-zA-Z_]{2,8}\/'+ currentPage, 'gi');
+        var search = new RegExp('\/[a-zA-Z_-]{2,8}\/'+ currentPage, 'gi');
         var langPlusPage = window.location.href.match(search);
         // it's possible this is the index.html page called without 'index.html', try without the currentPage
         if (langPlusPage==undefined){
-            search = new RegExp('\/[a-zA-Z_]{2,8}\/$', 'gi');
+            search = new RegExp('\/[a-zA-Z_-]{2,8}\/$', 'gi');
             langPlusPage = window.location.href.match(search);
         }
         // it's possible this is an index.html page called without 'index.html', try removing index.html
         if (langPlusPage==undefined){
             currentPage = currentPage.replace('index.html','')
-            search = new RegExp('\/[a-zA-Z_]{2,8}\/'+ currentPage, 'gi');
+            search = new RegExp('\/[a-zA-Z_-]{2,8}\/'+ currentPage, 'gi');
             langPlusPage = window.location.href.match(search);
         }
         // still no langPlugPage: stop, because the language swicher will misbehave
@@ -64,7 +65,7 @@
         // IMPORTANT: space, -, _ etc replacing below must be 100% inline with
         // code in scripts/create_transifex_resources.sh !!
         // https://github.com/qgis/QGIS-Website/blob/master/scripts/create_transifex_resources.sh
-        fix_translation_link = 'https://www.transifex.com/projects/p/qgis-website/translate/#' + 
+        fix_translation_link = 'https://app.transifex.com/qgis/qgis-website/translate/#' + 
             currentLang.slice(1) + currentPage.replace(/_/g, "-").replace(/ /g, "-").replace(/\//g, "_").replace(/\.html/g, "").replace(/\./g, "-")
         if ('/en/' != currentLang) {
             $('#fix_translation_link').attr('href', fix_translation_link);
@@ -86,26 +87,46 @@
             atom('/feeds/qgisflickrscreenshots.atom', '#qgisflickrscreenshotsatom', 30, false, 'span3');
             atom('/feeds/qgisflickrmaps.atom', '#qgisflickrmapsatom', 30, false, 'span3');
         }
-        else if (currentPage == "site/forusers/download.html" || currentPage == "site/forusers/alldownloads.html"){
-            $($('section.content')[0]).append('<div id="teaser" style="display:none;background-color:#dddddd;position:fixed;left:5%;top:8%;width:80%;padding:10% 5%;opacity:0.93;"> <div id="teasercontent" style="width:70%;margin: 0 auto;"><h2>{{ _("Thank you!") }}</h2> <p/>'+
+        else if (currentPage == "site/about/sustaining_members.html" || currentPage.indexOf("visualchangelog")>0){
+            // crontab is pulling url's below and copy to /feed at qgis.org
+            // https://changelog.qgis.org/en/qgis/members/json/
+            json2html('/feeds/members.json', '#qgissustainingmembersatom', 1000, true, 'span3');
+            // https://changelog.qgis.org/en/qgis/past-members/json/?years_limit=2
+            json2html('/feeds/qgispastmembers.json', '#qgispastsustainingmembersatom', 1000, true, 'span3');
+        }
+        else if (currentPage.match(/site\/forusers\/(download|alldownloads)\.html/g)){
+            $($('body')[0]).append('<div id="thankyou"> <div id="thankyoucontent">'+
+            '<h2>{{ _("Thank you!") }}</h2> <p/>'+
             '<div class="container"><div class="span8">'+
-            '<p>{{ _("Your freshly baked copy of QGIS is downloading. QGIS is free of charge, and will always be free of charge if downloaded from QGIS.org. If you can afford to support the project and people making this software, please consider making <a href=\"http://qgis.org/en/site/getinvolved/donations.html\">a small donation to support</a> our efforts. Whether you choose to donate or not, we hope that you enjoy using our labour of love and encourage you to share and spread your downloaded copy far and wide so that others may enjoy it too. Our very best regards!") }}</p>'+
+            '<p><b>{{ _("Your freshly baked copy of QGIS is downloading.") }}</b></p>'+
+            '<p>{{ _("QGIS is free of charge, and will always be free of charge if downloaded from QGIS.org.") }}</p>'+
+	    '<p>{{ _("If you can afford to support the project and people making this software, please consider making <a href=\"https://donate.qgis.org/\">a small donation to support</a> our efforts. Whether you choose to donate or not, we hope that you enjoy using our labour of love and encourage you to share and spread your downloaded copy far and wide so that others may enjoy it too. Our very best regards!") }}</p>'+
             '<p>{{ _("The QGIS Team") }}</p>'+
             '</div><div class="container">'+
-            '<div class="span4"><p><a class="btn btn-large btn-success btn-flat" href="../getinvolved/donations.html">{{ _("Donate Now") }}</a></p><p class="muted"></p></div>'+
-            '<div class="span5"><p><a id="closeteaser"class="btn btn-large btn-success btn-flat" href="#">{{ _("Close this message") }}</a></p><p class="muted"></p></div>'+
+            '<div class="span4"><p><a class="btn btn-large btn-success btn-flat" href="https://donate.qgis.org/">{{ _("Donate Now") }}</a></p><p class="muted"></p></div>'+
+            '<div class="span5"><p><a id="closethankyou"class="btn btn-large btn-success btn-flat" href="#">{{ _("Close this message") }}</a></p><p class="muted"></p></div>'+
             '</div>'+
             '<br/><p><img src="{{pathto('_static/images/splash.png', 1)}}"/></p></div>');
-            $('#teaser').click(function(){ $('#teaser').hide(); });
-            $('#closeteaser').click(function(){ $('#teaser').hide(); });
-            $('a.reference').click(function(){
-                $('#teaser').show();
+            $('#thankyou').click(function(){ $('#thankyou').hide(); });
+            $('#closethankyou').click(function(){ $('#thankyou').hide(); });
+            var showThankyouSelector
+            if (currentPage.includes('/download.html')){
+              showThankyouSelector = 'a.reference'
+            } else if (currentPage.includes('/alldownloads.html')){
+              // Only select the windows Installer download links
+              showThankyouSelector = 'section#windows a.reference:contains("Installer")'
+            }
+            $(showThankyouSelector).click(function(){
+                $('#thankyou').show();
                 return true;
             });
         }
-
+        else if (currentPage == "site/forusers/alldownloads.html"){
+	    replacesha('qgis-rel-dev');
+	    replacesha('qgis-ltr-dev');
+	    replacesha('qgis-dev');
+        }
     });
-
 
     //
     // load current page in a different language
@@ -115,7 +136,43 @@
         var newUrl = currentUrl.replace(currentLang, '/'+lang+'/');
         window.location.href = newUrl;
     }
+    //
+    // function to load a json (feed) and create html for it
+    // currently only used for sustaining members
+    //
+    function json2html(url, holder, count, showcont, spanclass){
+        var html = '';
+        $.getJSON(url, function (data) {
+            if (spanclass == undefined){
+                spanclass = "span2"
+            }
+            var maxitems = 7;
+            if(count)maxitems=count;
+            var showcontent = false;
+            if(showcont)showcontent=showcont;
+            var counter = 0;
 
+            $.each( data.rss.channel.item, function( key, val ){
+              var item = val;
+              var imglink = '#';
+              var link = '#';
+              var content = '';
+              var member_level = 'Small';
+              if (item.member_url){link=item.member_url};
+              if (item.image_url){imglink=item.image_url};
+              if (item.member_level){member_level=item.member_level};
+              var title = item.title;
+              content = '<div><img class="member_img '+member_level.toLowerCase()+'" src="'+imglink+'" width="300px"></div>'+
+                '<p class="member_body '+member_level.toLowerCase()+'">'+item.member_country+'<br/>Membership level: '+member_level+'<br/>'+
+                '('+item.start_date+' - '+item.end_date+')</p>';
+              html+='<div class="clearfix"><a  class="clearfix" href="'+link+'">';
+              html+='<div class="memberdiv"><h4>'+title+'</h4>';
+              html+=content;
+              html+='</div></a></div>';
+            })
+          $(holder).append(html);
+        })
+    }
     //
     // function to load an atom feed, an put it in an element
     //
@@ -181,6 +238,13 @@
                             counter --;
                         }
                     }
+                    else if (holder == '#qgissustainingmembersatom' || holder == '#qgissustainingmembersatom'){
+                        html+='<div class="clearfix"><a  class="clearfix" href="'+link+'">';
+                        html+='<div class="memberdiv"><h4>'+title+'</h4>';
+                        html+=content;
+                        html+='</div></a></div>';
+                        addit = false; // we are building html ourselves!!
+                    }
                     else if (holder == '#qgisblogatom'){
                         var s = title.split(':');
                         if (s[0] != 'QGIS Project blog'){
@@ -200,9 +264,21 @@
                         html+='</div></a>\n';
                     }
                 }
-
             });
             $(holder).append(html);
         });
+    }
+
+    //
+    // function to replace a item
+    //
+    function replacesha(id) {
+      var xhr = new XMLHttpRequest();
+      xhr.onload = function () {
+	var sha = this.responseText.substring(this.responseText.indexOf(':')+1);
+        document.getElementById(id).innerHTML = "<a target=\"_new\" href=\"http://github.com/qgis/QGIS/commit/" + sha + "\">" + sha + "</a>";
+      };
+      xhr.open('GET', '/downloads/' + id + '.sha');
+      xhr.send();
     }
 </script>

@@ -8,10 +8,12 @@ Discover QGIS
     features
     screenshots
     case_studies/index
-    sponsorship
+    sustaining_members
     shop_goodies
-    Blogs<http://planet.qgis.org>
+    Blogs<https://plugins.qgis.org/planet/>
 
-.. note::
+.. note
 
-    Content is not used, it is overridden by themes/qgis-theme/about_index.html.
+    Content is not used, it is overridden by text in themes/qgis-theme/about_index.html.
+    The html texts are translated in the 'sphinx' resource: https://www.transifex.com/qgis/qgis-website/sphinx/
+    Only TOC is used.

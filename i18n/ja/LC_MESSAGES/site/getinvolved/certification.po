@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, QGIS Contributors
+# This file is distributed under the same license as the QGIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# 
+# Translators:
+# Jürgen E. Fischer <jef@norbit.de>, 2022
+# tomoyuki arai <tarai.3367@gmail.com>, 2022
+# fairtommy <fairtommy@gmail.com>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS 3.28\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-26 19:38+0000\n"
+"PO-Revision-Date: 2019-03-13 19:40+0000\n"
+"Last-Translator: fairtommy <fairtommy@gmail.com>, 2022\n"
+"Language-Team: Japanese (https://www.transifex.com/qgis/teams/6144/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../source/site/getinvolved/certification.rst:5
+msgid "Certification"
+msgstr "証明書"
+
+#: ../../source/site/getinvolved/certification.rst:7
+msgid ""
+"The QGIS Certificate Program is designed to promote both community "
+"involvement in the QGIS project and quality education for QGIS software. As "
+"such the application process requires applicants to both detail their "
+"contributions to the QGIS project and make their training materials "
+"available for review. Contributions to the QGIS project include activities "
+"such as:"
+msgstr ""
+"QGIS証明書プログラムは、QGISプロジェクトへのコミュニティの参加とQGISソフトウェアの質の高い教育の両方を促進するように設計されています。そのため、申請プロセスでは、申請者はQGISプロジェクトへの貢献度を詳しく説明し、トレーニング資料をレビューに利用できるようにする必要があります。QGISプロジェクトへの貢献には、次のような活動が含まれます。"
+
+#: ../../source/site/getinvolved/certification.rst:9
+msgid "Development/commits to QGIS"
+msgstr "開発/ QGISへのコミット"
+
+#: ../../source/site/getinvolved/certification.rst:10
+msgid "Contributions to the QGIS documentation and training materials"
+msgstr "QGISドキュメンテーションとトレーニング教材への貢献"
+
+#: ../../source/site/getinvolved/certification.rst:11
+msgid "Translation of QGIS materials"
+msgstr "QGIS資料の翻訳"
+
+#: ../../source/site/getinvolved/certification.rst:12
+msgid "Authoring plugins"
+msgstr "オーサリングプラグイン"
+
+#: ../../source/site/getinvolved/certification.rst:13
+msgid "Filing bug reports"
+msgstr "バグ報告の提出"
+
+#: ../../source/site/getinvolved/certification.rst:14
+msgid "Financially supporting new feature development"
+msgstr "新機能開発を財政的に支援する"
+
+#: ../../source/site/getinvolved/certification.rst:15
+msgid "Financial contributions to and sponsorship of QGIS"
+msgstr "QGISへの寄付と後援"
+
+#: ../../source/site/getinvolved/certification.rst:16
+msgid "Involvement in your local QGIS User Group"
+msgstr "地元のQGISユーザーグループへの参加"
+
+#: ../../source/site/getinvolved/certification.rst:17
+msgid "Publication of open QGIS course ware"
+msgstr "公開QGISコースウェアの公開"
+
+#: ../../source/site/getinvolved/certification.rst:18
+msgid "Authoring QGIS books"
+msgstr "QGIS書籍の著述"
+
+#: ../../source/site/getinvolved/certification.rst:20
+msgid ""
+"To contact the certification team, please write to certification@qgis.org."
+msgstr ""
+
+#: ../../source/site/getinvolved/certification.rst:24
+msgid "Certification Process"
+msgstr ""
+
+#: ../../source/site/getinvolved/certification.rst:27
+msgid "Application"
+msgstr "アプリケーション"
+
+#: ../../source/site/getinvolved/certification.rst:29
+msgid ""
+"You are required to provide the training material for each of your courses. "
+"This includes exercises, lectures and data. This material will be reviewed "
+"for currentness, accurate representation of the QGIS project and overall "
+"quality. If the material is not of adequate quality, this can be cause for "
+"refusal."
+msgstr ""
+"各コースのトレーニング教材を提供する必要があります。これには演習、講義、データが含まれます。この資料は、最新性、QGISプロジェクトの正確な表現、および全体的な品質についてレビューされます。材料の品質が十分でない場合は、これが拒否の原因になる可能性があります。"
+
+#: ../../source/site/getinvolved/certification.rst:32
+msgid ""
+"Following an initial review, the application will be sent to local QGIS "
+"groups for their opinion. This portion of the review should take place in "
+"less than one month. If there is not a local QGIS user group the QGIS "
+"Project Steering Committee (PSC) will make a determination based on material"
+" provided and your reputation in the community. In this latter case you are "
+"encouraged to establish a local QGIS User Group. If you are not deemed to be"
+" a member of the QGIS community in good standing this can be cause for "
+"refusal."
+msgstr ""
+"最初の審査の後、申請書は地元のQGISグループに送付され、意見が寄せられます。レビューのこの部分は1か月以内に行われるべきです。地元のQGISユーザーグループがない場合は、QGISプロジェクト運営委員会（PSC）が、提供された資料とコミュニティでの評判に基づいて決定を下します。後者の場合は、ローカルのQGISユーザーグループを設立することをお勧めします。会費を納めているQGISコミュニティのメンバーであるとは思われない方の場合、これが拒絶の原因となる可能性があります。"
+
+#: ../../source/site/getinvolved/certification.rst:34
+msgid ""
+"The PSC will make the final determination. If accepted as a QGIS Certified "
+"Organization your contributions to the project will be published for "
+"transparency."
+msgstr "PSCが最終決定を下します。QGIS認証機関として承認された場合、プロジェクトへのあなたの貢献は透明性のために公開されます。"
+
+#: ../../source/site/getinvolved/certification.rst:36
+msgid ""
+"If approved you are required to pay a €20 certification fee to the QGIS "
+"project for each certificate you issue. This creates a mechanism for "
+"financial support of the project. Payments for certificates are made either "
+"using online credit card transactions or on request by regular invoice and "
+"SEPA wire transfer. Payments can be handled in batches for many certificates"
+" at once."
+msgstr ""
+"承認された場合、発行する各証明書につき20ユーロの認証料をQGISプロジェクトに支払う必要があります。これにより、プロジェクトを財政的に支援するためのメカニズムが生まれます。証明書の支払いは、オンラインクレジットカード取引を使用するか、通常の請求書とSEPA電信送金による要求に応じて行われます。多くの証明書については支払いはまとめて一度に処理できます。"
+
+#: ../../source/site/getinvolved/certification.rst:39
+msgid ""
+"You can apply through `this form <certification_link_>`_ (make sure to first"
+" create a `login <certification_login_>`_). You can find more details about "
+"the certification programme `here <certification_details_>`_ (we advise you "
+"to read this before registering)."
+msgstr ""
+"`このフォーム <certification_link_>`_ から申請できます（必ず最初に `ログイン "
+"<certification_login_>`_ を作成してください）。認定プログラムの詳細については、 `こちら "
+"<certification_details_>`_ をご覧ください（登録する前にこれを読むことをお勧めします）。"
+
+#: ../../source/site/getinvolved/certification.rst:47
+msgid "Course Certification Workflow"
+msgstr ""
+
+#: ../../source/site/getinvolved/certification.rst:52
+msgid "Workflow Certification"
+msgstr "ワークフロー認証"
+
+#: ../../<rst_epilog>:2
+msgid "checkbox"
+msgstr "checkbox"
+
+#: ../../<rst_epilog>:3
+msgid "checkbox_unchecked"
+msgstr "checkbox_unchecked"

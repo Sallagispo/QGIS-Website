@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, QGIS Contributors
+# This file is distributed under the same license as the QGIS package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# 
+# Translators:
+# Stefano Campus <skampus@gmail.com>, 2017
+# Andrea Giudiceandrea <andreaerdna@libero.it>, 2019
+# Giuseppe Mattiozzi <mattiozzig@gmail.com>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS 3.28\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-26 19:38+0000\n"
+"PO-Revision-Date: 2017-12-19 15:08+0000\n"
+"Last-Translator: Giuseppe Mattiozzi <mattiozzig@gmail.com>, 2022\n"
+"Language-Team: Italian (https://www.transifex.com/qgis/teams/6144/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: it\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../source/site/getinvolved/tests.rst:4
+msgid "Tests"
+msgstr "Prove"
+
+#: ../../source/site/getinvolved/tests.rst:6
+msgid "Both QGIS and QGIS server are being tested via all kind of ways."
+msgstr "Sia QGIS sia QGIS server sono testati in molti modi."
+
+#: ../../source/site/getinvolved/tests.rst:8
+msgid ""
+"From build tests (github workflows) and code unit tests to OGC conformance "
+"testing."
+msgstr ""
+
+#: ../../source/site/getinvolved/tests.rst:11
+msgid "Github workflows"
+msgstr ""
+
+#: ../../source/site/getinvolved/tests.rst:17
+msgid "Docker"
+msgstr "Docker"
+
+#: ../../source/site/getinvolved/tests.rst:23
+msgid "Unit tests"
+msgstr "Unit tests"
+
+#: ../../source/site/getinvolved/tests.rst:25
+msgid ""
+"See `Unit testing "
+"<https://docs.qgis.org/testing/en/docs/developers_guide/unittesting.html>`_"
+msgstr ""
+"Vedi `Unit testing "
+"<https://docs.qgis.org/testing/en/docs/developers_guide/unittesting.html>`_"
+
+#: ../../source/site/getinvolved/tests.rst:29
+msgid "OGC Conformance testing"
+msgstr "Prove di conformità OGC"
+
+#: ../../source/site/getinvolved/tests.rst:31
+msgid ""
+"See `OGC conformance testing "
+"<https://docs.qgis.org/testing/en/docs/developers_guide/ogcconformancetesting.html>`_"
+" for more information and how to run these tests yourself."
+msgstr ""
+"Vedi `Prove di conformità OGC  "
+"<https://docs.qgis.org/testing/en/docs/developers_guide/ogcconformancetesting.html>`_"
+" per maggiori informazioni e su come eseguire autonomamente questi test."
+
+#: ../../source/site/getinvolved/tests.rst:34
+msgid ""
+"Recent tests output can be found here: http://test.qgis.org/ogc_cite. For "
+"latest WMS 1.3.0 test see "
+"http://test.qgis.org/ogc_cite/wms_130/latest/report.html and for WFS 1.1.0 "
+"see http://test.qgis.org/ogc_cite/wfs_110/latest/report.html."
+msgstr ""
+"I risultati di test recenti sono consultabili qui: "
+"http://test.qgis.org/ogc_cite. Per gli ultimi test per WMS 1.3.0 vedi "
+"http://test.qgis.org/ogc_cite/wms_130/latest/report.html e per WFS 1.1.0 "
+"vedi http://test.qgis.org/ogc_cite/wfs_110/latest/report.html."
+
+#: ../../<rst_epilog>:2
+msgid "checkbox"
+msgstr "checkbox"
+
+#: ../../<rst_epilog>:3
+msgid "checkbox_unchecked"
+msgstr ""

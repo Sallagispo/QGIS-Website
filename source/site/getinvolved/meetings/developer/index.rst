@@ -2,6 +2,15 @@
 QGIS Developer Meetings
 =======================
 
+
+The organization of events happens on the `QGIS wiki <wiki_link_>`_.
+
+.. _wiki_link: https://github.com/qgis/QGIS/wiki#qgis-hackfests
+
+
+Pre-2016 events are listed below:
+
+
 2016 - 16th QGIS Developer Meeting in Bonn
 ------------------------------------------
 
@@ -196,4 +205,4 @@ Many thanks to our sponsors!
 
 - `German FOSSGIS e.V. <http://www.fossgis.de/>`_ sponsors the meeting with 500 Euro.
 - `Institute of Environmental Planning, Hannover <http://www.umwelt.uni-hannover.de/umweltplanung.html?&L=1>`_ provided the venue
-- `nature-consult <http://www.nature-consult.de/>_` provides technical equipment
+- `nature-consult <http://www.nature-consult.de/>`_ provides technical equipment

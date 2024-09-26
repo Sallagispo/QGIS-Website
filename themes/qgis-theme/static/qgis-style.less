@@ -304,9 +304,6 @@ select#languages option {
 .footer #facebook {
   background: transparent url("images/footer-facebook.png") no-repeat 0 0;
 }
-.footer #gplus {
-  background: transparent url("images/footer-gplus.png") no-repeat 0 0;
-}
 .footer #github {
   background: transparent url("images/footer-github.png") no-repeat 0 0;
 }
@@ -381,7 +378,6 @@ somebody comes up with a better idea */
   color: #ccc;
 }
 .carousel-caption .caption-link {
-  margin-left: 10px;
 }
 .carousel-caption .caption-link:hover {
   text-decoration: none;
@@ -494,7 +490,7 @@ section.latest-news a:active .info-box {
   background: #ECECEC;
 }
 section.latest-news header {
-  height: 30px;
+  /*height: 30px;*/
   overflow: visible;
   border-bottom: 1px solid #8d8d8d;
   margin-bottom: 40px;
@@ -546,30 +542,29 @@ section.latest-news p.intro {
     width: 150px;
 }
 
-section.sponsors {
+section.members {
   padding: 30px 0;
   text-align: center;
   background: #333333 url('images/paper-texture.png') repeat;
 }
-section.sponsors header {
+section.members header {
   height: 30px;
   overflow: visible;
   margin-bottom: 40px;
 }
-section.sponsors h3 {
+section.members h3 {
   text-transform: uppercase;
   display: inline-block;
   font-weight: 400;
   padding: 0 40px;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 0 30px rgba(0, 0, 0, 0.075);
 }
-section.sponsors .sponsor {
+section.members .member {
   text-align: center;
 }
 /*** DOWNLOAD ***/
 section.intro {
-  margin-top: -20px;
-  padding: 30px 0 60px;
+  padding: 10px 0 60px;
   border-bottom: 1px solid #ddd;
   background: #f3f2f0;
 }
@@ -681,6 +676,9 @@ section.content h4 {
   display: block;
   margin-right: 10%;
 }
+#downloads .accordion-inner.centered > * {
+  margin: 0px 15px;
+}
 #downloads .accordion-inner .icon-large {
   font-size: 18px;
 }
@@ -692,10 +690,9 @@ section.content h4 {
 #downloads .accordion-inner .osgeo-download {
   width: 60px;
   height: 60px;
-  margin-bottom: -20px;
 }
 #downloads .accordion-inner .qgis-download {
-  background: url('images/qgis-logo.png') no-repeat left;
+  background: url('images/qgis-logo-white.png') no-repeat left;
   background-size:55px !important;
 }
 #downloads .accordion-inner .osgeo-download {
@@ -707,6 +704,35 @@ section.content h4 {
 }
 #downloads .accordion-inner button {
   margin-left: 5px;
+}
+#downloads .accordion-inner.centered {
+  text-align: center;
+  border-radius: 4px;
+  padding: 20px 9px;
+  margin: 15px 0px;
+}
+#downloads .app-name{
+  padding-top: 15px;
+}
+#downloads .app-name a::after {
+  content: url(images/link-icon_external.png);
+  padding-left: 5px;
+}
+#downloads .app-download-buttons{
+  margin-bottom: 15px;
+}
+#downloads .app-download-button img{
+  height:50px;
+  float: left;
+  margin-left: 15px;
+}
+#downloads .secondary-download-link {
+  font-size: 0.8rem;
+}
+#downloads .primary-download-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /********* Secondary Landing Pages *********/
 #color-identifier {
@@ -923,3 +949,91 @@ img.align-right, .figure.align-right, object.align-right {
   margin-left: 1em;
   max-width:100%;
 }
+/*styling the thankyou overlays*/
+#thankyou{
+    display:none;
+    background-color:#dddddd;
+    position:fixed;
+    left:5%;
+    top:8%;
+    width:80%;
+    padding:10% 5%;
+    opacity:0.93;
+    z-index:10000;
+}
+#thankyoucontent{
+    width:70%;
+    margin: 0 auto;
+}
+
+/* generation of member lists */
+
+.memberdiv {
+   padding-top:20px;
+   color:#666;
+}
+.member_img {
+    float: left;
+}
+#qgissustainingmembersatom .member_img.large {
+    width: 300px;
+}
+#qgissustainingmembersatom .member_img.medium {
+    width: 200px;
+}
+#qgissustainingmembersatom .member_img.small {
+    width: 90px;
+}
+#qgispastsustainingmembersatom .member_img.large {
+    width: 60px;
+}
+#qgispastsustainingmembersatom .member_img.medium {
+    width: 60px;
+}
+#qgispastsustainingmembersatom .member_img.small {
+    width: 60px;
+}
+#qgissustainingmembersatom .member_body.large {
+    padding-left:330px;
+}
+#qgissustainingmembersatom .member_body.medium {
+    padding-left:230px;
+}
+#qgissustainingmembersatom .member_body.small {
+    padding-left:120px;
+}
+
+#qgissustainingmembersatom h4 {
+    font-size:22px;
+}
+#qgispastsustainingmembersatom .member_body.large {
+    padding-left:80px;
+}
+#qgispastsustainingmembersatom .member_body.medium {
+    padding-left:80px;
+}
+#qgispastsustainingmembersatom .member_body.small {
+    padding-left:80px;
+}
+#qgispastsustainingmembersatom .member_body {
+    line-height:1rem;
+    color: #bbb;
+}
+#qgispastsustainingmembersatom .memberdiv {
+    padding-top: 0px !important;
+}
+#qgispastsustainingmembersatom h4 {
+    margin: 2px 0px !important;
+    font-size: 12px;
+    color: #bbb;
+}
+
+#roadmap .rm-past { color: gray; }
+#roadmap .rm-past:hover { color: black; }
+#roadmap .rm-future { color: gray; }
+#roadmap tr:hover { background-color: lightgreen; font-weight: bold; color: white; }
+#roadmap .rm-current { font-weight: bolder; color: green; }
+#roadmap .rm-next { font-weight: bold; color: blue; }
+#eventlegend tr:hover { background-color: lightgreen; font-weight: bold; color: white; }
+#eventlegend .rm-current { font-weight: bolder; color: green; }
+#eventlegend .rm-next { font-weight: bold; color: blue; }

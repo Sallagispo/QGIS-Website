@@ -40,7 +40,20 @@ except ImportError:
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.ifconfig']
+extensions = [
+    'sphinx.ext.ifconfig',
+    'sphinxcontrib.jquery',
+#    'sphinx_sitemap',
+#    'sphinxcontrib.images',
+    ]
+
+images_config = {
+    'override_image_directive':False
+}
+
+# some options when you use the sphinx_sitemap extension:
+html_baseurl = 'https://qgis.org/'
+sitemap_url_scheme = "{lang}{link}"
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['../themes/qgis-theme']
@@ -133,7 +146,7 @@ html_logo = '../resources/en/common/logo.png'
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-# html_favicon = None
+html_favicon = '../themes/qgis-theme/static/images/favicon.ico'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -211,11 +224,33 @@ docs_rst_epilog = ""
 if "rst_epilog" in locals():
     docs_rst_epilog = rst_epilog  # NOQA
 
-rst_epilog = docs_rst_epilog + """
+rst_epilog = docs_rst_epilog + f"""
 .. |checkbox| image:: /static/site/common/checkbox.png
 .. |checkbox_unchecked| image:: /static/site/common/checkbox_unchecked.png
 .. |QG| replace:: QGIS
 .. |qg| replace:: QGIS
+.. |yeartag| date:: %Y
+.. |devcite| raw:: html
+
+     <a href="https://docs.qgis.org/{ltrversion}/en/docs/developers_guide/index.html"> https://docs.qgis.org/{ltrversion}/en/docs/developers_guide/index.html</a>
+
+.. |userguidecite| raw:: html
+
+     <a href="https://docs.qgis.org/{ltrversion}/en/docs/user_manual/index.html"> https://docs.qgis.org/{ltrversion}/en/docs/user_manual/index.html</a>
+
+.. |servercite| raw:: html
+
+     <a href="https://docs.qgis.org/{ltrversion}/en/docs/server_manual/index.html"> https://docs.qgis.org/{ltrversion}/en/docs/server_manual/index.html</a>
+
+.. |apicite| raw:: html
+
+     <a href="https://qgis.org/pyqgis/{ltrversion}/index.html"> https://qgis.org/pyqgis/{ltrversion}/index.html</a>
+
+.. _lr_msi: https://qgis.org/downloads/QGIS-OSGeo4W-{release}-{binary}.msi
+.. _lr_sha: https://qgis.org/downloads/QGIS-OSGeo4W-{release}-{binary}.sha256sum
+.. _ltr_msi: https://qgis.org/downloads/QGIS-OSGeo4W-{ltrrelease}-{ltrbinary}.msi
+.. _ltr_sha: https://qgis.org/downloads/QGIS-OSGeo4W-{ltrrelease}-{ltrbinary}.sha256sum
+.. _weekly_msi: https://download.osgeo.org/qgis/windows/weekly/?C=M&O=D
 """
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -314,6 +349,8 @@ def setup(app):
     app.add_config_value('binary', None, 'env')
     app.add_config_value('ltrbinary', None, 'env')
     app.add_config_value('infeaturefreeze', None, 'env')
+    app.add_config_value('stripeform_url', None, 'env')
+    app.add_config_value('shortver', None, 'env')
 
 
 context = {
@@ -331,7 +368,11 @@ context = {
     'nextpointreleasedate': nextpointreleasedate,
     'binary': binary,
     'ltrbinary': ltrbinary,
-    'infeaturefreeze': infeaturefreeze
+    'infeaturefreeze': infeaturefreeze,
+    'stripeformurl': '/stripe/form',
+    'shortver': shortver,
+    'lr_msi': f"https://qgis.org/downloads/QGIS-OSGeo4W-{release}-{binary}.msi",
+    'ltr_msi': f"https://qgis.org/downloads/QGIS-OSGeo4W-{ltrrelease}-{ltrbinary}.msi",
 }
 
 rst_epilog += "\n".join(map(lambda x: ".. |%s| replace:: %s" % (x, context[x]), context.keys()))
